@@ -7,8 +7,8 @@
         {
             "type": "chrome",
             "request": "launch",
-            "name": "Open aboutPage.html",
-            "file": "/workspaces/Lenses_WebPages/aboutPage.html"
+            "name": "Open homePage.html",
+            "file": "/workspaces/Lenses_WebPages/homePage.html"
         }
     ]
 }
