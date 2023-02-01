@@ -51,17 +51,17 @@
 
 .homePage .pexelsJohnDeLeon10413404 {
     position: absolute;
-      box-sizing: content-box;
-      -ms-transform: rotate(0.00deg);
+    box-sizing: content-box;
+    -ms-transform: rotate(0.00deg);
     -webkit-transform: rotate(0.00deg);
     transform: rotate(0.00deg);
     -ms-transform-origin: center;
     -webkit-transform-origin: center;
     transform-origin: center;
-      background-image: url("assets/pexelsJohnDeLeon10413404.png");
+    background-image: url("assets/pexelsJohnDeLeon10413404.png");
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: auto;
       opacity: 1;
       cursor: default;
       margin-top: 0.00px;
