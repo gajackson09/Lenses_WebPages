@@ -41,7 +41,7 @@ body {
   margin: 5%; 
   border-color: rgba(112, 112, 112, 1);
   border-width: 1px;   
-  width: 1473px;
+  width: 1836px;
   height: 981px;
   left: 39px;
   right: 39px;
@@ -58,7 +58,7 @@ body {
   stroke: rgba(112, 112, 112, 1);
   stroke-width: 1px;
   stroke-linecap: butt;
-  width: 1467px;
+  width: 1836px;
   height: 2px;
   left: 42.5px;
   top: 106px;
@@ -138,7 +138,7 @@ body {
   box-sizing: content-box;
   opacity: 1;
   color: rgba(0, 53, 84, 1);
-  text-decoration-color: white;
+  text-decoration: none;
   font-size: 20px;
   font-style: normal;
   font-family: Lato, Arial;
@@ -210,7 +210,7 @@ body {
   box-sizing: content-box;
   opacity: 1;
   color: rgba(0, 53, 84, 1);
-  text-decoration-color: white;
+  text-decoration: none;
   font-size: 20px;
   font-style: normal;
   font-family: Lato, Arial;
