@@ -21,8 +21,6 @@ body {
   position: absolute;
   box-sizing: content-box;
   opacity: 1;
-  overflow-x: auto;
-  overflow-y: auto;
   background-color: rgba(250, 247, 240, 1);
   width: 1536px;
   height: 1118.4px;
@@ -156,7 +154,7 @@ body {
   position: absolute;
   box-sizing: content-box;
   opacity: 1;
-  color: rgba(0, 53, 84, 1);
+  color: rgba(5, 130, 202, 1);
   text-decoration-color: white;
   font-size: 20px;
   font-style: normal;
@@ -251,8 +249,6 @@ body {
   position: absolute;
   box-sizing: content-box;
   opacity: 1;
-  overflow-x: unset;
-  overflow-y: unset;
   background-color: transparent;
   width: 67.00px;
   height: 67.00px;
@@ -284,8 +280,6 @@ body {
   box-sizing: content-box;
   transform-origin: center;
   opacity: 1;
-  overflow-x: unset;
-  overflow-y: unset;
   background-color: transparent;
   width: 151.00px;
   height: 60.00px;
