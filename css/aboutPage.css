@@ -3,6 +3,7 @@
 /*need to include css for the responsiveness - media queries*/
 /*reogranzie to make sense*/
 /*try to combine classes into one*/
+/*tidy up code*/
 /*when theres time remain everything to make sense*/
 
 /*body class*/ 
@@ -155,7 +156,7 @@ body {
   box-sizing: content-box;
   opacity: 1;
   color: rgba(5, 130, 202, 1);
-  text-decoration-color: white;
+  text-decoration: none;
   font-size: 20px;
   font-style: normal;
   font-family: Lato, Arial;
@@ -212,7 +213,7 @@ body {
   box-sizing: content-box;
   opacity: 1;
   color: rgba(0, 53, 84, 1);
-  text-decoration-color: white;
+  text-decoration: none;
   font-size: 20px;
   font-style: normal;
   font-family: Lato, Arial;
@@ -231,7 +232,7 @@ body {
   box-sizing: content-box;
   opacity: 1;
   color: rgba(0, 53, 84, 1);
-  text-decoration-color: white;
+  text-decoration: none;
   font-size: 20px;
   font-style: normal;
   font-family: Lato, Arial;
