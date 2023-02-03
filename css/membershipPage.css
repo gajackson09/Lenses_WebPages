@@ -28,7 +28,7 @@ body {
   height: 1118.4px;
 }
 
-
+/**/
 .membershipPage .image {
   display: block;
   position: absolute;
@@ -43,6 +43,7 @@ body {
 
 }
 
+/*membershipPage image data*/
 .membershipPage .image .metadata {
   position: absolute;
     box-sizing: content-box;
@@ -77,6 +78,7 @@ width: 1836.00px;
 height: 337.00px;
 }
 
+/*line styling*/
 .membershipPage .line1 {
 position: absolute;
 box-sizing: content-box;
@@ -102,6 +104,7 @@ a:active {
   color: rgba(5, 130, 202, 1);
 }
 
+/*about link styling*/
 .membershipPage .about {
 position: absolute;
 box-sizing: content-box;
@@ -119,6 +122,7 @@ left: 1675.00px;
 top: 54.00px;
 }
 
+/**/
 .membershipPage .rectangle3 {
 position: absolute;
 box-sizing: border-box;
@@ -136,6 +140,7 @@ border-radius: 10.00px;
   top: 48.00px;
 }
 
+/**/
 .membershipPage .logIn {
   position: absolute;
   box-sizing: content-box;
@@ -156,7 +161,7 @@ width: 40.00px;
   top: 57.00px;
 }
 
-
+/**/
 .membershipPage .discover {
 position: absolute;
 box-sizing: content-box;
@@ -174,6 +179,7 @@ left: 1423.00px;
 top: 55.00px;
 }
 
+/**/
 .membershipPage .memberships {
 position: absolute;
 box-sizing: content-box;
@@ -191,6 +197,7 @@ font-family: Lato, Arial;
   top: 54.00px;
 }
 
+/**/
 .membershipPage .logo {
 display: block;
 position: absolute;
@@ -204,6 +211,7 @@ left: 48.50px;
 top: 21.50px;
 }
 
+/**/
 .membershipPage .logo .group26 {
 display: block;
 position: absolute;
@@ -219,6 +227,7 @@ height: 67.00px;
 
 }
 
+/**/
 .membershipPage .textLogo {
 display: block;
 position: absolute;
@@ -232,6 +241,7 @@ left: 126.00px;
 top: 24.00px;
 }
 
+/**/
 .membershipPage .textLogo .lenses {
   position: absolute;
   box-sizing: content-box;
@@ -247,6 +257,7 @@ top: 24.00px;
   height: 60.00px;
 }
 
+/**/
 .membershipPage .danielSarmiento {
   position: absolute;
   box-sizing: content-box;
@@ -266,6 +277,7 @@ top: 24.00px;
   top: 425.00px;
 }
 
+/**/
 .membershipPage .group381d83f683 {
     display: block;
     position: absolute;
@@ -282,6 +294,7 @@ top: 24.00px;
 
 }
 
+/**/
 .membershipPage .group381d83f683 .rectangle213bda16c9 {
 position: absolute;
 box-sizing: content-box;
@@ -293,6 +306,7 @@ width: 560.00px;
 height: 921.00px;
 }
 
+/**/
 .membershipPage .group381d83f683 .basic {
   position: absolute;
   box-sizing: content-box;
@@ -319,6 +333,7 @@ height: 921.00px;
 
 }
 
+/**/
 .membershipPage .group381d83f683 .x199AMonth {
   position: absolute;
     box-sizing: content-box;
@@ -330,7 +345,7 @@ height: 921.00px;
     text-align: left;
    
     color: rgba(0, 41, 66, 1);
-    -webkit-text-stroke: unset;
+    
     font-size: 50.00px;
     font-weight: 500;
   font-style: normal;
@@ -348,6 +363,7 @@ height: 921.00px;
 
 }
 
+/**/
 .membershipPage .group381d83f683 .includesf0997453 {
   position: absolute;
     box-sizing: content-box;
@@ -376,6 +392,7 @@ height: 921.00px;
 
 }
 
+/**/
 .membershipPage .group381d83f683 .lensesNewsletterlimitedProfessionalHelp5QuestionsAWeek1TbOfStorageunlimitedPosts {
   position: absolute;
     box-sizing: content-box;
@@ -402,6 +419,7 @@ height: 921.00px;
 
 }
 
+/**/
 .membershipPage .group386f24d6fa {
 
     display: block;
@@ -419,6 +437,7 @@ height: 921.00px;
 
 }
 
+/**/
 .membershipPage .group386f24d6fa .rectangle21ce729834 {
   position: absolute;
     box-sizing: border-box;
@@ -439,6 +458,7 @@ height: 921.00px;
 
 }
 
+/**/
 .membershipPage .group386f24d6fa .pro {
   position: absolute;
     box-sizing: content-box;
@@ -467,6 +487,7 @@ height: 921.00px;
 
 }
 
+/**/
 .membershipPage .group386f24d6fa .x599AMonth {
   position: absolute;
     box-sizing: content-box;
@@ -496,6 +517,7 @@ height: 921.00px;
 
 }
 
+/**/
 .membershipPage .group386f24d6fa .includes7fa6da24 {
   position: absolute;
     box-sizing: content-box;
@@ -523,6 +545,7 @@ height: 921.00px;
 
 }
 
+/**/
 .membershipPage .group386f24d6fa .lensesNewsletterlimitedProfessionalHelp15QuestionsAWeek5TbOfStorageunlimitedPostsphotographyListingOnDiscoverAndCompanyPagesOnRotation {
   position: absolute;
     box-sizing: content-box;
@@ -549,6 +572,7 @@ height: 921.00px;
 
 }
 
+/**/
 .membershipPage .group38 {
 
     display: block;
@@ -567,6 +591,7 @@ height: 921.00px;
 
 }
 
+/**/
 .membershipPage .group38 .rectangle21 {
   position: absolute;
     box-sizing: border-box;
@@ -587,6 +612,7 @@ height: 921.00px;
 
 }
 
+/**/
 .membershipPage .group38 .premium {
   position: absolute;
     box-sizing: content-box;
@@ -614,6 +640,7 @@ height: 921.00px;
 
 }
 
+/**/
 .membershipPage .group38 .x999AMonth {
   position: absolute;
     box-sizing: content-box;
@@ -641,6 +668,7 @@ height: 921.00px;
 
 }
 
+/**/
 .membershipPage .group38 .includes {
   position: absolute;
     box-sizing: content-box;
@@ -667,6 +695,7 @@ height: 921.00px;
 
 }
 
+/**/
 .membershipPage .group38 .lensesNewsletterunlimitedProfessionalHelpunlimitedPostsAndStoragephotographyListingOnDiscoverAndCompanyPagesOnRotationpromotionOnSocialMediaotherMemberExclusiveContent {
   position: absolute;
 
