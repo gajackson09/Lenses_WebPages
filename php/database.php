@@ -1,16 +1,17 @@
 <?php
     $connection = null;
-        function databaseConnect(){
-            global $connection;
-            $server = "localhost";
-            $username = "root";
-            $password = "";
-            $database = "lense";
+    
+      function databaseConnect(){
+        global $connection;
+        $server = "localhost";
+        $username = "root";
+        $password = "";
+        $database = "lense";
         
-         if($connection == null){
-             $connection = mysqli_connect($server, $username, $password, $database);
-            }
+        if($connection == null){
+            $connection = mysqli_connect($server, $username, $password, $database);
         }
+      }
         //adds user input to database and hashes password 
     function data_addUser($username, $password, $firstName, $lastName) {
         global $connection;
