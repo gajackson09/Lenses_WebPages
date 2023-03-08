@@ -12,7 +12,7 @@ CREATE TABLE IF NOT EXISTS `users`(
 CREATE TABLE IF NOT EXISTS `photos`(
     `photoID` int(11) AUTO_INCREMENT,
     `userID` int(11),
-    `fileName` varchar(225),
+    `fileName` varchar(225) NOT NULL,
     --`date` DATETIME(),
     --`caption` varchar(225),
     PRIMARY KEY (`photoID`)
