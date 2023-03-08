@@ -8,6 +8,7 @@
     if(validate()){
         addUser();
         header("Location: ../profilePage.html");
+        echo("Welcome new user!");
     }
 
 ?>
