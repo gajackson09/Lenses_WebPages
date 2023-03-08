@@ -23,7 +23,7 @@ function security_sanitize(){
 function login(){
     $status = false;
     $result = security_sanitize();
-    database_connect();
+    databaseConnect();
     $status=data_verify($result["username"], $result["password"]);
     database_close();
     if($status){
@@ -42,7 +42,7 @@ function logout(){
 //checks if user exists and adds user
 function addUser(){
     $result = security_sanitize();
-    database_connect();
+    databaseConnect();
     if(!data_verify($result["username"], $result["password"])){
         data_addUser($result["username"], $result["password"]);
     }
@@ -51,7 +51,7 @@ function addUser(){
 
 function deleteUser(){
     $results = security_sanitize();
-    database_connect();
+    databaseConnect();
     data_deleteUser($results["username"], $results["password"]);
 }
 
