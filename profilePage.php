@@ -103,7 +103,7 @@
 <?php include("security.php");
         databaseConnect();
         security_sanitize();
-        echo("<div data-layer='cd09a81a-6eb3-4847-ad0b-87a27bdb53f4' class='wuilmarMatiasMorales'>$result['firstname']</div>");
+        echo "<div data-layer='cd09a81a-6eb3-4847-ad0b-87a27bdb53f4' class='wuilmarMatiasMorales'>$result['firstname']</div>";
 ?>
         <!--<div data-layer="cd09a81a-6eb3-4847-ad0b-87a27bdb53f4" class="wuilmarMatiasMorales">        </div>-->
         <div data-layer="03668a52-6bbe-45e1-a0cd-1c93d7b185ee" class="casualPhotographer">Casual Photographer</div>
