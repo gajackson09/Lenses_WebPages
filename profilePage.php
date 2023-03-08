@@ -3,7 +3,14 @@
 <!--post button needs to be added-->
 <!--profile image not working its broken-->
 <?php
+include("security.php");
+        databaseConnect();
+        global $connection;
         //add files from photo upload
+        if($connection != null){
+                $query = "SELECT * from photos"
+                $result = mysqli_query($connection, $query)
+        }
 ?>
 
 
