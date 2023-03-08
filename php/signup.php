@@ -1,10 +1,13 @@
 <?php
     include("security.php");
 
-    if(login()){
-        echo("user already exists?");
-    }else{
-        echo()
+    //if(login()){
+    //    echo("user already exists?");
+    //}else{echo()}
+
+    if(validate()){
+        addUser();
+        header("Location: ../profilePage.html");
     }
 
 ?>

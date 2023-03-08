@@ -14,7 +14,7 @@ function security_sanitize(){
         "username" => null,
         "password" => null
     ];
-    if(security_validate()){
+    if(validate()){
         $result["username"] = htmlspecialchars($_POST["username"]);
         $result["password"] = htmlspecialchars($_POST["password"]);
     }
