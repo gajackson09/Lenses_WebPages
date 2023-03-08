@@ -102,8 +102,8 @@
 <!--php add to say user name when sign in-->
 <?php include("security.php");
         databaseConnect();
-        //whereusername matches
-
+        security_sanitize();
+        echo($result["firstname"]);
 ?>
         <div data-layer="cd09a81a-6eb3-4847-ad0b-87a27bdb53f4" class="wuilmarMatiasMorales">
                 
