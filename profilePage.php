@@ -113,16 +113,19 @@ if(loggedin()){
         <div data-layer="db2615ac-4037-4fe8-8460-85ebf526bdad" class="followbutton">            <svg data-layer="ef30c5d3-b851-4354-9cc7-8d5490f2b685" preserveAspectRatio="none" viewBox="-0.75 -0.75 270.5 82.5" class="path12"><path d="M 10 0 L 259 0 C 264.5228576660156 0 269 4.477152347564697 269 10 L 269 71 C 269 76.52285003662109 264.5228576660156 81 259 81 L 10 81 C 4.477152347564697 81 0 76.52285003662109 0 71 L 0 10 C 0 4.477152347564697 4.477152347564697 0 10 0 Z"  /></svg>
             <div data-layer="1681de1c-0647-48bb-9c31-0c5cdc37ed27" class="follow">Follow</div>
 </div>
-<!--php add to say user name when sign in
+<!--php add to say user name when sign in-->
         <?php include("php/security.php");
                 databaseConnect();
                 $result= mysqli_query($database, "SELECT firstname FROM users WHERE username = '{$username};");
-                $name = mysqli_fetch_assoc($result);
-                //$result = security_sanitize();
-                echo ($name;); 
+                //$name = mysqli_fetch_assoc($result);
+                if($name != null){
+                echo ($result;); 
+                }else{
+                        echo ("uhoh");
+                }
                 //"<div data-layer='cd09a81a-6eb3-4847-ad0b-87a27bdb53f4' class='wuilmarMatiasMorales'>$result['firstname']</div>";
         ?>
-        <div data-layer="cd09a81a-6eb3-4847-ad0b-87a27bdb53f4" class="wuilmarMatiasMorales">        </div>-->
+        <!--<div data-layer="cd09a81a-6eb3-4847-ad0b-87a27bdb53f4" class="wuilmarMatiasMorales">        </div>-->
         <div data-layer="03668a52-6bbe-45e1-a0cd-1c93d7b185ee" class="casualPhotographer">Casual Photographer</div>
         <div data-layer="aec3b3ee-5c10-4157-8b9b-3725d0a7d098" class="logo">            
         
