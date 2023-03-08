@@ -7,8 +7,9 @@
 
     if(validate()){
         addUser();
+        // echo()
         header("Location: ../profilePage.php");
-        echo("Welcome new user!");
+        
     }else{
         echo("you done fuckt up");
     }
