@@ -1,5 +1,5 @@
 USE `lense`;
-CREATE TABLE IF NOT EXISTS `users`(
+CREATE TABLE `users`(
     `userID` int(11) AUTO_INCREMENT,
     `email` varchar(225),
     `username` varchar(225),
@@ -8,7 +8,7 @@ CREATE TABLE IF NOT EXISTS `users`(
     `lastName` varchar(225),
     PRIMARY KEY(`userID`)
 );
-CREATE TABLE IF NOT EXISTS `photos`(
+CREATE TABLE `photos`(
     `photoID` int(11) AUTO_INCREMENT,
     `userID` int(11),
     --`date` DATETIME(),
