@@ -116,8 +116,8 @@ if(loggedin()){
 <!--php add to say user name when sign in
         <?php include("php/security.php");
                 databaseConnect();
-                $name = mysqli_query($database, "SELECT firstname FROM users WHERE username = '{$username};");
-                
+                $result= mysqli_query($database, "SELECT firstname FROM users WHERE username = '{$username};");
+                $name = mysqli_fetch_assoc($result);
                 //$result = security_sanitize();
                 echo ($name;); 
                 //"<div data-layer='cd09a81a-6eb3-4847-ad0b-87a27bdb53f4' class='wuilmarMatiasMorales'>$result['firstname']</div>";
