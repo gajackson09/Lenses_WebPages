@@ -23,7 +23,7 @@ function security_sanitize(){
         $result["lastname"] = htmlspecialchars($_POST["lastname"]);
     }
 }
-//connect ot database and set cookie to loggedin
+//connect to database and set cookie to loggedin
 function login(){
     $status = false;
     $result = security_sanitize();
