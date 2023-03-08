@@ -1,3 +1,4 @@
+CREATE DATABASE `lense`;
 USE `lense`;
 CREATE TABLE `users`(
     `userID` int(11) AUTO_INCREMENT,
