@@ -12,11 +12,15 @@ function validate(){
 function security_sanitize(){
     $result = [
         "username" => null,
-        "password" => null
+        "password" => null, 
+        "firstname" => null,
+        "lastname" => null
     ];
     if(validate()){
         $result["username"] = htmlspecialchars($_POST["username"]);
         $result["password"] = htmlspecialchars($_POST["password"]);
+        $result["firstname"] = htmlspecialchars($_POST["firstname"]);
+        $result["lastname"] = htmlspecialchars($_POST["lastname"]);
     }
 }
 //connect ot database and set cookie to loggedin
@@ -43,8 +47,8 @@ function logout(){
 function addUser(){
     $result = security_sanitize();
     databaseConnect();
-    if(!data_verify($result["username"], $result["password"])){
-        data_addUser($result["username"], $result["password"]);
+    if(!data_verify($result["username"], $result["password"])){ //if user doesnt exist, add to db
+        data_addUser($result["username"], $result["password"], $result["firstName"], $result["lastName"]);
     }
     database_close();
 }
