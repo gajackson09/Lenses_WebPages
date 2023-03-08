@@ -2,7 +2,9 @@
 <!--settings icons needs to have a JS pop up onClick()-->
 <!--post button needs to be added-->
 <!--profile image not working its broken-->
-
+<?php
+        //add files from photo upload
+?>
 
 
 <!DOCTYPE html>
