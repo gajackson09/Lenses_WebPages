@@ -9,6 +9,8 @@
         addUser();
         header("Location: ../profilePage.html");
         echo("Welcome new user!");
+    }else{
+        echo("you done fuckt up");
     }
 
 ?>
