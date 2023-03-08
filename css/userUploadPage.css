@@ -472,3 +472,20 @@
 
 }
 
+.rectangle3 {
+  position: absolute;
+  box-sizing: content-box;
+  transform-origin: center;
+  opacity: 1;
+  background-color: rgb(255, 255, 255);
+  border-color: rgba(112, 112, 112, 1);
+  border-style: none;
+  border-width: 1.00px;
+  border-radius: 10.00px;
+  width: 121.00px;
+  height: 36.00px;
+  left: 600.00px;
+  top: 884.00px;
+
+}
+
