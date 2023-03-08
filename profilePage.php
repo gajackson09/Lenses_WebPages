@@ -4,6 +4,11 @@
 <!--profile image not working its broken-->
 <?php
 include("security.php");
+if(loggedin()){
+        header("Location:profilePage.php");
+}else{
+        header("Location:loginPage.html");
+}
         databaseConnect();
         global $connection;
         //add files from photo upload
