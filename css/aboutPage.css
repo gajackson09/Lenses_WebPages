@@ -1,311 +1,169 @@
-/*class for aboutPage*/ 
+@import "main.css";
 
-/*need to include css for the responsiveness - media queries*/
-/*reogranzie to make sense*/
-/*try to combine classes into one*/
-/*tidy up code*/
-/*when theres time remain everything to make sense*/
-
-/*body class*/ 
-body {
-  font-family: 'Open Sans', serif;
-  margin: 0;
-  padding: 0;
-  height: auto;
-  width: auto;
-  background-color: rgba(250, 247, 240, 1);
-  }
-
+/*css for aboutPage*/ 
 /*about page class*/      
 .aboutPage {
   display: block;
   position: absolute;
   box-sizing: content-box;
   opacity: 1;
-  background-color: rgba(250, 247, 240, 1);
-  width: 1536px;
-  height: 1118.4px;
 }
 
+/*media query - tablet/small*/
+@media screen and (max-width: 567px){
+  .aboutHeader{
+    font-size: 30px;
+    left: 50px;
+    top: 150px;
+  }
+
+  .paraHeader{
+    font-size: 21px;
+  }
+
+  .paragraph{
+    font-size: 15px;
+  }
+
+  .paraPosition{
+    width: 400px;
+    height: 717px;
+    left: 50px;
+    top: 200px;
+  }
+
+  .aboutImg{
+    width: 400px;
+    height: 526px;
+    left: 50px;
+    top: 820px;
+  }
+
+  .caption{
+    left: 56px;
+    top: 1330px;
+  }
+
+}
+
+/*media query - laptop/medium*/
+@media screen and (min-width: 568px) {
+  .aboutHeader{
+    font-size: 40px;
+    left: 70px;
+    top: 125px;
+  }
+
+  .paraHeader{
+    font-size: 21px;
+  }
+
+  .paragraph{
+    font-size: 15px;
+  }
+
+  .paraPosition{
+    width: 500px;
+    height: 717px;
+    left: 70px;
+    top: 200px;
+  }
+
+  .aboutImg{
+    width: 450px;
+    height: 526px;
+    left: 600px;
+    top: 160px;
+  }
+
+  .caption{
+    left: 624px;
+    top: 656px;
+  }
+
+}
+
+/*media query - desktop/large*/
+@media screen and (min-width: 1024px) {
+  .aboutHeader{
+    font-size: 50px;
+    left: 82px;
+    top: 150px;
+  }
+
+  .paraHeader{
+    font-size: 24px;
+  }
+
+  .paragraph{
+    font-size: 21px;
+  }
+
+  .paraPosition{
+    width: 900px;
+    height: 717px;
+    left: 82px;
+    top: 260px;
+  }
+
+  .aboutImg{
+    width: 450px;
+    height: 726px;
+    left: 1000px;
+    top: 160px;
+  }
+
+  .caption{
+    left: 1024px;
+    top: 856px;
+  }
+
+}
+
+/*page specific styling*/
 /*header styling*/
-.aboutPage .aboutLenses {
+.aboutPage .aboutHeader {
   position: absolute;
   box-sizing: content-box;
   transform-origin: center;
   opacity: 1;
   text-align: left;   
   color: rgba(0, 100, 148, 1);   
-  font-size: 60px;
   font-weight: 700;
   font-style: normal;
   font-family: Lato, Arial;
   text-decoration: none;
-  width: 493.00px;
-  height: 116.00px;
-  left: 82.00px;
-  top: 179.00px;
+  width: 493px;
+  height: 116px;
 }
 
-.aboutPage .line1 {
-  position: absolute;
-  box-sizing: content-box;
-  opacity: 1;
-  cursor: default;
-  stroke: rgba(112, 112, 112, 1);
-  stroke-width: 1px;
-  stroke-linecap: butt;
-  width: 1836px;
-  height: 2px;
-  left: 42.5px;
-  top: 106px;
+.aboutPage .paraHeader{
+  color: rgba(0, 53, 84, 1);
+  font-weight: 700;
+  font-style: normal;
+  font-family: Lato, Arial;
+  text-decoration: none;
+}
+
+.aboutPage .paragraph{
+  color: rgba(0, 53, 84, 1);
+  font-weight: 400;
+  font-style: normal;
+  font-family: Lato, Arial;
+  text-decoration: none;
 }
 
 /*paragraphs positioning*/
-.aboutPage .ourMissionlensesIsAWebsiteForPhotographersAndAnyoneWhoWantsToPostPhotosWeBelieveThatDuringThisTimePhotosAreBeingOverlookedBecauseOfTheRiseInPopularityOfShortFormVideoContentWeWantToBeThePlaceWherePhotographers {
+.aboutPage .paraPosition {
   position: absolute;
   box-sizing: content-box;
   transform-origin: center;
   opacity: 1;
   text-align: left;
-  color: rgba(0, 53, 84, 1);
-  font-size: 24.00px;
-  font-weight: 400;
-  font-style: normal;
-  font-family: Lato, Arial;
-  text-decoration: none;
-  width: 1136.00px;
-  height: 717.00px;
-  left: 82.00px;
-  top: 295.00px;
-}
-
-/*our mission header text*/
-.aboutPage .ourMissionlensesIsAWebsiteForPhotographersAndAnyoneWhoWantsToPostPhotosWeBelieveThatDuringThisTimePhotosAreBeingOverlookedBecauseOfTheRiseInPopularityOfShortFormVideoContentWeWantToBeThePlaceWherePhotographers .ourMissionlensesIsAWebsiteForPhotographersAndAnyoneWhoWantsToPostPhotosWeBelieveThatDuringThisTimePhotosAreBeingOverlookedBecauseOfTheRiseInPopularityOfShortFormVideoContentWeWantToBeThePlaceWherePhotographers-0 {
-  color: rgba(0, 53, 84, 1);
-  font-weight: 700;
-  font-style: normal;
-  font-size: 24px;
-  font-family: Lato, Arial;
-  text-decoration: none;
-}
-
-/*our mission paragraph text*/
-.aboutPage .ourMissionlensesIsAWebsiteForPhotographersAndAnyoneWhoWantsToPostPhotosWeBelieveThatDuringThisTimePhotosAreBeingOverlookedBecauseOfTheRiseInPopularityOfShortFormVideoContentWeWantToBeThePlaceWherePhotographers .ourMissionlensesIsAWebsiteForPhotographersAndAnyoneWhoWantsToPostPhotosWeBelieveThatDuringThisTimePhotosAreBeingOverlookedBecauseOfTheRiseInPopularityOfShortFormVideoContentWeWantToBeThePlaceWherePhotographers-12 {
-  color: rgba(0, 53, 84, 1);
-  font-weight: 400;
-  font-style: normal;
-  font-size: 24px;
-  font-family: Lato, Arial;
-  text-decoration: none;
-}
-
-/*our vision header*/
-.aboutPage .ourMissionlensesIsAWebsiteForPhotographersAndAnyoneWhoWantsToPostPhotosWeBelieveThatDuringThisTimePhotosAreBeingOverlookedBecauseOfTheRiseInPopularityOfShortFormVideoContentWeWantToBeThePlaceWherePhotographers .ourMissionlensesIsAWebsiteForPhotographersAndAnyoneWhoWantsToPostPhotosWeBelieveThatDuringThisTimePhotosAreBeingOverlookedBecauseOfTheRiseInPopularityOfShortFormVideoContentWeWantToBeThePlaceWherePhotographers-444 {
-  color: rgba(0, 53, 84, 1);
-  font-weight: 700;
-  font-style: normal;
-  font-size: 24px;
-  font-family: Lato, Arial;
-  text-decoration: none;
-}
-
-/*our vision paragraph*/
-.aboutPage .ourMissionlensesIsAWebsiteForPhotographersAndAnyoneWhoWantsToPostPhotosWeBelieveThatDuringThisTimePhotosAreBeingOverlookedBecauseOfTheRiseInPopularityOfShortFormVideoContentWeWantToBeThePlaceWherePhotographers .ourMissionlensesIsAWebsiteForPhotographersAndAnyoneWhoWantsToPostPhotosWeBelieveThatDuringThisTimePhotosAreBeingOverlookedBecauseOfTheRiseInPopularityOfShortFormVideoContentWeWantToBeThePlaceWherePhotographers-456 {
-  color: rgba(0, 53, 84, 1);
-  font-weight: 400;
-  font-style: normal;
-  font-size: 24px;
-  font-family: Lato, Arial;
-  text-decoration: none;
-}
-
-/*our values headers*/
-.aboutPage .ourMissionlensesIsAWebsiteForPhotographersAndAnyoneWhoWantsToPostPhotosWeBelieveThatDuringThisTimePhotosAreBeingOverlookedBecauseOfTheRiseInPopularityOfShortFormVideoContentWeWantToBeThePlaceWherePhotographers .ourMissionlensesIsAWebsiteForPhotographersAndAnyoneWhoWantsToPostPhotosWeBelieveThatDuringThisTimePhotosAreBeingOverlookedBecauseOfTheRiseInPopularityOfShortFormVideoContentWeWantToBeThePlaceWherePhotographers-902 {
-  color: rgba(0, 53, 84, 1);
-  font-weight: 700;
-  font-style: normal;
-  font-size: 24px;
-  font-family: Lato, Arial;
-  text-decoration: none;
-}
-
-/*our values paragraph*/
-.aboutPage .ourMissionlensesIsAWebsiteForPhotographersAndAnyoneWhoWantsToPostPhotosWeBelieveThatDuringThisTimePhotosAreBeingOverlookedBecauseOfTheRiseInPopularityOfShortFormVideoContentWeWantToBeThePlaceWherePhotographers .ourMissionlensesIsAWebsiteForPhotographersAndAnyoneWhoWantsToPostPhotosWeBelieveThatDuringThisTimePhotosAreBeingOverlookedBecauseOfTheRiseInPopularityOfShortFormVideoContentWeWantToBeThePlaceWherePhotographers-913 {
-  color: rgba(0, 53, 84, 1);
-  font-weight: 400;
-  font-style: normal;
-  font-size: 24px;
-  font-family: Lato, Arial;
-  text-decoration: none;
-}
-
-/*link styling*/
-  /* unvisited link */
-  a:link {
-    color:rgba(0, 53, 84, 1);
-  }
-
-  /* selected link */
-  a:active {
-    color: rgba(5, 130, 202, 1);
-  }
-
-/*about page about link*/
-.aboutPage .about {
-  position: absolute;
-  box-sizing: content-box;
-  opacity: 1;
-  color: rgba(5, 130, 202, 1);
-  text-decoration: none;
-  font-size: 20px;
-  font-style: normal;
-  font-family: Lato, Arial;
-    
-  /*needs to be adjusted to window frame*/
-  width: 54.00px;
-  height: 24.00px;
-  left: 1675.00px;
-  top: 54.00px;
-}
-
-/*login rectangle styling*/
-.aboutPage .rectangle3 {
-  position: absolute;
-  box-sizing: border-box;
-  opacity: 1;
-  background-color: rgba(5, 130, 202, 1);
-  border-color: rgba(112, 112, 112, 1);
-  border-style: solid;
-  border-width: 1px;
-  border-radius: 10.00px;
-  
-  /*needs to be adjusted to window frame*/
-      width: 121.00px;
-    height: 36.00px;
-    left: 1758.00px;
-    top: 48.00px;
-}
-
-/*login link styling*/
-.aboutPage .logIn {
-  position: absolute;
-  box-sizing: content-box;
-  opacity: 1;
-  text-align: left;
-  color: rgba(0, 53, 84, 1);
-  text-decoration: none;
-  color: rgba(255, 255, 255, 1);
-  font-size: 20px;
-  font-style: normal;
-  font-family: Lato, Arial;
-  white-space: pre;
-    
-  /*needs to be adjusted to window frame*/
-  width: 40.00px;
-    height: 18.00px;
-    left: 1794.00px;
-    top: 57.00px;
-}
-
-/*membership link styling*/
-.aboutPage .memberships {
-  position: absolute;
-  box-sizing: content-box;
-  opacity: 1;
-  color: rgba(0, 53, 84, 1);
-  text-decoration: none;
-  font-size: 20px;
-  font-style: normal;
-  font-family: Lato, Arial;
-      
-  /*needs to be adjusted to window frame*/
-      width: 119.00px;
-    height: 24.00px;
-    left: 1527.00px;
-    top: 54.00px;
-
-}
-
-/*discover link styling*/
-.aboutPage .discover {
-  position: absolute;
-  box-sizing: content-box;
-  opacity: 1;
-  color: rgba(0, 53, 84, 1);
-  text-decoration: none;
-  font-size: 20px;
-  font-style: normal;
-  font-family: Lato, Arial;
-      
-  /*needs to be adjusted to window frame*/
-      width: 77.00px;
-    height: 24.00px;
-    left: 1423.00px;
-    top: 55.00px;
-}
-
-/* logo styling */
-.aboutPage .logo {
-  display: block;
-  position: absolute;
-  box-sizing: content-box;
-  opacity: 1;
-  background-color: transparent;
-  width: 67.00px;
-  height: 67.00px;
-  left: 48.50px;
-  top: 21.50px;
-}
-
-/*logo positioning styling (can be combined with .logo main)*/
-.aboutPage .logo .group26 {
-  display: block;
-  position: absolute;
-  box-sizing: content-box;
-  transform-origin: center;
-  background-image: url("assets/group26.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  opacity: 1;
-  width: 67.00px;
-  height: 67.00px;
-  left: 0.00px;
-  top: 0.00px;
-}
-
-/*text logo positioning*/
-.aboutPage .textLogo {
-  display: block;
-  position: absolute;
-  box-sizing: content-box;
-  transform-origin: center;
-  opacity: 1;
-  background-color: transparent;
-  width: 151.00px;
-  height: 60.00px;
-  left: 126.00px;
-  top: -18.00px;
-}
-
-/*text logo styling*/
-.aboutPage .textLogo .lenses {
-  position: absolute;
-  box-sizing: content-box;
-  transform-origin: center;
-  opacity: 1;
-  text-align: left;  
-  color: rgba(5, 130, 202, 1);
-  font-size: 50.00px;
-  font-weight: 600;
-  font-style: normal;
-  font-family: Lato, Arial;
-  width: 151.00px;
-  height: 60.00px;
 }
 
 /*img styling*/
-.aboutPage .cottageInTheMountains {
+.aboutPage .aboutImg {
   position: absolute;
   box-sizing: content-box;
   transform-origin: center;
@@ -317,28 +175,4 @@ body {
   border-color: rgba(112, 112, 112, 1);
   border-style: none;
   border-width: 1px; 
-  width: 504.00px;
-  height: 756.00px;
-  left: 1287.00px;
-  top: 179.00px;
-}
-
-/*img caption text styling*/
-.aboutPage .boChau {
-  position: absolute;
-  box-sizing: content-box;
-  transform-origin: center;
-  opacity: 1; 
-  text-align: left;  
-  color: rgba(167, 167, 167, 1); 
-  font-size: 20.00px;
-  font-weight: 400;
-  font-style: normal;
-  font-family: Lato, Arial;
-  text-decoration: none;
-  white-space: pre;
-  width: 85.00px;
-  height: 24.00px;
-  left: 1294.00px;
-  top: 906.00px;
 }

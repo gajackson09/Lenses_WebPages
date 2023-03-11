@@ -1,663 +1,480 @@
-/*class for signupPage*/ 
+@import "main.css";
 
-/*need to include css for the responsiveness - media queries*/
-/*reogranzie to make sense*/
-/*try to combine classes into one*/
-/*tidy up code*/
-/*when theres time remain everything to make sense*/
+/*css for signupPage*/ 
+/*signup page class*/
+.signUpPage {
+  display: block;
+  position: absolute;
+  box-sizing: content-box;
+  transform-origin: center;
+  opacity: 1;
+}
 
-/*body class*/ 
-body {
-  font-family: 'Open Sans', serif;
-  margin: 0;
-  padding: 0;
-  height: auto;
-  width: auto;
-  background-color: rgba(250, 247, 240, 1);
+/*media query - tablet/small*/
+@media screen and (max-width: 567px) {
+  .response{
+    width: 100%;
   }
 
-      .signUpPage {
+  .liButton{
+    width: 150px;
+    height: 57px;
+    left: 50px;
+    top: 190px;
+  }
+  
+  .suButton{
+    width: 150px;
+    height: 57px;
+    left: 250px;
+    top: 190px;
+  }
 
-      display: block;
-      position: absolute;
-      box-sizing: content-box;
-    transform-origin: center;
-      opacity: 1;
-      background-color: rgba(250, 247, 240, 1);
-      width: 1920.00px;
-    height: 1080.00px;
+
+.logIn{
+  left: 100px;
+  top: 200px;
+  font-size: 22px;
+}
+
+.signup{
+  left: 290px;
+  top: 200px;
+  font-size: 22px;
+}
+
+
+/*label font size and positioning*/
+label {
+  font-size: 15px;
+}
+
+.firstName{
+  left: 75px;
+  top: 300px;
+}
+
+.lastName{
+  left: 75px;
+  top: 400px;
+}
+
+.username{
+  left: 75px;
+  top: 500px;
+}
+
+.password{
+  left: 75px;
+  top: 600px;
+}
+
+/*input box positions*/
+.input_fn {
+  width: 270px;
+  left: 75px;
+  top: 325px;
+}
+
+.input_ln {
+  width: 270px;
+  left: 75px;
+  top: 425px;
+}
+
+.input_un {
+  width: 270px;
+  left: 75px;
+  top: 525px;
+}
+
+.input_pw {
+  width: 270px;
+  left: 75px;
+  top: 625px;
+}
+
+.text{
+  font-size: 20px;
+}
+
+.iconAwesomeFacebook{
+  left: 125px;
+  top: 780px;
+}
+
+.iconAwesomeGoogle{
+  left: 175px;
+  top: 780px;
+}
+
+.iconAwesomeTwitter{
+  left: 225px;
+  top: 780px;
+}
+
+.iconAwesomeLinkedin{
+  left: 275px;
+  top: 780px;
+}
+
+input[type=submit] {
+  left: 150px;
+  top: 700px;
+}
+
+.orLogInWith{
+  left: 150px;
+  top: 745px;
+}
+
+.line2{
+  left: 200px;
+  top: 720px;
+  width: 180px;
+  height: 0px;
+}
+
+.line3{
+  left: 530px;
+  top: 720px;
+  width: 180px;
+  height: 0px;
+}
+
+.alreadyAUserSignIn {
+  left: 120px;
+  top: 825px;
+}
+}
+
+
+/*media query - laptop/medium*/
+@media screen and (min-width: 568px) {
+  .response{
+    width: 50%;
+  }
+
+  .liButton{
+    width: 181px;
+    height: 57px;
+    left: 200px;
+    top: 190px;
+  }
+  
+  .suButton{
+    width: 181px;
+    height: 57px;
+    left: 500px;
+    top: 190px;
+  }
+
+
+.logIn{
+  left: 265px;
+  top: 200px;
+  font-size: 22px;
+}
+
+.signup{
+  left: 565px;
+  top: 200px;
+  font-size: 22px;
+}
+
+
+/*label font size and positioning*/
+label {
+  font-size: 20px;
+}
+
+.firstName{
+  left: 100px;
+  top: 300px;
+}
+
+.lastName{
+  left: 500px;
+  top: 300px;
+}
+
+.username{
+  left: 100px;
+  top: 415px;
+}
+
+.password{
+  left: 100px;
+  top: 530px;
+}
+
+/*input box positions*/
+.input_fn {
+  width: 337px;
+  left: 100px;
+  top: 350px;
+}
+
+.input_ln {
+  width: 337px;
+  left: 500px;
+  top: 350px;
+}
+
+.input_un {
+  width: 743px;
+  left: 100px;
+  top: 455.00px;
+}
+
+.input_pw {
+  width: 743px;
+  left: 100px;
+  top: 565px;
+}
+
+.text{
+  font-size: 20px;
+}
+
+.iconAwesomeFacebook{
+  left: 370px;
+  top: 750px;
+}
+
+.iconAwesomeGoogle{
+  left: 420px;
+  top: 750px;
+}
+
+.iconAwesomeTwitter{
+  left: 470px;
+  top: 750px;
+}
+
+.iconAwesomeLinkedin{
+  left: 520px;
+  top: 750px;
+}
+
+input[type=submit] {
+  left: 400px;
+  top: 645px;
+}
+
+.orLogInWith{
+  left: 390px;
+  top: 705px;
+}
+
+.line2{
+  left: 200px;
+  top: 720px;
+  width: 180px;
+  height: 1px;
+}
+
+.line3{
+  left: 530px;
+  top: 720px;
+  width: 180px;
+  height: 1px;
+}
+
+.alreadyAUserSignIn {
+  left: 100px;
+  top: 800px;
+}
 
 }
 
-.signUpPage .line1 {
-    position: absolute;
-      box-sizing: content-box;
-    transform-origin: center;
-      opacity: 1;
-      stroke: rgba(112, 112, 112, 1);
-          stroke-width: 1.00px;
-          stroke-linecap: butt;
-      width: 1836.00px;
-    height: 2.00px;
-    left: 42.50px;
-    top: 106.00px;
 
+/*media query - desktop/large*/
+@media screen and (min-width: 1024px) {
+  .liButton{
+    width: 181px;
+    height: 57px;
+    left: 500px;
+    top: 190px;
+  }
+  
+  .suButton{
+    width: 181px;
+    height: 57px;
+    left: 800px;
+    top: 190px;
+  }
+
+
+.logIn{
+  left: 565px;
+  top: 200px;
+  font-size: 22px;
 }
 
-.signUpPage .group1 {
-
-      display: block;
-      position: absolute;
-      box-sizing: content-box;
-    transform-origin: center;
-      opacity: 1;
-      background-color: transparent;
-      width: 425.00px;
-    height: 57.00px;
-    left: 748.00px;
-    top: 203.00px;
-
+.signup{
+  left: 860px;
+  top: 200px;
+  font-size: 22px;
 }
 
-.signUpPage .group1 .logIn {
-    position: absolute;
-      box-sizing: content-box;
-    transform-origin: center;
-      opacity: 1;
-      background-color: rgba(255, 255, 255, 0);
-      text-align: left;
-      color: rgba(255, 255, 255, 1);
-      font-size: 22.00px;
-      font-weight: 700;
-    font-style: normal;
-      font-family: Lato, Arial;
-      text-decoration: none;
-      white-space: pre;
-      width: 59.00px;
-    height: 27.00px;
-    left: 66.00px;
-    top: 7.00px;
 
+/*label font size and positioning*/
+label {
+  font-size: 25px;
 }
 
-.signUpPage .group1 .rectangle46a84cfc1 {
-    position: absolute;
-      box-sizing: border-box;
-    transform-origin: center;
-      opacity: 1;
-      background-color: rgba(5, 130, 202, 1);
-      border-color: rgba(112, 112, 112, 1);
-      border-style: solid;
-      border-width: 1.00px;
-      border-radius: 10.00px;
-      width: 181.00px;
-    height: 57.00px;
-    left: 244.00px;
-
+.firstName{
+  left: 400px;
+  top: 300px;
 }
 
-.signUpPage .group1 .signUp7b46091d {
-    position: absolute;
-      box-sizing: content-box;
-    transform-origin: center;
-      opacity: 1;
-      background-color: rgba(255, 255, 255, 0);
-      text-align: left;
-      color: rgba(253, 253, 253, 1);
-      font-size: 22.00px;
-      font-weight: 400;
-    font-style: normal;
-      font-family: Lato, Arial;
-      text-decoration: none;
-      white-space: pre;
-      width: 75.00px;
-    height: 27.00px;
-    left: 297.00px;
-    top: 15.00px;
-
+.lastName{
+  left: 825px;
+  top: 300px;
 }
 
-.signUpPage .group1 .component21 {
-
-      display: block;
-      position: absolute;
-      box-sizing: content-box;
-    transform-origin: center;
-      opacity: 1;
-      background-color: transparent;
-      width: 181.00px;
-    height: 57.00px;
-
+.username{
+  left: 400px;
+  top: 415px;
 }
 
-.signUpPage .group1 .component21 .group27 {
-
-      display: block;
-      position: absolute;
-      box-sizing: content-box;
-    transform-origin: center;
-      opacity: 1;
-      background-color: transparent;
-      width: 181.00px;
-    height: 57.00px;
-
+.password{
+  left: 400px;
+  top: 530px;
 }
 
-.signUpPage .group1 .component21 .group27 .rectangle4 {
-    position: absolute;
-      box-sizing: border-box;
-    transform-origin: center;
-      opacity: 1;
-      background-color: rgba(253, 253, 253, 1);
-      border-color: rgba(167, 167, 167, 1);
-      border-style: solid;
-      border-width: 1.00px;
-      border-radius: 10.00px;
-      width: 181.00px;
-    height: 57.00px;
-
+/*input box positions*/
+.input_fn {
+  width: 337px;
+  left: 400px;
+  top: 350px;
 }
 
-.signUpPage .group1 .component21 .login {
-    position: absolute;
-      box-sizing: content-box;
-    transform-origin: center;
-      opacity: 1;
-      background-color: rgba(255, 255, 255, 0);
-      text-align: left;
-      color: rgba(112, 112, 112, 1);
-      font-size: 22.00px;
-      font-weight: 400;
-    font-style: normal;
-      font-family: Lato, Arial;
-      text-decoration: none;
-      white-space: pre;
-      width: 52.00px;
-    height: 27.00px;
-    left: 65.00px;
-    top: 15.00px;
-
+.input_ln {
+  width: 337px;
+  left: 825px;
+  top: 350px;
 }
 
-.signUpPage .rectangle5 {
-    position: absolute;
-      box-sizing: border-box;
-    transform-origin: center;
-      opacity: 1;
-      background-color: rgba(255, 255, 255, 1);
-      border-color: rgba(112, 112, 112, 1);
-      border-style: solid;
-      border-width: 1.00px;
-      border-radius: 10.00px;
-      width: 743.00px;
-    height: 55.00px;
-    left: 589.00px;
-    top: 485.00px;
-
+.input_un {
+  width: 743px;
+  left: 400px;
+  top: 455.00px;
 }
 
-.signUpPage .rectangle6 {
-    position: absolute;
-      box-sizing: border-box;
-    transform-origin: center;
-      opacity: 1;
-      background-color: rgba(255, 255, 255, 1);
-      border-color: rgba(112, 112, 112, 1);
-      border-style: solid;
-      border-width: 1.00px;
-      border-radius: 10.00px;
-      box-shadow: none;
-      width: 743.00px;
-    height: 55.00px;
-    left: 589.00px;
-    top: 602.00px;
-
+.input_pw {
+  width: 743px;
+  left: 400px;
+  top: 565px;
 }
 
-.signUpPage .username {
-    position: absolute;
-      box-sizing: content-box;
-    transform-origin: center;
-      opacity: 1;
-      background-color: rgba(255, 255, 255, 0);
-      text-align: left;
-      color: rgba(112, 112, 112, 1);
-      font-size: 25.00px;
-      font-weight: 400;
-    font-style: normal;
-      font-family: Lato, Arial;
-      text-decoration: none;
-      white-space: pre;
-      width: 111.00px;
-    height: 30.00px;
-    left: 589.00px;
-    top: 439.00px;
-
+.text{
+  font-size: 20px;
 }
 
-.signUpPage .password {
-    position: absolute;
-      box-sizing: content-box;
-    transform-origin: center;
-      opacity: 1;
-      background-color: rgba(255, 255, 255, 0);
-      text-align: left;
-      color: rgba(112, 112, 112, 1);
-      font-size: 25.00px;
-      font-weight: 400;
-    font-style: normal;
-      font-family: Lato, Arial;
-      text-decoration: none;
-      white-space: pre;
-      width: 105.00px;
-    height: 30.00px;
-    left: 589.00px;
-    top: 556.00px;
-
+.iconAwesomeFacebook{
+  left: 670px;
+  top: 750px;
 }
 
-.signUpPage .path11 {
-    position: absolute;
-      box-sizing: content-box;
-    transform-origin: center;
-      opacity: 1;
-      fill: rgba(5, 130, 202, 1);
-      width: 121.00px;
-    height: 36.00px;
-    left: 900.00px;
-    top: 684.00px;
-
+.iconAwesomeGoogle{
+  left: 720px;
+  top: 750px;
 }
 
-.signUpPage .signUp {
-    position: absolute;
-      box-sizing: content-box;
-    transform-origin: center;
-      opacity: 1;
-      background-color: rgba(255, 255, 255, 0);
-      text-align: left;
-      color: rgba(255, 255, 255, 1);
-      font-size: 15.00px;
-      font-weight: 700;
-    font-style: normal;
-      font-family: Lato, Arial;
-      text-decoration: none;
-      white-space: pre;
-      width: 51.00px;
-    height: 18.00px;
-    left: 936.00px;
-    top: 693.00px;
-
+.iconAwesomeTwitter{
+  left: 770px;
+  top: 750px;
 }
 
-.signUpPage .iconAwesomeFacebook {
-    position: absolute;
-      box-sizing: content-box;
-    transform-origin: center;
-      opacity: 1;
-      fill: rgba(0, 100, 148, 1);
-      width: 34.88px;
-    height: 34.66px;
-    left: 865.13px;
-    top: 795.67px;
-
+.iconAwesomeLinkedin{
+  left: 820px;
+  top: 750px;
 }
 
-.signUpPage .group2 {
-
-      display: block;
-      position: absolute;
-      box-sizing: content-box;
-    transform-origin: center;
-      opacity: 1;
-      background-color: transparent;
-      width: 524.00px;
-    height: 24.00px;
-    left: 702.00px;
-    top: 744.00px;
-
+input[type=submit] {
+  left: 700px;
+  top: 640px;
 }
 
-.signUpPage .group2 .orLogInWith {
-    position: absolute;
-      box-sizing: content-box;
-    transform-origin: center;
-      opacity: 1;
-      background-color: rgba(255, 255, 255, 0);
-      text-align: left;
-      color: rgba(112, 112, 112, 1);
-      font-size: 20.00px;
-      font-weight: 400;
-    font-style: normal;
-      font-family: Lato, Arial;
-      text-decoration: none;
-      white-space: pre;
-      width: 129.00px;
-    height: 24.00px;
-    left: 197.50px;
-
+.orLogInWith{
+  left: 690px;
+  top: 705px;
 }
 
-.signUpPage .group2 .line2 {
-    position: absolute;
-      box-sizing: content-box;
-    transform-origin: center;
-      opacity: 1;
-      stroke: rgba(112, 112, 112, 1);
-          stroke-width: 1.00px;
-          stroke-linecap: butt;
-      width: 180.00px;
-    height: 1.00px;
-    left: 344.00px;
-    top: 12.00px;
-
+.line2{
+  left: 500px;
+  top: 720px;
+  width: 180px;
+  height: 1px;
 }
 
-.signUpPage .group2 .line3 {
-    position: absolute;
-      box-sizing: content-box;
-    transform-origin: center;
-      opacity: 1;
-      stroke: rgba(112, 112, 112, 1);
-          stroke-width: 1.00px;
-          stroke-linecap: butt;
-      width: 180.00px;
-    height: 1.00px;
-    top: 12.00px;
-
+.line3{
+  left: 830px;
+  top: 720px;
+  width: 180px;
+  height: 1px;
 }
 
-.signUpPage .iconAwesomeGoogle {
-    position: absolute;
-      box-sizing: content-box;
-    transform-origin: center;
-      opacity: 1;
-      fill: rgba(0, 100, 148, 1);
-      width: 34.31px;
-    height: 34.88px;
-    left: 925.69px;
-    top: 795.46px;
-
+.alreadyAUserSignIn {
+  left: 400px;
+  top: 800px;
+}
 }
 
-.signUpPage .iconAwesomeTwitter {
-    position: absolute;
-      box-sizing: content-box;
-    transform-origin: center;
-      opacity: 1;
-      fill: rgba(0, 100, 148, 1);
-      width: 36.00px;
-    height: 29.24px;
-    left: 985.69px;
-    top: 801.09px;
-
+.buttonBar .liButton{
+  position: absolute;
+  box-sizing: border-box;
+  transform-origin: center;
+  opacity: 1;
+  background-color: rgba(5, 130, 202, 1);
+  border-color: rgba(167, 167, 167, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 10px;
 }
 
-.signUpPage .iconAwesomeLinkedin {
-    position: absolute;
-      box-sizing: content-box;
-    transform-origin: center;
-      opacity: 1;
-      fill: rgba(0, 100, 148, 1);
-      width: 31.50px;
-    height: 31.50px;
-    left: 1047.37px;
-    top: 801.09px;
-
+.buttonBar .logIn{
+  position: absolute;
+  box-sizing: content-box;
+  transform-origin: center;
+  opacity: 1;
+  background-color: rgba(255, 255, 255, 0);
+  text-align: left;
+  color: rgba(253, 253, 253, 1);
+  font-weight: 400;
+  font-style: normal;
+  font-family: Lato, Arial;
+  text-decoration: none;
+  white-space: pre;
 }
 
-.signUpPage .rectangle7 {
-    position: absolute;
-      box-sizing: border-box;
-    transform-origin: center;
-      opacity: 1;
-      background-color: rgba(255, 255, 255, 1);
-      border-color: rgba(112, 112, 112, 1);
-      border-style: solid;
-      border-width: 1.00px;
-      border-radius: 10.00px;
-      width: 337.00px;
-    height: 55.00px;
-    left: 589.00px;
-    top: 368.00px;
-
+.buttonBar .suButton{
+  position: absolute;
+  box-sizing: border-box;
+  transform-origin: center;
+  opacity: 1;
+  
+  background-color: rgba(253, 253, 253, 1);
+  border-color: rgba(112, 112, 112, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 10px;
 }
 
-.signUpPage .rectangle8 {
-    position: absolute;
-      box-sizing: border-box;
-    transform-origin: center;
-      opacity: 1;
-      background-color: rgba(255, 255, 255, 1);
-      border-color: rgba(112, 112, 112, 1);
-      border-style: solid;
-      border-width: 1.00px;
-      border-radius: 10.00px;
-      width: 337.00px;
-    height: 55.00px;
-    left: 995.00px;
-    top: 368.00px;
-
+.buttonBar .signup{
+  position: absolute;
+  box-sizing: content-box;
+  transform-origin: center;
+  opacity: 1;
+  background-color: rgba(255, 255, 255, 0);
+  text-align: left;
+  
+  color: rgba(112, 112, 112, 1);
+  font-weight: 400;
+  font-style: normal;
+  font-family: Lato, Arial;
+  text-decoration: none;
+  white-space: pre;
 }
-
-.signUpPage .firstName {
-    position: absolute;
-      box-sizing: content-box;
-    transform-origin: center;
-      opacity: 1;
-      background-color: rgba(255, 255, 255, 0);
-      text-align: left;
-      color: rgba(112, 112, 112, 1);
-      font-size: 25.00px;
-      font-weight: 400;
-    font-style: normal;
-      font-family: Lato, Arial;
-      text-decoration: none;
-      white-space: pre;
-      width: 120.00px;
-    height: 30.00px;
-    left: 589.00px;
-    top: 322.00px;
-
-}
-
-.signUpPage .lastName {
-    position: absolute;
-      box-sizing: content-box;
-    transform-origin: center;
-      opacity: 1;
-      background-color: rgba(255, 255, 255, 0);
-      text-align: left;
-      color: rgba(112, 112, 112, 1);
-      font-size: 25.00px;
-      font-weight: 400;
-    font-style: normal;
-      font-family: Lato, Arial;
-      text-decoration: none;
-      white-space: pre;
-      width: 116.00px;
-    height: 30.00px;
-    left: 995.00px;
-    top: 322.00px;
-
-}
-
-.signUpPage .iconAwesomeArrowLeft {
-    position: absolute;
-      box-sizing: content-box;
-    transform-origin: center;
-      opacity: 1;
-      fill: rgba(0, 53, 84, 1);
-      width: 41.50px;
-    height: 40.45px;
-    left: 76.25px;
-    top: 124.00px;
-
-}
-
-.signUpPage .alreadyAUserSignIn {
-    position: absolute;
-      box-sizing: content-box;
-    transform-origin: center;
-      opacity: 1;
-      background-color: rgba(255, 255, 255, 0);
-      text-align: left;
-      color: rgba(112, 112, 112, 1);
-      font-size: 25.00px;
-      font-weight: 400;
-    font-style: normal;
-      font-family: Lato, Arial;
-      text-decoration: none;
-      white-space: pre;
-      width: 257.00px;
-    height: 30.00px;
-    left: 581.00px;
-    top: 855.00px;
-
-}
-
-.signUpPage .textLogo {
-
-      display: block;
-      position: absolute;
-      box-sizing: content-box;
-    transform-origin: center;
-      opacity: 1;
-      background-color: transparent;
-      width: 151.00px;
-    height: 60.00px;
-    left: 126.00px;
-    top: 24.00px;
-
-}
-
-.signUpPage .textLogo .lenses {
-    position: absolute;
-      box-sizing: content-box;
-    transform-origin: center;
-      opacity: 1;
-      background-color: rgba(255, 255, 255, 0);
-      text-align: left;
-      color: rgba(5, 130, 202, 1);
-      font-size: 50.00px;
-      font-weight: 600;
-    font-style: normal;
-      font-family: Lato, Arial;
-      text-decoration: none;
-      white-space: pre;
-      width: 151.00px;
-    height: 60.00px;
-
-}
-
-.signUpPage .logo {
-
-      display: block;
-      position: absolute;
-      box-sizing: content-box;
-    transform-origin: center;
-      opacity: 1;
-      background-color: transparent;
-      width: 67.00px;
-    height: 67.00px;
-    left: 48.50px;
-    top: 21.50px;
-
-}
-
-.signUpPage .logo .group26 {
-
-      display: block;
-      position: absolute;
-      box-sizing: content-box;
-    transform-origin: center;
-      background-image: url("assets/group26.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-      opacity: 1;
-      background-color: transparent;
-      width: 67.00px;
-    height: 67.00px;
-}
-
-.signUpPage .logo .group26 .path6 {
-    position: absolute;
-      box-sizing: content-box;
-    transform-origin: center;
-      opacity: 1;
-      fill: rgba(0, 112, 186, 1);
-      stroke: rgba(0, 0, 0, 0);
-          stroke-width: 1.00px;
-          stroke-linecap: butt;
-      width: 69.00px;
-    height: 69.00px;
-    left: -1.00px;
-    top: -1.00px;
-
-}
-
-.signUpPage .logo .group26 .path7 {
-    position: absolute;
-      box-sizing: content-box;
-    transform-origin: center;
-      opacity: 1;
-      fill: rgba(0, 41, 66, 1);
-      stroke: rgba(0, 0, 0, 0);
-          stroke-width: 1.00px;
-          stroke-linecap: butt;
-      width: 52.98px;
-    height: 51.07px;
-    left: 6.56px;
-    top: 7.97px;
-
-}
-
-.signUpPage .logo .group26 .path8 {
-    position: absolute;
-      box-sizing: content-box;
-    transform-origin: center;
-      opacity: 1;
-      fill: rgba(255, 255, 255, 1);
-      stroke: rgba(0, 0, 0, 0);
-          stroke-width: 1.00px;
-          stroke-linecap: butt;
-      width: 5.76px;
-    height: 28.08px;
-    left: 30.56px;
-    top: 19.46px;
-
-}
-
-.signUpPage .logo .group26 .path9 {
-    position: absolute;
-      box-sizing: content-box;
-    transform-origin: center;
-      opacity: 1;
-      fill: rgba(255, 255, 255, 1);
-      stroke: rgba(0, 0, 0, 0);
-          stroke-width: 1.00px;
-          stroke-linecap: butt;
-      width: 27.41px;
-    height: 5.63px;
-    left: 19.80px;
-    top: 30.68px;
-
-}
-
-.signUpPage .logo .group26 .rectangle20 {
-    position: absolute;
-      box-sizing: content-box;
-    transform-origin: center;
-      opacity: 1;
-      background-color: rgba(255, 255, 255, 0);
-      border-color: rgba(0, 0, 0, 0);
-      border-style: solid;
-      border-width: 1.00px;
-      width: 66.00px;
-    height: 66.00px;
-    left: -0.50px;
-    top: -0.50px;
-
-}
-

@@ -1,35 +1,121 @@
-/*class for homePage*/ 
+@import "main.css";
 
-/*need to include css for the responsiveness - media queries*/
-/*reogranzie to make sense*/
-/*try to combine classes into one*/
-/*tidy up code*/
-/*when theres time remain everything to make sense*/
-
-/*body class*/ 
-body {
-  font-family: 'Open Sans', serif;
-  margin: 0;
-  padding: 0;
-  height: auto;
-  width: auto;
-  background-color: rgba(250, 247, 240, 1);
-  }
-
+/*css for homePage*/ 
 /*home page class*/      
 .homePage {
   display: inline;
   position: relative;
-  box-sizing: border-box;
+  box-sizing: content-box;
   opacity: 1;
-  overflow-x: auto;
-  overflow-y: auto;    
-  width: 1536px;
-  height: 1118.4px;
 }
 
-/*main image styling*/
-.homePage .pexelsJohnDeLeon10413404 {
+/*media query - tablet/small*/
+@media screen and (max-width: 567px) {
+  .response{
+    width: 100%;
+  }
+
+  .homeImg{
+    width: 450px;
+    height: 290px;
+  }
+
+  .caption{
+    top: 390px;
+  }
+
+  .lensesSlogan{
+    font-size: 20px;
+    top: 210px;
+    left: 85px;
+  }
+
+  .signUp{
+    left: 100px;
+    top: 255px;
+    font-size: 15px;
+  }
+
+  .signUpShape{
+    width: 91px;
+    height: 29px;
+    left: 85px;
+    top: 250px;
+  }
+}
+
+/*media query - laptop/medium*/
+@media screen and (min-width: 568px) {
+  .response{
+    width: 50%;
+  }
+
+  .homeImg{
+    width: 990px;
+    height: 550px;
+  }
+
+  .caption{
+    top: 635px;
+  }
+
+  .lensesSlogan{
+    font-size: 35px;
+    top: 310px;
+    left: 135px;
+  }
+
+  .signUp{
+    left: 188px;
+    top: 400px;
+    font-size: 20px;
+  }
+
+  .signUpShape{
+    width: 175px;
+    height: 55px;
+    left: 137px;
+    top: 387px;
+  }
+}
+
+/*media query - desktop/large*/
+@media screen and (min-width: 1024px) {
+
+  .homeImg{
+  width: 1435px;
+  height: 590px;
+  }
+
+  .caption{
+    top: 690px;
+  }
+
+  .lensesSlogan{
+    font-size: 40px;
+    top: 310px;
+    left: 135px;
+  }
+
+  .signUp{
+    left: 188px;
+    top: 400px;
+    font-size: 22px;
+
+  }
+
+  .signUpShape{
+    width: 181px;
+    height: 57px;
+    left: 137px;
+    top: 387px;
+  }
+}
+
+
+/*page specific styling*/
+/*image styling*/
+.homePage .homeImg {
   position: absolute;
   box-sizing: content-box;
   transform-origin: center;
@@ -42,147 +128,36 @@ body {
   margin: 5%; 
   border-color: rgba(112, 112, 112, 1);
   border-width: 1px;   
-  width: 1836px;
-  height: 981px;
   left: 39px;
   right: 39px;
   top: 124px;
   bottom: 50px;
 }
 
-/*home page line*/
-.homePage .line1 {
-  position: absolute;
-  box-sizing: content-box;
-  opacity: 1;
-  cursor: default;
-  stroke: rgba(112, 112, 112, 1);
-  stroke-width: 1px;
-  stroke-linecap: butt;
-  width: 1836px;
-  height: 2px;
-  left: 42.5px;
-  top: 106px;
-}
-
-/*link styling*/
-  /* unvisited link */
-  a:link {
-    color:rgba(0, 53, 84, 1);
-  }
-
-  /* selected link */
-  a:active {
-    color: rgba(5, 130, 202, 1);
-  }
-
-/*home page about link*/
-.homePage .about {
-  position: absolute;
-  box-sizing: content-box;
-  opacity: 1;
-  color: rgba(0, 53, 84, 1);
-  text-decoration-color: white;
-  font-size: 20px;
-  font-style: normal;
-  font-family: Lato, Arial;
-    
-  /*needs to be adjusted to window frame*/
-  width: 54.00px;
-  height: 24.00px;
-  left: 1675.00px;
-  top: 54.00px;
-}
-
-/*login rectangle styling*/
-.homePage .rectangle3 {
-  position: absolute;
-  box-sizing: border-box;
-  opacity: 1;
-  background-color: rgba(5, 130, 202, 1);
-  border-color: rgba(112, 112, 112, 1);
-  border-style: solid;
-  border-width: 1px;
-  border-radius: 10.00px;
-  
-  /*needs to be adjusted to window frame*/
-      width: 121.00px;
-    height: 36.00px;
-    left: 1758.00px;
-    top: 48.00px;
-}
-
-/*login link styling*/
-.homePage .logIn {
-  position: absolute;
-  box-sizing: content-box;
-  opacity: 1;
-  text-align: left;
-  color: rgba(0, 53, 84, 1);
-  text-decoration: none;
-  color: rgba(255, 255, 255, 1);
-  font-size: 20px;
-  font-style: normal;
-  font-family: Lato, Arial;
-  white-space: pre;
-    
-  /*needs to be adjusted to window frame*/
-  width: 40.00px;
-    height: 18.00px;
-    left: 1794.00px;
-    top: 57.00px;
-}
-
-/*membership link styling*/
-.homePage .memberships {
-  position: absolute;
-  box-sizing: content-box;
-  opacity: 1;
-  color: rgba(0, 53, 84, 1);
-  text-decoration: none;
-  font-size: 20px;
-  font-style: normal;
-  font-family: Lato, Arial;
-      
-  /*needs to be adjusted to window frame*/
-      width: 119.00px;
-    height: 24.00px;
-    left: 1527.00px;
-    top: 54.00px;
-
-}
-
-/*company title styling*/
-.homePage .capturingTheBeautyOfYourEverydayLife {
+/*company slogan styling*/
+.homePage .lensesSlogan {
   position: absolute;
   box-sizing: content-box;  
   opacity: 1;
   text-align: left; 
   color: rgba(0, 100, 148, 1);
-  font-size: 45px;
   font-weight: 500;
   font-style: normal;
-  font-family: Lato, Arial;  
-  width: 926.00px;
-  height: 120.00px;
-  left: 135.00px;
-  top: 510.00px;
+  font-family: Lato, Arial;
+  width: 926px;
+  height: 120px;
 }
 
 /*signup rectangle styling*/
-.homePage .rectangle4 {
+.homePage .signUpShape {
   position: absolute;
   box-sizing: border-box;
   opacity: 1;
   background-color: rgba(250, 247, 240, 1);
   border-color: rgba(112, 112, 112, 1);
   border-style: solid;
-  border-width: 1.00px;
-  border-radius: 10.00px;
-  width: 181.00px;
-  height: 57.00px;
-  left: 135.00px;
-  top: 662.00px;
+  border-width: 1px;
+  border-radius: 10px;
 }
 
 /*signUp link styling*/
@@ -193,115 +168,15 @@ body {
   background-color: rgba(255, 255, 255, 0);
   text-align: left;    
   color: rgba(4, 25, 38, 1);    
-  font-size: 22.00px;
   font-weight: 400;
   font-style: normal;
   font-family: Lato, Arial;
   text-decoration: none;
   white-space: pre;
-  width: 75.00px;
-  height: 25.00px;
-  left: 188.00px;
-  top: 677.00px;
-}
-
-/*discover link styling*/
-.homePage .discover {
-  position: absolute;
-  box-sizing: content-box;
-  opacity: 1;
-  color: rgba(0, 53, 84, 1);
-  text-decoration: none;
-  font-size: 20px;
-  font-style: normal;
-  font-family: Lato, Arial;
-      
-  /*needs to be adjusted to window frame*/
-      width: 77.00px;
-    height: 24.00px;
-    left: 1423.00px;
-    top: 55.00px;
-}
-
-/* logo styling */
-.homePage .logo {
-  display: block;
-  position: absolute;
-  box-sizing: content-box;
-  opacity: 1;
-  overflow-x: unset;
-  overflow-y: unset;
-  background-color: transparent;
-  width: 67.00px;
-  height: 67.00px;
-  left: 48.50px;
-  top: 21.50px;
-}
-
-/*logo positioning styling (can be combined with .logo main)*/
-.homePage .logo .group26 {
-  display: block;
-  position: absolute;
-  box-sizing: content-box;
-  transform-origin: center;
-  background-image: url("assets/group26.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  opacity: 1;
-  width: 67.00px;
-  height: 67.00px;
-  left: 0.00px;
-  top: 0.00px;
-}
-
-/*text logo positioning*/
-.homePage .textLogo {
-  display: block;
-  position: absolute;
-  box-sizing: content-box;
-  transform-origin: center;
-  opacity: 1;
-  overflow-x: unset;
-  overflow-y: unset;
-  background-color: transparent;
-  width: 151.00px;
-  height: 60.00px;
-  left: 126.00px;
-  top: 24.00px;
-}
-
-/*text logo styling*/
-.homePage .textLogo .lenses {
-  position: absolute;
-  box-sizing: content-box;
-  transform-origin: center;
-  opacity: 1;
-  text-align: left;  
-  color: rgba(5, 130, 202, 1);
-  font-size: 50.00px;
-  font-weight: 600;
-  font-style: normal;
-  font-family: Lato, Arial;
-  width: 151.00px;
-  height: 60.00px;
+  
 }
 
 /*img caption text styling*/
-.homePage .johnDeLeon {
-  position: absolute;
-  box-sizing: content-box;
-  transform-origin: center;
-  opacity: 1;  
-  text-align: left;  
-  color: rgba(167, 167, 167, 1);  
-  font-size: 20.00px;
-  font-weight: 400;
-  font-style: normal;
-  font-family: Lato, Arial;
-  white-space: pre;
-  width: 120.00px;
-  height: 24.00px;
-  left: 49.00px;
-  top: 1080px;
+.homePage .caption {
+  left: 49px;
 }

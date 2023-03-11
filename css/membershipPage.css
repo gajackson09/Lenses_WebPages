@@ -1,723 +1,504 @@
-/*class for membershipPage*/ 
+@import "main.css";
 
-/*need to include css for the responsiveness - media queries*/
-/*reogranzie to make sense*/
-/*rename classes*/
-/*try to combine classes into one*/
-/*when theres time remain everything to make sense*/
-/*tidy code up*/
-
-/*body class*/ 
-body {
-  font-family: 'Open Sans', serif;
-  margin: 0;
-  padding: 0;
-  height: auto;
-  width: auto;
-  background-color: rgba(250, 247, 240, 1);
-  }
-
+/*css for membershipPage*/
 /*memebership page class*/
 .membershipPage {
   display: block;
   position: absolute;
   box-sizing: content-box;
   opacity: 1;
-  background-color: rgba(250, 247, 240, 1);
-  width: 1536px;
-  height: 1118.4px;
 }
 
-/**/
-.membershipPage .image {
+/*media query - tablet/small*/
+@media screen and (max-width: 567px) {
+  .response{
+    width: 100%;
+  }
+
+  .memImage{
+    width: 440px;
+    height: 120px;
+  }
+
+  .caption{
+    top: 220px;  
+    left: 68px;
+  }
+
+/*text styling*/
+.includes{
+  position: absolute;
+  box-sizing: content-box;
+  transform-origin: center;
+  opacity: 1;
+  background-color: rgba(255, 255, 255, 0);
+  text-align: left;
+  color: rgba(0, 41, 66, 1);
+  font-size: 30px;
+  font-style: normal;
+  font-family: Lato, Arial;
+  text-decoration: none;
+  white-space: pre;
+  font-weight: 700;
+  width: 196px;
+  height: 60px;
+}
+
+.header1{
+  font-size: 30px;
+}
+
+.header2{
+  font-size: 30px;
+}
+
+.paragraph{
+  font-size: 15px;
+ 
+}
+
+/*boxA styling*/
+.boxA .shapeA{
+  width: 400px;
+  height: 230px;
+  left: 48px;
+  top: 280px;
+}
+
+.boxA .header1{
+  left: 100px;
+  top: 290px;
+}
+
+.boxA .header2{
+  left: 100px;
+  top: 330px;
+}
+
+.boxA .includes{
+  left: 100px;
+  top: 380px;
+}
+
+.boxA .paragraph{
+  left: 100px;
+  top: 425px;
+  width: 330px;
+  height: 500px;
+  text-align: left;
+}
+
+/*boxB styling*/
+.boxB .shapeB{
+  width: 400px;
+  height: 255px;
+  left: 48px;
+  top: 525px;
+}
+
+.boxB .header1{
+  left: 100px;
+  top: 535px;
+}
+
+.boxB .header2{
+  left: 100px;
+  top: 575px;
+}
+
+.boxB .includes{
+  left: 100px;
+  top: 615px;
+}
+
+.boxB .paragraph{
+  left: 100px;
+  top: 660px;
+  width: 330px;
+  height: 500px;
+  text-align: left;
+}
+
+/*boxC styling*/
+.boxC .shapeC{
+  width: 400px;
+  height: 265px;
+  left: 48px;
+  top: 795px;
+}
+
+.boxC .header1{
+  left: 100px;
+  top: 810px;
+}
+
+.boxC .header2{
+  left: 100px;
+  top: 850px;
+}
+
+.boxC .includes{
+  left: 100px;
+  top: 880px;
+}
+
+.boxC .paragraph{
+  left: 100px;
+  top: 920px;
+  width: 335px;
+  height: 500px;
+  text-align: left;
+}
+}
+
+/*media query - laptop/medium*/
+@media screen and (min-width: 568px) {
+  .response{
+    width: 50%;
+  }
+
+  .memImage{
+    width: 935px;
+    height: 237px;
+  }
+
+  .caption{
+    left: 75px;
+    top: 325px;
+  }
+
+  /*text styling*/
+.includes{
+  position: absolute;
+  box-sizing: content-box;
+  transform-origin: center;
+  opacity: 1;
+  background-color: rgba(255, 255, 255, 0);
+  text-align: left;
+  color: rgba(0, 41, 66, 1);
+  font-size: 40px;
+  font-style: normal;
+  font-family: Lato, Arial;
+  text-decoration: none;
+  white-space: pre;
+  font-weight: 700;
+  width: 196px;
+  height: 60px;
+}
+
+
+.header1{
+  font-size: 40px;
+}
+
+.header2{
+  font-size: 40px;
+}
+
+.paragraph{
+  font-size: 20px;
+}
+
+/*boxA styling*/
+.boxA .shapeA{
+  width: 300px;
+  height: 450px;
+  left: 48px;
+  top: 425px;
+}
+
+.boxA .header1{
+  left: 150px;
+  top: 470px;
+}
+
+.boxA .header2{
+  left: 80px;
+  top: 540px;
+}
+
+.boxA .includes{
+  left: 120px;
+  top: 600px;
+}
+
+.boxA .paragraph{
+  left: 30px;
+  top: 660px;
+  width: 330px;
+  height: 500px;
+}
+
+/*boxB styling*/
+.boxB .shapeB{
+  width: 300px;
+  height: 450px;
+  left: 370px;
+  top: 425px;
+}
+
+.boxB .header1{
+  left: 500px;
+  top: 470px;
+}
+
+.boxB .header2{
+  left: 400px;
+  top: 540px;
+}
+
+.boxB .includes{
+  left: 450px;
+  top: 600px;
+}
+
+.boxB .paragraph{
+  left: 370px;
+  top: 660px;
+  width: 310px;
+  height: 500px;
+}
+
+/*boxC styling*/
+.boxC .shapeC{
+  width: 300px;
+  height: 450px;
+  left: 693px;
+  top: 425px;
+}
+
+.boxC .header1{
+  left: 765px;
+  top: 470px;
+}
+
+.boxC .header2{
+  left: 720px;
+  top: 540px;
+}
+
+.boxC .includes{
+  left: 778px;
+  top: 600px;
+}
+
+.boxC .paragraph{
+  left: 710px;
+  top: 660px;
+  width: 280px;
+  height: 500px;
+}
+
+}
+
+/*media query - desktop/large*/
+@media screen and (min-width: 1024px) {
+  .memImage{
+    width: 1430px;
+    height: 337px; 
+  }
+
+  .caption{
+    left: 75px;
+    top: 425px;
+  }
+
+
+/*text styling*/
+.includes{
+  position: absolute;
+  box-sizing: content-box;
+  transform-origin: center;
+  opacity: 1;
+  background-color: rgba(255, 255, 255, 0);
+  text-align: left;
+  color: rgba(0, 41, 66, 1);
+  font-size: 50px;
+  font-style: normal;
+  font-family: Lato, Arial;
+  text-decoration: none;
+  white-space: pre;
+  font-weight: 700px;
+  width: 196px;
+  height: 60px;
+}
+
+.header1{
+  font-size: 50px;
+}
+
+.header2{
+  font-size: 50px;
+}
+
+.paragraph{
+  font-size: 30px;
+}
+
+/*boxA styling*/
+.boxA .shapeA{
+  width: 450px;
+  height: 650px;
+  left: 48px;
+  top: 545px;
+}
+
+.boxA .header1{
+  left: 220px;
+  top: 620px;
+}
+
+.boxA .header2{
+  left: 130px;
+  top: 710px;
+}
+
+.boxA .includes{
+  left: 170px;
+  top: 800px;
+}
+
+.boxA .paragraph{
+  left: 60px;
+  top: 880px;
+  width: 430px;
+  height: 500px;
+}
+
+/*boxB styling*/
+.boxB .shapeB{
+  width: 450px;
+  height: 650px;
+  left: 540px;
+  top: 545px;
+}
+
+.boxB .header1{
+  left: 720px;
+  top: 620px;
+}
+
+.boxB .header2{
+  left: 623px;
+  top: 710px;
+}
+
+.boxB .includes{
+  left: 680px;
+  top: 800px;
+}
+
+.boxB .paragraph{
+  left: 560px;
+  top: 880px;
+  width: 430px;
+  height: 500px;
+}
+
+/*boxC styling*/
+.boxC .shapeC{
+  width: 450px;
+  height: 650px;
+  left: 1033px;
+  top: 545px;
+}
+
+.boxC .header1{
+  left: 1165px;
+  top: 620px;
+}
+
+.boxC .header2{
+  left: 1120px;
+  top: 710px;
+}
+
+.boxC .includes{
+  left: 1178px;
+  top: 800px;
+}
+
+.boxC .paragraph{
+  left: 1054px;
+  top: 880px;
+  width: 430px;
+  height: 500px;
+}
+}
+
+
+/*page specific styling*/
+/*image styling*/
+.membershipPage  .memImage {
+  display: block;
+  position: absolute;
+  box-sizing: content-box;
+  background-image: url("assets/danielsarmiento.png");
+  transform-origin: center;
+  opacity: 1;
+  background-color: transparent;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-color: rgba(62, 62, 62, 1);
+  border-style: none;
+  border-width: 2px;
+  left: 43px;
+  top: 124px;
+}
+
+/*paragraph styling*/
+.paragraph{
+  position: absolute;
+  box-sizing: content-box;
+  transform-origin: center;
+  opacity: 1;
+  background-color: rgba(255, 255, 255, 0);
+  text-align: center;
+  color: rgba(0, 41, 66, 1);
+  font-weight: 400;
+  font-style: normal;
+  font-family: 'Segoe UI', Arial;
+  text-decoration: none;
+}
+
+
+/*A: box and shape styling*/
+.membershipPage .boxA .shapeA {
+  position: absolute;
+  transform-origin: center;
+  box-sizing: border-box;
+  opacity: 0.4000000059604645;
+  background-color: rgba(5, 130, 202, 1);
+  border-color: rgba(112, 112, 112, 1);
+  border-style: solid;
+  border-width: 1px;
+}
+
+
+/*B: box and shape styling*/
+.membershipPage .boxB .shapeB{
   display: block;
   position: absolute;
   box-sizing: content-box;
   transform-origin: center;
-  opacity: 1;
-  background-color: transparent;
-  width: 1836.00px;
-  height: 337.00px;
-  left: 43.00px;
-  top: 124.00px;
-
+  opacity: 0.4000000059604645;
+  background-color: rgba(5, 130, 202, 1);
+  border-color: rgba(112, 112, 112, 1);
+  border-style: solid;
+  border-width: 1px;
 }
 
-/*membershipPage image data*/
-.membershipPage .image .metadata {
-  position: absolute;
-    box-sizing: content-box;
-    display: none;
-  transform-origin: center;
-    opacity: 1;
-    background-color: rgba(255, 255, 255, 0);
-    text-align: left;
-    color: transparent;
-    font-size: 3.00px;
-    font-weight: 400;
-  font-style: normal;
-    font-family: Arial;
-    text-decoration: none;
-    width: 10.00px;
-  height: 10.00px;
-}
 
-/*membership page image styling*/
-.membershipPage .image .placementArea {
-position: absolute;
-box-sizing: content-box;
-background-image: url("assets/placementArea.png");
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
-opacity: 1;
-border-color: rgba(62, 62, 62, 1);
-border-style: none;
-border-width: 2.00px;
-width: 1836.00px;
-height: 337.00px;
-}
-
-/*line styling*/
-.membershipPage .line1 {
-position: absolute;
-box-sizing: content-box;
-opacity: 1;
-cursor: default;
-stroke: rgba(112, 112, 112, 1);
-stroke-width: 1px;
-stroke-linecap: butt;
-width: 1836px;
-height: 2px;
-left: 42.5px;
-top: 106px;
-}
-
-/*link styling*/
-/* unvisited link */
-a:link {
-  color:rgba(0, 53, 84, 1);
-}
-
-/* selected link */
-a:active {
-  color: rgba(5, 130, 202, 1);
-}
-
-/*about link styling*/
-.membershipPage .about {
-position: absolute;
-box-sizing: content-box;
-opacity: 1;
-color: rgba(0, 53, 84, 1);
-text-decoration: none;
-font-size: 20px;
-font-style: normal;
-font-family: Lato, Arial;
-  
-/*needs to be adjusted to window frame*/
-width: 54.00px;
-height: 24.00px;
-left: 1675.00px;
-top: 54.00px;
-}
-
-/**/
-.membershipPage .rectangle3 {
-position: absolute;
-box-sizing: border-box;
-opacity: 1;
-background-color: rgba(5, 130, 202, 1);
-border-color: rgba(112, 112, 112, 1);
-border-style: solid;
-border-width: 1px;
-border-radius: 10.00px;
-
-/*needs to be adjusted to window frame*/
-    width: 121.00px;
-  height: 36.00px;
-  left: 1758.00px;
-  top: 48.00px;
-}
-
-/**/
-.membershipPage .logIn {
-  position: absolute;
-  box-sizing: content-box;
-  opacity: 1;
-  text-align: left;
-  color: rgba(0, 53, 84, 1);
-  text-decoration: none;
-  color: rgba(255, 255, 255, 1);
-  font-size: 20px;
-  font-style: normal;
-  font-family: Lato, Arial;
-  white-space: pre;
-  
-/*needs to be adjusted to window frame*/
-width: 40.00px;
-  height: 18.00px;
-  left: 1794.00px;
-  top: 57.00px;
-}
-
-/**/
-.membershipPage .discover {
-position: absolute;
-box-sizing: content-box;
-opacity: 1;
-color: rgba(0, 53, 84, 1);
-text-decoration: none;
-font-size: 20px;
-font-style: normal;
-font-family: Lato, Arial;
-      
-/*needs to be adjusted to window frame*/
-width: 77.00px;
-height: 24.00px;
-left: 1423.00px;
-top: 55.00px;
-}
-
-/**/
-.membershipPage .memberships {
-position: absolute;
-box-sizing: content-box;
-opacity: 1;
-color: rgba(5, 130, 202, 1);
-text-decoration: none;
-font-size: 20px;
-font-style: normal;
-font-family: Lato, Arial;
-    
-/*needs to be adjusted to window frame*/
-    width: 119.00px;
-  height: 24.00px;
-  left: 1527.00px;
-  top: 54.00px;
-}
-
-/**/
-.membershipPage .logo {
-display: block;
-position: absolute;
-box-sizing: content-box;
-opacity: 1;
-
-background-color: transparent;
-width: 67.00px;
-height: 67.00px;
-left: 48.50px;
-top: 21.50px;
-}
-
-/**/
-.membershipPage .logo .group26 {
-display: block;
-position: absolute;
-box-sizing: content-box;
-transform-origin: center;
-background-image: url("assets/group26.png");
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
-opacity: 1;
-width: 67.00px;
-height: 67.00px;
-
-}
-
-/**/
-.membershipPage .textLogo {
-display: block;
-position: absolute;
-box-sizing: content-box;
-transform-origin: center;
-opacity: 1;
-background-color: transparent;
-width: 151.00px;
-height: 60.00px;
-left: 126.00px;
-top: 24.00px;
-}
-
-/**/
-.membershipPage .textLogo .lenses {
+/*C: box and shape styling*/
+.membershipPage .boxC .shapeC{
+  display: block;
   position: absolute;
   box-sizing: content-box;
   transform-origin: center;
-  opacity: 1;
-  text-align: left;  
-  color: rgba(5, 130, 202, 1);
-  font-size: 50.00px;
-  font-weight: 600;
-  font-style: normal;
-  font-family: Lato, Arial;
-  width: 151.00px;
-  height: 60.00px;
+  opacity: 0.4000000059604645;
+  background-color: rgba(5, 130, 202, 1);
+  border-color: rgba(112, 112, 112, 1);
+  border-style: solid;
+  border-width: 1px;
 }
-
-/**/
-.membershipPage .danielSarmiento {
-  position: absolute;
-  box-sizing: content-box;
-  transform-origin: center;
-  opacity: 1; 
-  text-align: left;  
-  color: rgba(167, 167, 167, 1); 
-  font-size: 20.00px;
-  font-weight: 400;
-  font-style: normal;
-  font-family: Lato, Arial;
-  text-decoration: none;
-  white-space: pre;
-  width: 85.00px;
-  height: 24.00px;
-  left: 75.00px;
-  top: 425.00px;
-}
-
-/**/
-.membershipPage .group381d83f683 {
-    display: block;
-    position: absolute;
-    box-sizing: content-box;
-  transform-origin: center;
-    opacity: 1;
-    background-color: transparent;
-    
-    
-    width: 560.00px;
-  height: 921.00px;
-  left: 49.00px;
-  top: 564.00px;
-
-}
-
-/**/
-.membershipPage .group381d83f683 .rectangle213bda16c9 {
-position: absolute;
-box-sizing: content-box;
-opacity: 0.4000000059604645;
-background-color: rgba(5, 130, 202, 1);
-border-color: rgba(112, 112, 112, 1);
-border-width: 1.00px;
-width: 560.00px;
-height: 921.00px;
-}
-
-/**/
-.membershipPage .group381d83f683 .basic {
-  position: absolute;
-  box-sizing: content-box;
-  transform-origin: center;
-  opacity: 1;
-    
-  background-color: rgba(255, 255, 255, 0);
-  text-align: left;
- 
-  color: rgba(5, 130, 202, 1);
-  font-size: 50.00px;
-  font-weight: 700;
-  font-style: normal;
-  font-family: Lato, Arial;
-  text-decoration: none;
-    
-  white-space: pre;
-
-
-    width: 117.00px;
-  height: 60.00px;
-  left: 223.00px;
-  top: 60.00px;
-
-}
-
-/**/
-.membershipPage .group381d83f683 .x199AMonth {
-  position: absolute;
-    box-sizing: content-box;
-
-  transform-origin: center;
-    opacity: 1;
-
-    background-color: rgba(255, 255, 255, 0);
-    text-align: left;
-   
-    color: rgba(0, 41, 66, 1);
-    
-    font-size: 50.00px;
-    font-weight: 500;
-  font-style: normal;
-    font-family: Lato, Arial;
-    text-decoration: none;
-    box-shadow: none;
-
-    white-space: pre;
-
-
-    width: 315.00px;
-  height: 60.00px;
-  left: 123.00px;
-  top: 146.00px;
-
-}
-
-/**/
-.membershipPage .group381d83f683 .includesf0997453 {
-  position: absolute;
-    box-sizing: content-box;
-
-  transform-origin: center;
-    opacity: 1;
-
-    background-color: rgba(255, 255, 255, 0);
-    text-align: left;
-    
-    color: rgba(0, 41, 66, 1);
-    
-    font-size: 50.00px;
-    font-weight: 700;
-  font-style: normal;
-    font-family: Lato, Arial;
-    text-decoration: none;
-    
-    white-space: pre;
-
-
-    width: 196.00px;
-  height: 60.00px;
-  left: 184.00px;
-  top: 232.00px;
-
-}
-
-/**/
-.membershipPage .group381d83f683 .lensesNewsletterlimitedProfessionalHelp5QuestionsAWeek1TbOfStorageunlimitedPosts {
-  position: absolute;
-    box-sizing: content-box;
-
-  transform-origin: center;
-    opacity: 1;
-
-    background-color: rgba(255, 255, 255, 0);
-    text-align: center;
-    
-    color: rgba(0, 41, 66, 1);
-    
-    font-size: 30.00px;
-    font-weight: 400;
-  font-style: normal;
-    font-family: 'Segoe UI', Arial;
-    text-decoration: none;
-    
-
-    width: 430.00px;
-  height: 571.00px;
-  left: 64.00px;
-  top: 318.00px;
-
-}
-
-/**/
-.membershipPage .group386f24d6fa {
-
-    display: block;
-    position: absolute;
-    box-sizing: content-box;
-
-  transform-origin: center;
-    opacity: 1;
-
-
-    width: 560.00px;
-  height: 921.00px;
-  left: 681.00px;
-  top: 564.00px;
-
-}
-
-/**/
-.membershipPage .group386f24d6fa .rectangle21ce729834 {
-  position: absolute;
-    box-sizing: border-box;
-
-  transform-origin: center;
-    opacity: 0.4000000059604645;
-
-    background-color: rgba(5, 130, 202, 1);
-    border-color: rgba(112, 112, 112, 1);
-    border-style: solid;
-    border-width: 1.00px;
-
-    
-    width: 560.00px;
-  height: 921.00px;
-  left: 0.00px;
-  top: 0.00px;
-
-}
-
-/**/
-.membershipPage .group386f24d6fa .pro {
-  position: absolute;
-    box-sizing: content-box;
-
-  transform-origin: center;
-    opacity: 1;
- 
-    background-color: rgba(255, 255, 255, 0);
-    text-align: left;
-    
-    color: rgba(5, 130, 202, 1);
-    -webkit-text-stroke: unset;
-    font-size: 50.00px;
-    font-weight: 700;
-  font-style: normal;
-    font-family: Lato, Arial;
-    text-decoration: none;
-
- 
-    white-space: pre;
-
-    width: 77.00px;
-  height: 60.00px;
-  left: 223.00px;
-  top: 60.00px;
-
-}
-
-/**/
-.membershipPage .group386f24d6fa .x599AMonth {
-  position: absolute;
-    box-sizing: content-box;
-    
- 
-  transform-origin: center;
-    opacity: 1;
-    
-    background-color: rgba(255, 255, 255, 0);
-    text-align: left;
-    letter-spacing: 0.00px;
-    color: rgba(0, 53, 84, 1);
-   
-    font-size: 50.00px;
-    font-weight: 500;
-  font-style: normal;
-    font-family: Lato, Arial;
-    text-decoration: none;
-    
-  
-    white-space: pre;
-
-    width: 315.00px;
-  height: 60.00px;
-  left: 123.00px;
-  top: 146.00px;
-
-}
-
-/**/
-.membershipPage .group386f24d6fa .includes7fa6da24 {
-  position: absolute;
-    box-sizing: content-box;
-
-  transform-origin: center;
-    opacity: 1;
- 
-    background-color: rgba(255, 255, 255, 0);
-    text-align: left;
-    
-    color: rgba(0, 53, 84, 1);
-    
-    font-size: 50.00px;
-    font-weight: 700;
-  font-style: normal;
-    font-family: Lato, Arial;
-    text-decoration: none;
-   
-    
-    white-space: pre;
-    width: 196.00px;
-  height: 60.00px;
-  left: 184.00px;
-  top: 232.00px;
-
-}
-
-/**/
-.membershipPage .group386f24d6fa .lensesNewsletterlimitedProfessionalHelp15QuestionsAWeek5TbOfStorageunlimitedPostsphotographyListingOnDiscoverAndCompanyPagesOnRotation {
-  position: absolute;
-    box-sizing: content-box;
-
-  transform-origin: center;
-    opacity: 1;
-
-    background-color: rgba(255, 255, 255, 0);
-    text-align: center;
-
-    color: rgba(0, 53, 84, 1);
-    
-    font-size: 30.00px;
-    font-weight: 400;
-  font-style: normal;
-    font-family: 'Segoe UI', Arial;
-    text-decoration: none;
-  
-   
-    width: 430.00px;
-  height: 571.00px;
-  left: 64.00px;
-  top: 318.00px;
-
-}
-
-/**/
-.membershipPage .group38 {
-
-    display: block;
-    position: absolute;
-    box-sizing: content-box;
-
-  transform-origin: center;
-    opacity: 1;
-
-  
-    background-color: transparent;
-    width: 560.00px;
-  height: 921.00px;
-  left: 1313.00px;
-  top: 564.00px;
-
-}
-
-/**/
-.membershipPage .group38 .rectangle21 {
-  position: absolute;
-    box-sizing: border-box;
-   
-  transform-origin: center;
-    opacity: 0.4000000059604645;
-  
-    background-color: rgba(5, 130, 202, 1);
-    border-color: rgba(112, 112, 112, 1);
-    border-style: solid;
-    border-width: 1.00px;
- 
-    
-    width: 560.00px;
-  height: 921.00px;
-  left: 0.00px;
-  top: 0.00px;
-
-}
-
-/**/
-.membershipPage .group38 .premium {
-  position: absolute;
-    box-sizing: content-box;
- 
-  transform-origin: center;
-    opacity: 1;
-
-    background-color: rgba(255, 255, 255, 0);
-    text-align: left;
-    letter-spacing: 0.00px;
-    color: rgba(5, 130, 202, 1);
-    
-    font-size: 50.00px;
-    font-weight: 700;
-  font-style: normal;
-    font-family: Lato, Arial;
-    text-decoration: none;
-    
- 
-    white-space: pre;
-    width: 200.00px;
-  height: 60.00px;
-  left: 180.00px;
-  top: 60.00px;
-
-}
-
-/**/
-.membershipPage .group38 .x999AMonth {
-  position: absolute;
-    box-sizing: content-box;
-
-  transform-origin: center;
-    opacity: 1;
- 
-    background-color: rgba(255, 255, 255, 0);
-    text-align: left;
-    letter-spacing: 0.00px;
-    color: rgba(0, 53, 84, 1);
-    
-    font-size: 50.00px;
-    font-weight: 500;
-  font-style: normal;
-    font-family: Lato, Arial;
-    text-decoration: none;
-    
-
-    white-space: pre;
-    width: 315.00px;
-  height: 60.00px;
-  left: 123.00px;
-  top: 146.00px;
-
-}
-
-/**/
-.membershipPage .group38 .includes {
-  position: absolute;
-    box-sizing: content-box;
-
-  transform-origin: center;
-
-    background-color: rgba(255, 255, 255, 0);
-    text-align: left;
-    letter-spacing: 0.00px;
-    color: rgba(0, 53, 84, 1);
-    
-    font-size: 50.00px;
-    font-weight: 700;
-  font-style: normal;
-    font-family: Lato, Arial;
-    text-decoration: none;
-    box-shadow: none;
-
-    white-space: pre;
-    width: 196.00px;
-  height: 60.00px;
-  left: 184.00px;
-  top: 232.00px;
-
-}
-
-/**/
-.membershipPage .group38 .lensesNewsletterunlimitedProfessionalHelpunlimitedPostsAndStoragephotographyListingOnDiscoverAndCompanyPagesOnRotationpromotionOnSocialMediaotherMemberExclusiveContent {
-  position: absolute;
-
-  transform-origin: center;
-    opacity: 1;
-
-    background-color: rgba(255, 255, 255, 0);
-    text-align: center;
-    
-    color: rgba(0, 53, 84, 1);
-   
-    font-size: 30.00px;
-    font-weight: 400;
-  font-style: normal;
-    font-family: 'Segoe UI', Arial;
-    text-decoration: none;
-    
-
-    width: 430.00px;
-  height: 571.00px;
-  left: 64.00px;
-  top: 318.00px;
-
-}
-

@@ -1,580 +1,399 @@
-/*class for loginPage*/ 
+@import "main.css";
 
-/*need to include css for the responsiveness - media queries*/
-/*reogranzie to make sense*/
-/*try to combine classes into one*/
-/*tidy up code*/
-/*when theres time remain everything to make sense*/
+/*css for loginPage*/ 
+/*login page class*/
+.loginPage {
+      display: block;
+      position: absolute;
+      box-sizing: content-box;
+    transform-origin: center;
+      opacity: 1;
+}
 
-/*body class*/ 
-body {
-  font-family: 'Open Sans', serif;
-  margin: 0;
-  padding: 0;
-  height: auto;
-  width: auto;
-  background-color: rgba(250, 247, 240, 1);
+/*media query - tablet/small*/
+@media screen and (max-width: 567px) {
+  .response{
+    width: 100%;
   }
 
-/**/
-      .loginPage {
+  .liButton{
+    width: 150px;
+    height: 57px;
+    left: 50px;
+    top: 190px;
+  }
+  
+  .suButton{
+    width: 150px;
+    height: 57px;
+    left: 250px;
+    top: 190px;
+  }
 
-      display: block;
-      position: absolute;
-      box-sizing: content-box;
-    transform-origin: center;
-      opacity: 1;
-      background-color: rgba(250, 247, 240, 1);
-      width: 1920.00px;
-    height: 1080.00px;
+
+.logIn{
+  left: 100px;
+  top: 200px;
+  font-size: 22px;
+}
+
+.signup{
+  left: 290px;
+  top: 200px;
+  font-size: 22px;
+}
+
+
+/*label font size and positioning*/
+label {
+  font-size: 15px;
+}
+
+.username{
+  left: 75px;
+  top: 300px;
+}
+
+.password{
+  left: 75px;
+  top: 400px;
+}
+
+/*input box positions*/
+.input_un {
+  width: 270px;
+  left: 75px;
+  top: 325px;
+}
+
+.input_pw {
+  width: 270px;
+  left: 75px;
+  top: 425px;
+}
+
+.text{
+  font-size: 20px;
+}
+
+.iconAwesomeFacebook{
+  left: 125px;
+  top: 580px;
+}
+
+.iconAwesomeGoogle{
+  left: 175px;
+  top: 580px;
+}
+
+.iconAwesomeTwitter{
+  left: 225px;
+  top: 580px;
+}
+
+.iconAwesomeLinkedin{
+  left: 275px;
+  top: 580px;
+}
+
+input[type=submit] {
+  left: 150px;
+  top: 500px;
+}
+
+.orLogInWith{
+  left: 150px;
+  top: 545px;
+}
+
+.line2{
+  left: 200px;
+  top: 720px;
+  width: 180px;
+  height: 0px;
+}
+
+.line3{
+  left: 530px;
+  top: 720px;
+  width: 180px;
+  height: 0px;
+}
 
 }
 
-/**/
-.loginPage .line1 {
-    position: absolute;
-      box-sizing: content-box;
-    transform-origin: center;
-      opacity: 1;
-      stroke: rgba(112, 112, 112, 1);
-          stroke-width: 1.00px;
-          stroke-linecap: butt;
-      width: 1836.00px;
-    height: 2.00px;
-    left: 42.50px;
-    top: 106.00px;
+
+/*media query - laptop/medium*/
+@media screen and (min-width: 568px) {
+  .response{
+    width: 50%;
+  }
+
+  .liButton{
+    width: 181px;
+    height: 57px;
+    left: 200px;
+    top: 190px;
+  }
+  
+  .suButton{
+    width: 181px;
+    height: 57px;
+    left: 500px;
+    top: 190px;
+  }
+
+
+.logIn{
+  left: 265px;
+  top: 200px;
+  font-size: 22px;
+}
+
+.signup{
+  left: 565px;
+  top: 200px;
+  font-size: 22px;
+}
+
+
+/*label font size and positioning*/
+label {
+  font-size: 20px;
+}
+
+.username{
+  left: 100px;
+  top: 315px;
+}
+
+.password{
+  left: 100px;
+  top: 430px;
+}
+
+/*input box positions*/
+.input_un {
+  width: 743px;
+  left: 100px;
+  top: 355px;
+}
+
+.input_pw {
+  width: 743px;
+  left: 100px;
+  top: 465px;
+}
+
+.text{
+  font-size: 20px;
+}
+
+.iconAwesomeFacebook{
+  left: 370px;
+  top: 650px;
+}
+
+.iconAwesomeGoogle{
+  left: 420px;
+  top: 650px;
+}
+
+.iconAwesomeTwitter{
+  left: 470px;
+  top: 650px;
+}
+
+.iconAwesomeLinkedin{
+  left: 520px;
+  top: 650px;
+}
+
+input[type=submit] {
+  left: 400px;
+  top: 545px;
+}
+
+.orLogInWith{
+  left: 390px;
+  top: 605px;
+}
+
+.line2{
+  left: 200px;
+  top: 620px;
+  width: 180px;
+  height: 1px;
+}
+
+.line3{
+  left: 530px;
+  top: 620px;
+  width: 180px;
+  height: 1px;
+}
 
 }
 
-/**/
-.loginPage .group1 {
 
-      display: block;
-      position: absolute;
-      box-sizing: content-box;
-    transform-origin: center;
-      opacity: 1;
-      background-color: transparent;
-      width: 425.00px;
-    height: 57.00px;
-    left: 748.00px;
-    top: 195.00px;
+/*media query - desktop/large*/
+@media screen and (min-width: 1024px) {
+  .liButton{
+    width: 181px;
+    height: 57px;
+    left: 500px;
+    top: 190px;
+  }
+  
+  .suButton{
+    width: 181px;
+    height: 57px;
+    left: 800px;
+    top: 190px;
+  }
+
+
+.logIn{
+  left: 565px;
+  top: 200px;
+  font-size: 22px;
+}
+
+.signup{
+  left: 860px;
+  top: 200px;
+  font-size: 22px;
+}
+
+
+/*label font size and positioning*/
+label {
+  font-size: 25px;
+}
+
+.username{
+  left: 400px;
+  top: 315px;
+}
+
+.password{
+  left: 400px;
+  top: 430px;
+}
+
+/*input box positions*/
+.input_un {
+  width: 743px;
+  left: 400px;
+  top: 355px;
+}
+
+.input_pw {
+  width: 743px;
+  left: 400px;
+  top: 465px;
+}
+
+.text{
+  font-size: 20px;
+}
+
+.iconAwesomeFacebook{
+  left: 670px;
+  top: 625px;
+}
+
+.iconAwesomeGoogle{
+  left: 720px;
+  top: 625px;
+}
+
+.iconAwesomeTwitter{
+  left: 770px;
+  top: 625px;
+}
+
+.iconAwesomeLinkedin{
+  left: 820px;
+  top: 625px;
+}
+
+input[type=submit] {
+  left: 700px;
+  top: 540px;
+}
+
+.orLogInWith{
+  left: 690px;
+  top: 590px;
+}
+
+.line2{
+  left: 500px;
+  top: 605px;
+  width: 180px;
+  height: 1px;
+}
+
+.line3{
+  left: 830px;
+  top: 605px;
+  width: 180px;
+  height: 1px;
+}
 
 }
 
-/**/
-.loginPage .group1 .logIn {
-    position: absolute;
-      box-sizing: content-box;
-    transform-origin: center;
-      opacity: 1;
-      background-color: rgba(255, 255, 255, 0);
-      text-align: left;
-      color: rgba(255, 255, 255, 1);
-      font-size: 22.00px;
-      font-weight: 700;
-    font-style: normal;
-      font-family: Lato, Arial;
-      text-decoration: none;
-      white-space: pre;
-      width: 59.00px;
-    height: 27.00px;
-    left: 66.00px;
-    top: 7.00px;
-
+.buttonBar .liButton{
+  position: absolute;
+  box-sizing: border-box;
+  transform-origin: center;
+  opacity: 1;
+  background-color: rgba(253, 253, 253, 1);
+  border-color: rgba(112, 112, 112, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 10px;
 }
 
-/**/
-.loginPage .group1 .rectangle4 {
-    position: absolute;
-      box-sizing: border-box;
-      -ms-transform: rotate(0.00deg);
-    -webkit-transform: rotate(0.00deg);
-    transform: rotate(0.00deg);
-    -ms-transform-origin: center;
-    -webkit-transform-origin: center;
-    transform-origin: center;
-      opacity: 1;
-      background-color: rgba(253, 253, 253, 1);
-      border-color: rgba(112, 112, 112, 1);
-      border-style: solid;
-      border-width: 1.00px;
-      border-radius: 10.00px;
-      width: 181.00px;
-    height: 57.00px;
-    left: 244.00px;
-
+.buttonBar .logIn{
+  position: absolute;
+  box-sizing: content-box;
+  transform-origin: center;
+  opacity: 1;
+  background-color: rgba(255, 255, 255, 0);
+  text-align: left;
+  color: rgba(112, 112, 112, 1);
+  font-weight: 400;
+  font-style: normal;
+  font-family: Lato, Arial;
+  text-decoration: none;
+  white-space: pre;
 }
 
-/**/
-.loginPage .group1 .signUp {
-    position: absolute;
-      box-sizing: content-box;
-    transform-origin: center;
-      opacity: 1;
-      background-color: rgba(255, 255, 255, 0);
-      text-align: left;
-      color: rgba(112, 112, 112, 1);
-      font-size: 22.00px;
-      font-weight: 400;
-    font-style: normal;
-      font-family: Lato, Arial;
-      text-decoration: none;
-      white-space: pre;
-      width: 75.00px;
-    height: 27.00px;
-    left: 297.00px;
-    top: 15.00px;
-
+.buttonBar .suButton{
+  position: absolute;
+  box-sizing: border-box;
+  transform-origin: center;
+  opacity: 1;
+  background-color: rgba(5, 130, 202, 1);
+  border-color: rgba(112, 112, 112, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 10px;
 }
 
-/**/
-.loginPage .group1 .path10 {
-    position: absolute;
-      box-sizing: border-box;
-    transform-origin: center;
-      opacity: 1;
-      fill: rgba(5, 130, 202, 1);
-      stroke: rgba(167, 167, 167, 1);
-          stroke-width: 1.00px;
-          stroke-linecap: round;
-      width: 181.00px;
-    height: 57.00px;
-
+.buttonBar .signup{
+  position: absolute;
+  box-sizing: content-box;
+  transform-origin: center;
+  opacity: 1;
+  background-color: rgba(255, 255, 255, 0);
+  text-align: left;
+  color: rgba(253, 253, 253, 1);
+  font-weight: 400;
+  font-style: normal;
+  font-family: Lato, Arial;
+  text-decoration: none;
+  white-space: pre;
 }
-
-/**/
-.loginPage .group1 .login {
-    position: absolute;
-      box-sizing: content-box;
-    transform-origin: center;
-      opacity: 1;
-      background-color: rgba(255, 255, 255, 0);
-      text-align: left;
-      color: rgba(253, 253, 253, 1);
-      font-size: 22.00px;
-      font-weight: 400;
-    font-style: normal;
-      font-family: Lato, Arial;
-      text-decoration: none;
-      white-space: pre;
-      width: 52.00px;
-    height: 27.00px;
-    left: 65.00px;
-    top: 15.00px;
-
-}
-
-/**/
-.loginPage .rectangle5 {
-    position: absolute;
-      box-sizing: border-box;
-    transform-origin: center;
-      opacity: 1;
-      background-color: rgba(255, 255, 255, 1);
-      border-color: rgba(112, 112, 112, 1);
-      border-style: solid;
-      border-width: 1.00px;
-      border-radius: 10.00px;
-      width: 743.00px;
-    height: 55.00px;
-    left: 589.00px;
-    top: 382.00px;
-
-}
-
-/**/
-.loginPage .rectangle6 {
-    position: absolute;
-      box-sizing: border-box;
-    transform-origin: center;
-      opacity: 1;
-      background-color: rgba(255, 255, 255, 1);
-      border-color: rgba(112, 112, 112, 1);
-      border-style: solid;
-      border-width: 1.00px;
-      border-radius: 10.00px;
-      width: 743.00px;
-    height: 55.00px;
-    left: 589.00px;
-    top: 533.00px;
-
-}
-
-/**/
-.loginPage .username {
-    position: absolute;
-      box-sizing: content-box;
-    transform-origin: center;
-      opacity: 1;
-      background-color: rgba(255, 255, 255, 0);
-      text-align: left;
-      color: rgba(112, 112, 112, 1);
-      font-size: 25.00px;
-      font-weight: 400;
-    font-style: normal;
-      font-family: Lato, Arial;
-      text-decoration: none;
-      white-space: pre;
-      width: 111.00px;
-    height: 30.00px;
-    left: 589.00px;
-    top: 336.00px;
-
-}
-
-/**/
-.loginPage .password {
-    position: absolute;
-      box-sizing: content-box;
-    transform-origin: center;
-      opacity: 1;
-      background-color: rgba(255, 255, 255, 0);
-      text-align: left;
-      color: rgba(112, 112, 112, 1);
-      font-size: 25.00px;
-      font-weight: 400;
-    font-style: normal;
-      font-family: Lato, Arial;
-      text-decoration: none;
-      white-space: pre;
-      width: 105.00px;
-    height: 30.00px;
-    left: 589.00px;
-    top: 487.00px;
-
-}
-
-/**/
-.loginPage .rectangle3 {
-    position: absolute;
-      box-sizing: content-box;
-    transform-origin: center;
-      opacity: 1;
-      background-color: rgba(5, 130, 202, 1);
-      border-color: rgba(112, 112, 112, 1);
-      border-style: none;
-      border-width: 1.00px;
-      border-radius: 10.00px;
-      width: 121.00px;
-    height: 36.00px;
-    left: 900.00px;
-    top: 684.00px;
-
-}
-
-/**/
-.loginPage .submit {
-    position: absolute;
-      box-sizing: content-box;
-    transform-origin: center;
-      opacity: 1;
-      background-color: rgba(255, 255, 255, 0);
-      text-align: left;
-      color: rgba(255, 255, 255, 1);
-      font-size: 15.00px;
-      font-weight: 700;
-    font-style: normal;
-      font-family: Lato, Arial;
-      text-decoration: none;
-      white-space: pre;
-      width: 47.00px;
-    height: 18.00px;
-    left: 936.00px;
-    top: 693.00px;
-
-}
-
-/**/
-.loginPage .iconAwesomeArrowLeft {
-    position: absolute;
-      box-sizing: content-box;
-    transform-origin: center;
-      opacity: 1;
-      fill: rgba(0, 53, 84, 1);
-      width: 41.50px;
-    height: 40.45px;
-    left: 76.25px;
-    top: 124.00px;
-
-}
-
-/**/
-.loginPage .iconAwesomeFacebook {
-    position: absolute;
-      box-sizing: content-box;
-    transform-origin: center;
-      opacity: 1;
-      fill: rgba(0, 100, 148, 1);
-      width: 34.88px;
-    height: 34.66px;
-    left: 853.13px;
-    top: 801.21px;
-
-}
-
-/**/
-.loginPage .group2 {
-
-      display: block;
-      position: absolute;
-      box-sizing: content-box;
-    transform-origin: center;
-      opacity: 1;
-      background-color: transparent;
-      width: 524.00px;
-    height: 24.00px;
-    left: 702.00px;
-    top: 744.00px;
-
-}
-
-/**/
-.loginPage .group2 .orLogInWith {
-    position: absolute;
-      box-sizing: content-box;
-    transform-origin: center;
-      opacity: 1;
-      background-color: rgba(255, 255, 255, 0);
-      text-align: left;
-      color: rgba(112, 112, 112, 1);
-      font-size: 20.00px;
-      font-weight: 400;
-    font-style: normal;
-      font-family: Lato, Arial;
-      text-decoration: none;
-      white-space: pre;
-      width: 129.00px;
-    height: 24.00px;
-    left: 197.50px;
-
-}
-
-/**/
-.loginPage .group2 .line2 {
-    position: absolute;
-      box-sizing: content-box;
-    transform-origin: center;
-      opacity: 1;
-      stroke: rgba(112, 112, 112, 1);
-          stroke-width: 1.00px;
-          stroke-linecap: butt;
-      width: 180.00px;
-    height: 1.00px;
-    left: 344.00px;
-    top: 12.00px;
-
-}
-
-/**/
-.loginPage .group2 .line3 {
-    position: absolute;
-      box-sizing: content-box;
-    transform-origin: center;
-      opacity: 1;
-      stroke: rgba(112, 112, 112, 1);
-          stroke-width: 1.00px;
-          stroke-linecap: butt;
-      width: 180.00px;
-    height: 1.00px;
-   top: 12.00px;
-
-}
-
-/**/
-.loginPage .iconAwesomeGoogle {
-    position: absolute;
-      box-sizing: content-box;
-    transform-origin: center;
-      opacity: 1;
-      fill: rgba(0, 100, 148, 1);
-      width: 34.31px;
-    height: 34.88px;
-    left: 913.69px;
-    top: 801.00px;
-
-}
-
-/**/
-.loginPage .iconAwesomeTwitter {
-    position: absolute;
-      box-sizing: content-box;
-    transform-origin: center;
-      opacity: 1;
-      fill: rgba(0, 100, 148, 1);
-      width: 36.00px;
-    height: 29.24px;
-    left: 973.69px;
-    top: 806.64px;
-
-}
-
-/**/
-.loginPage .iconAwesomeLinkedin {
-    position: absolute;
-      box-sizing: content-box;
-    transform-origin: center;
-      opacity: 1;
-      fill: rgba(0, 100, 148, 1);
-      width: 31.50px;
-    height: 31.50px;
-    left: 1035.38px;
-    top: 806.64px;
-
-}
-
-/**/
-.loginPage .logo {
-
-      display: block;
-      position: absolute;
-      box-sizing: content-box;
-    transform-origin: center;
-      opacity: 1;
-      background-color: transparent;
-      width: 67.00px;
-    height: 67.00px;
-    left: 48.50px;
-    top: 21.50px;
-
-}
-
-/**/
-.loginPage .logo .group26 {
-
-      display: block;
-      position: absolute;
-      box-sizing: content-box;
-    transform-origin: center;
-      background-image: url("assets/group26.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-      opacity: 1;
-      background-color: transparent;
-      width: 67.00px;
-    height: 67.00px;
-
-}
-
-/**/
-.loginPage .logo .group26 .path6 {
-    position: absolute;
-      box-sizing: content-box;
-    transform-origin: center;
-      opacity: 1;
-      fill: rgba(0, 112, 186, 1);
-      stroke: rgba(0, 0, 0, 0);
-          stroke-width: 1.00px;
-          stroke-linecap: butt;
-      width: 69.00px;
-    height: 69.00px;
-    left: -1.00px;
-    top: -1.00px;
-
-}
-
-/**/
-.loginPage .logo .group26 .path7 {
-    position: absolute;
-      box-sizing: content-box;
-    transform-origin: center;
-      opacity: 1;
-     fill: rgba(0, 41, 66, 1);
-      stroke: rgba(0, 0, 0, 0);
-          stroke-width: 1.00px;
-          stroke-linecap: butt;
-      width: 52.98px;
-    height: 51.07px;
-    left: 6.56px;
-    top: 7.97px;
-
-}
-
-/**/
-.loginPage .logo .group26 .path8 {
-    position: absolute;
-      box-sizing: content-box;
-    transform-origin: center;
-      opacity: 1;
-      fill: rgba(255, 255, 255, 1);
-      stroke: rgba(0, 0, 0, 0);
-          stroke-width: 1.00px;
-          stroke-linecap: butt;
-      width: 5.76px;
-    height: 28.08px;
-    left: 30.56px;
-    top: 19.46px;
-
-}
-
-/**/
-.loginPage .logo .group26 .path9 {
-    position: absolute;
-      box-sizing: content-box;
-    transform-origin: center;
-      opacity: 1;
-      fill: rgba(255, 255, 255, 1);
-      stroke: rgba(0, 0, 0, 0);
-          stroke-width: 1.00px;
-          stroke-linecap: butt;
-      width: 27.41px;
-    height: 5.63px;
-    left: 19.80px;
-    top: 30.68px;
-
-}
-
-/**/
-.loginPage .logo .group26 .rectangle20 {
-    position: absolute;
-      box-sizing: content-box;
-   transform-origin: center;
-      opacity: 1;
-      background-color: rgba(255, 255, 255, 0);
-      border-color: rgba(0, 0, 0, 0);
-      border-style: solid;
-      border-width: 1.00px;
-      width: 66.00px;
-    height: 66.00px;
-    left: -0.50px;
-    top: -0.50px;
-
-}
-
-/**/
-.loginPage .textLogo {
-
-      display: block;
-      position: absolute;
-      box-sizing: content-box;
-    transform-origin: center;
-      opacity: 1;
-      background-color: transparent;
-      width: 151.00px;
-    height: 60.00px;
-    left: 126.00px;
-    top: 24.00px;
-
-}
-
-/**/
-.loginPage .textLogo .lenses {
-    position: absolute;
-      box-sizing: content-box;
-    transform-origin: center;
-      opacity: 1;
-      background-color: rgba(255, 255, 255, 0);
-      text-align: left;
-      color: rgba(5, 130, 202, 1);
-      font-size: 50.00px;
-      font-weight: 600;
-    font-style: normal;
-      font-family: Lato, Arial;
-      text-decoration: none;
-      white-space: pre;
-      width: 151.00px;
-    height: 60.00px;
-
-}
-
