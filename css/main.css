@@ -1,0 +1,582 @@
+/*media query - tablet/small*/
+@media screen and (max-width: 567px) {
+    .response{
+        width: 100%;
+    }
+
+    .line{
+        width: 450px;
+    }
+
+    .logo{
+        width: 40px;
+        height: 40px;
+    }
+
+    .textLogo{
+        font-size: 30px;
+        left: 95px;
+    }
+
+    .navBar{
+        font-size: 10px;
+    }
+
+    .discover{
+        left: 250px;
+    }
+
+    .caption{
+        font-size: 10px;
+    }
+
+    .memberships{
+        left: 310px;  
+    }
+
+    .about{
+        left: 385px;  
+    }
+
+    .buttonShape{
+        width: 70px;
+        height: 30px;
+        left: 420px;
+    }
+
+    .buttonLink{
+        left: 440px;
+    }
+
+    .metadata-title .metadata-likes{
+        font-size: 15px;
+    }
+
+    
+    .imagesize{
+        /*change size*/
+        width: 363px;
+        height: 445px;
+    }
+}
+
+/*media query - laptop/medium*/
+@media screen and (min-width: 568px) {
+    .response{
+        width: 50%;
+    }
+    
+    .line{
+        width: 1000px;
+    }
+    
+    .logo{
+        width: 45px;
+        height: 45px;
+    }
+    
+    .textLogo{
+        font-size: 35px;
+        left: 100px;
+    }
+    
+    .navBar{
+        font-size: 15px;
+        left: 126px;
+    }
+
+    .discover{
+        left: 620px;
+    }
+
+    .caption{
+        font-size: 15px;
+    }
+
+    .memberships{   
+        left: 710px;
+    }
+
+    .about{
+        left: 820px;
+    }
+
+    .buttonShape{
+        width: 121px;
+        height: 36px;
+        left: 880px;
+    }
+
+    .buttonLink{
+        left: 920px;
+    }
+
+    .metadata-title .metadata-likes{
+        font-size: 20px;
+    }
+
+    .imagesize{
+        /*change sizing*/
+        width: 363px;
+        height: 445px;
+    }
+
+}
+
+/*media query - desktop/large*/
+@media screen and (min-width: 1024px) {
+    .line{
+        width: 1435px;
+    }
+
+    .logo{
+        width: 52px;
+        height: 52px;
+    }
+
+    .textLogo{
+        font-size: 38px;
+        left: 120px;
+    }
+
+    .navBar{
+        font-size: 20px;
+    }
+
+    .discover{
+        left: 1067px;
+    }
+
+    .caption{
+        font-size: 20px;
+    }
+
+    .memberships{    
+        left: 1158px;
+    }
+
+    .about{
+        left: 1290px;
+    }
+
+    .buttonShape{
+        width: 121px;
+        height: 36px;
+        left: 1355px;
+    }
+
+    .buttonLink{
+        left: 1390px;
+    }
+
+    .metadata-title .metadata-likes{
+        font-size: 25px;
+    }
+
+
+
+    .imagesize{
+        width: 363px;
+        height: 445px;
+    }
+}
+
+/*body class*/
+body {
+    font-family: 'Open Sans', serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(250, 247, 240, 1);
+}
+
+/*line classes*/
+.line {
+    position: absolute;
+    box-sizing: content-box;
+    opacity: 1;
+    cursor: default;
+    stroke: rgba(112, 112, 112, 1);
+    stroke-width: 1px;
+    stroke-linecap: butt;
+    height: 2px;
+    left: 42.5px;
+    top: 106px;
+  }
+
+/*link styling*/
+/*unvisited*/
+a {
+    color:rgba(0, 53, 84, 1);
+  }
+
+/*selected*/
+a:active {
+    color: rgba(5, 130, 202, 1);
+  }
+
+/*hovered*/
+/* a:hover{
+    color: rgba(5, 130, 202, 1);
+} */
+
+/*logo class*/
+.logo {
+    display: block;
+    position: absolute;
+    box-sizing: content-box;
+    opacity: 1;
+    transform: center;
+    background-image: url("assets/group26.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    left: 48.5px;
+    top: 45px;
+  }
+
+/*text logo class*/
+.textLogo {
+    display: block;
+    position: absolute;
+    box-sizing: content-box;
+    transform-origin: center;
+    opacity: 1;
+    text-align: left;
+    color: rgba(5, 130, 202, 1);
+    font-weight: 600;
+    font-style: normal;
+    font-family: Lato, Arial;
+    background-color: transparent;
+    top: 45px;
+  }
+
+/*header nav links class*/
+.navBar{
+    position: absolute;
+    box-sizing: content-box;
+    opacity: 1;
+    color: rgba(0, 53, 84, 1);
+    text-decoration: none;
+    font-style: normal;
+    font-family: Lato, Arial;
+    top:54px
+}
+
+/*login/post shape styling*/
+.buttonShape {
+    position: absolute;
+    box-sizing: border-box;
+    opacity: 1;
+    background-color: rgba(5, 130, 202, 1);
+    border-color: rgba(112, 112, 112, 1);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;    
+    top: 50px;
+  }
+
+/*login/ post link styling*/
+.buttonLink {
+    position: absolute;
+    box-sizing: content-box;
+    opacity: 1;
+    text-align: center;
+    color: rgba(0, 53, 84, 1);
+    text-decoration: none;
+    color: rgba(255, 255, 255, 1);
+    font-style: normal;
+    font-family: Lato, Arial;
+    white-space: pre;  
+    top: 57px;
+  }
+
+/*caption styling*/
+.caption{
+    position: absolute;
+    box-sizing: content-box;
+    transform-origin: center;
+    opacity: 1;  
+    text-align: left;  
+    color: rgba(167, 167, 167, 1);  
+    font-weight: 400;
+    font-style: normal;
+    font-family: Lato, Arial;
+    white-space: pre;
+}
+
+/*page titles - light blue*/
+.header1{
+    position: absolute;
+    box-sizing: content-box;
+    transform-origin: center;
+    opacity: 1;  
+    background-color: rgba(255, 255, 255, 0);
+    text-align: left;
+    color: rgba(5, 130, 202, 1);
+    font-weight: 700;
+    font-style: normal;
+    font-family: Lato, Arial;
+    text-decoration: none;
+    white-space: pre;
+    width: 117px;
+    height: 60px;
+}
+
+/*page titles - dark blue*/
+.header2{
+    position: absolute;
+    box-sizing: content-box;
+    transform-origin: center;
+    opacity: 1;
+    background-color: rgba(255, 255, 255, 0);
+    text-align: left;
+    color: rgba(0, 41, 66, 1);
+    font-weight: 500;
+    font-style: normal;
+    font-family: Lato, Arial;
+    text-decoration: none;
+    box-shadow: none;
+    white-space: pre;
+}
+
+/*submit button*/
+.submitText{
+    position: absolute;
+    box-sizing: content-box;
+    transform-origin: center;
+    opacity: 1;
+    color: white;
+    text-decoration: none;
+    width: 121px;
+    height: 36px;
+    left: 900px;
+    top: 684px;
+}
+
+.submitButton{
+    background-color: rgba(5, 130, 202, 1);
+    border: none;
+    border-radius: 10px;
+}
+
+/*form text styling*/
+  label {
+    position: absolute;
+    box-sizing: content-box;
+    transform-origin: center;
+    opacity: 1;
+    background-color: rgba(255, 255, 255, 0);
+    text-align: left;
+    color: rgba(112, 112, 112, 1);
+    font-weight: 400;
+    font-style: normal;
+    font-family: Lato, Arial;
+    text-decoration: none;
+    white-space: pre;
+  }
+
+
+/*other text*/
+.text{
+    position: absolute;
+    box-sizing: content-box;
+    transform-origin: center;
+    opacity: 1;
+    background-color: rgba(255, 255, 255, 0);
+    text-align: left;
+    color: rgba(112, 112, 112, 1);
+    font-weight: 400;
+    font-style: normal;
+    font-family: Lato, Arial;
+    text-decoration: none;
+    white-space: pre;
+    width: 129px;
+  }
+
+/*formArea styling*/
+input[type=text] {
+    padding: 12px 20px;
+    box-sizing: border-box;
+    position: absolute;
+    transform-origin: center;
+    opacity: 1;
+    background-color: rgba(255, 255, 255, 1);
+    border-color: rgba(112, 112, 112, 1);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    height: 55px;
+  }
+
+/*submit/ login button*/
+input[type=submit] {
+    position: absolute;
+    box-sizing: border-box;
+    transform-origin: center;
+    opacity: 1;
+    color: white;
+    background-color: rgba(5, 130, 202, 1);
+    border-color: rgba(0, 53, 84, 1);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    width: 121px;
+    height: 36px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: rgb(4, 112, 174);
+  }
+  
+  /*iconAwesome icon styling*/
+   .iconAwesome{
+    position: absolute;
+    box-sizing: content-box;
+    transform-origin: center;
+    opacity: 1;
+  }
+  
+  .iconAwesome path{
+    fill: rgba(0, 100, 148, 1)
+  }
+  
+  /*facebook*/
+  .iconAwesomeFacebook {
+      width: 34.88px;
+      height: 34.66px;
+  }
+  
+  /*google*/
+  .iconAwesomeGoogle {
+      width: 34.31px;
+      height: 34.88px;
+  }
+  
+  /*twitter*/
+ .iconAwesomeTwitter {
+      width: 36px;
+      height: 29.24px;
+  }
+  
+  /*linkedIn*/
+  .iconAwesomeLinkedin {
+      width: 31.5px;
+      height: 31.5px;
+  }
+  
+  .buttonBar .pageLayout {
+      display: block;
+      position: absolute;
+      box-sizing: content-box;
+      transform-origin: center;
+      opacity: 1;
+      background-color: transparent;
+  }
+  
+ .group2 {
+      display: block;
+      position: absolute;
+      box-sizing: content-box;
+      transform-origin: center;
+      opacity: 1;
+      background-color: transparent;
+  }
+  
+ .group2 .line2 {
+      position: absolute;
+      box-sizing: content-box;
+      transform-origin: center;
+      opacity: 1;
+      stroke: rgba(112, 112, 112, 1);
+      stroke-width: 1px;
+      stroke-linecap: butt;
+  }
+  
+  .group2 .line3 {
+      position: absolute;
+      box-sizing: content-box;
+      transform-origin: center;
+      opacity: 1;
+      stroke: rgba(112, 112, 112, 1);
+      stroke-width: 1px;
+      stroke-linecap: butt;
+  }
+  
+  /*social media login styling*/
+ .iconAwesomeArrowLeft {
+      position: absolute;
+      box-sizing: content-box;
+      transform-origin: center;
+      opacity: 1;
+      fill: rgba(0, 53, 84, 1);
+      width: 41px;
+      height: 40px;
+      left: 66px;
+      top: 124px;
+  }
+
+/*user image - styling*/
+.imagestyle{
+    display: block;
+    position: absolute;
+    box-sizing: content-box;
+    transform-origin: center;
+    opacity: 1;
+    background-color: transparent;  
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-color: rgba(62, 62, 62, 1);
+    border-style: none;
+    border-width: 2px;
+}
+
+/*metadata likes styling*/
+.metadata-likes{
+    position: absolute;
+    box-sizing: content-box;
+    transform-origin: center;
+    opacity: 1;
+    text-align: left;
+    color: rgba(0, 53, 84, 1);
+    font-weight: 400;
+    font-style: normal;
+    font-family: Lato, Arial;
+    text-decoration: none;
+    white-space: pre;
+    top: 2px;
+    left: 40px;
+}
+
+
+/*metadate heartbutton styling*/
+.metadata-heartbutton{
+    position: absolute;
+    box-sizing: content-box;
+    transform-origin: center;
+    opacity: 1;
+    fill: transparent;
+    stroke: rgba(5, 130, 202, 1);
+    stroke-width: 3.00px;
+    stroke-linecap: round;
+    box-shadow: none;
+    width: 27.35px;
+    height: 23.35px;
+}
+
+/*metadata title*/
+.metadata-title{
+    position: absolute;
+    box-sizing: content-box;
+    transform-origin: center;
+    opacity: 1;
+    background-color: rgba(255, 255, 255, 0);
+    text-align: left;
+    color: rgba(0, 53, 84, 1);
+    font-weight: 500;
+    font-style: normal;
+    font-family: Lato, Arial;
+    text-decoration: none;
+    white-space: pre;
+}
