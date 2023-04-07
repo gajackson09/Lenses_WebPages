@@ -1,258 +1,395 @@
 @import "main.css";
 
-/*css for discover not loggedin*/ 
+/*css for discover not loggedin*/
 /*discover not page css*/
 .discoverPageNotLoggedIn {
     display: block;
     position: absolute;
     box-sizing: content-box;
     opacity: 1;
-  }
+}
 
 
 /*media query - tablet/small*/
 @media screen and (max-width: 567px) {
 
-.placementArea445d40ab{
-    left:450px;
-}
+    /*ahmed*/
+    .placementArea445d40ab {
+        top: 500px;
+    }
 
-.placementArea3aadfbe6{
-    /* left: ; */
-}
+    /*math*/
+    .placementArea3aadfbe6 {
+        top: 1000px;
+    }
+
+    /*air ballons*/
+    .placementArea71ab59bd {
+        top: 1715px;
+        left: 85px;
+    }
+
+    /*women in the snow*/
+    .placementArea5fc55080 {
+        top: 2210px;
+        left: 85px;
+    }
+
+    /*stuffed animals*/
+    .placementArea {
+        top: 2710px;
+        left: 85px;
+    }
+
+
+    /*kate*/
+    .metadata-likeskate {
+        top: 455px;
+        left: 330px;
+    }
+
+    .metadata-heartbuttonkate {
+        top: 455px;
+        left: 280px;
+    }
+
+    .kate {
+        top: 460px;
+    }
+
+    /*ahmed*/
+    .metadata-likesahmed {
+        top: 960px;
+        left: 330px;
+    }
+
+    .metadata-heartbuttonahmed {
+        top: 960px;
+        left: 290px;
+    }
+
+    .ahmed {
+        top: 960px;
+    }
+
+
+    /*math*/
+    .metadata-likesmath {
+        top: 1460px;
+        left: 330px;
+    }
+
+    .metadata-heartbuttonmath {
+        top: 1460px;
+        left: 290px;
+    }
+
+    .math {
+        top: 1460px;
+
+    }
+
+    /*Ali*/
+    .metadata-likesali {
+        top: 2170px;
+        left: 410px;
+    }
+
+    .metadata-heartbuttonali {
+        top: 2170px;
+        left: 370px;
+    }
+
+    .ali {
+        top: 2170px;
+        left: 85px;
+    }
+
+    /*art*/
+    .metadata-heartbuttonart {
+        top: 2670px;
+        left: 370px;
+    }
+
+
+    .metadata-likesart {
+        top: 2670px;
+        left: 410px;
+    }
+
+    .art {
+        left: 85px;
+        top: 2670px;
+    }
+
+    /*vlad*/
+    .metadata-heartbuttonvlad {
+        top: 3170px;
+        left: 380px;
+    }
+
+
+    .metadata-likesvlad {
+        top: 3170px;
+        left: 420px;
+    }
+
+
+    .vlad {
+        top: 3170px;
+        left: 85px;
+    }
 
 }
 
 /*media query - laptop/medium*/
 @media screen and (min-width: 568px) {
 
-.placementArea445d40ab{
-    left:450px;
-}
+    .placementArea445d40ab {
+        left: 450px;
+    }
 
-.placementArea3aadfbe6{
-    top: 500px;
-}
+    .placementArea3aadfbe6 {
+        top: 500px;
+    }
 
-.placementArea71ab59bd{
-    top: 675px;
-    left: 450px;
-}
+    .placementArea71ab59bd {
+        top: 665px;
+        left: 540px;
+    }
 
-.metadata-likeskate{
-    top: 455px;
-    left: 280px;
-}
+    .placementArea5fc55080 {
+        top: 1170px;
+        left: 85px;
+    }
 
-.kate{
-    top: 460px;
-}
+    .placementArea {
+        top: 1170px;
+        left: 540px;
+    }
 
-.metadata-likesahmed{
-    top: 60px;
-    left: 370px;
-}
+    .metadata-likeskate {
+        top: 455px;
+        left: 330px;
+    }
 
-.metadata-heartbuttonahmed{
-    top: 400px;
-    left: 400px;
-}
+    .metadata-heartbuttonkate {
+        top: 455px;
+        left: 280px;
+    }
 
-.ahmed{
-    top: 460px;
-    left:450px;
-}
+    .kate {
+        top: 460px;
+    }
 
+    .metadata-likesahmed {
+        top: 460px;
+        left: 780px;
+    }
 
-/*math*/
-.metadata-likesmath{
-    top: 960px;
-    left: 330px;
-}
+    .metadata-heartbuttonahmed {
+        top: 460px;
+        left: 740px;
+    }
 
-.metadata-heartbuttonmath{
-    top: 960px;
-    left: 280px;
-}
-
-.math{
-    top: 960px;
-   
-}
-
-/*Ali*/
-.metadata-likesali{
-    top:1125px;
-    left: 860px;
-}
-
-.metadata-heartbuttonali{
-    top:1125px;
-    left: 800px;
-}
-
-.ali{
-    top:1125px;
-    left: 540px;
-}
-
-/*art*/
-.metadata-heartbuttonart{
-    top:1160px;
-    left: 800px;
-}
+    .ahmed {
+        top: 460px;
+        left: 450px;
+    }
 
 
-.metadata-likesart{
-    top:1160px;
-    left: 850px;
-}
+    /*math*/
+    .metadata-likesmath {
+        top: 960px;
+        left: 330px;
+    }
 
-.art{
-    left: 540px;
-    top:1160px;
-}
+    .metadata-heartbuttonmath {
+        top: 960px;
+        left: 290px;
+    }
 
-/*vlad*/
-.metadata-heartbuttonvlad{
-    top: 1160px;
-    left: 1270px;
-}
+    .math {
+        top: 960px;
+
+    }
+
+    /*Ali*/
+    .metadata-likesali {
+        top: 1120px;
+        left: 870px;
+    }
+
+    .metadata-heartbuttonali {
+        top: 1120px;
+        left: 830px;
+    }
+
+    .ali {
+        top: 1120px;
+        left: 540px;
+    }
+
+    /*art*/
+    .metadata-heartbuttonart {
+        top: 1630px;
+        left: 370px;
+    }
 
 
-.metadata-likesvlad{
-    top: 1160px;
-    left: 1315px;
-}
+    .metadata-likesart {
+        top: 1630px;
+        left: 410px;
+    }
+
+    .art {
+        left: 80px;
+        top: 1630px;
+    }
+
+    /*vlad*/
+    .metadata-heartbuttonvlad {
+        top: 1630px;
+        left: 830px;
+    }
 
 
-.vlad{
-    top: 1160px;
-    left: 990px;
-}
+    .metadata-likesvlad {
+        top: 1630px;
+        left: 870px;
+    }
 
 
-
+    .vlad {
+        top: 1630px;
+        left: 540px;
+    }
 }
 
 /*media query - desktop/large*/
 @media screen and (min-width: 1024px) {
 
-.placementArea445d40ab{
-    left:450px;
-}
+    .placementArea445d40ab {
+        left: 450px;
+    }
 
-.placementArea3aadfbe6{
-    left: 900px;
-}
+    .placementArea3aadfbe6 {
+        left: 900px;
+        top: 0px;
+    }
 
-.placementArea71ab59bd{
-    left: 85px;
-    top: 700px;
-}
+    .placementArea71ab59bd {
+        left: 85px;
+        top: 700px;
+    }
 
-.placementArea5fc55080{
-    left: 535px;
-    top: 700px;
-}
+    .placementArea5fc55080 {
+        left: 535px;
+        top: 700px;
+    }
 
-.placementArea{
-    left: 990px;
-    top: 700px;
-}
+    .placementArea {
+        left: 990px;
+        top: 700px;
+    }
 
-.metadata-likeskate{
-    top: 455px;
-    left: 280px;
-}
+    .metadata-heartbuttonkate {
+        top: 455px;
+        left: 280px;
+    }
 
-.kate{
-    top: 460px;
-}
+    .metadata-likeskate {
+        top: 455px;
+        left: 320px;
+    }
 
-.metadata-likesahmed{
-    top: 60px;
-    left: 370px;
-}
+    .kate {
+        top: 460px;
+    }
 
-.metadata-heartbuttonahmed{
-    top: 400px;
-    left: 400px;
-}
+    .metadata-likesahmed {
+        top: 450px;
+        left: 770px;
+    }
 
-.ahmed{
-    top: 460px;
-    left:450px;
-}
+    .metadata-heartbuttonahmed {
+        top: 450px;
+        left: 730px;
+    }
 
-.metadata-likesmath{
-    top: 460px;
-    left: 1230px;
-}
+    .ahmed {
+        top: 460px;
+        left: 450px;
+    }
 
-.metadata-heartbuttonmath{
-    top: 460px;
-    left: 1190px;
-}
+    .metadata-likesmath {
+        top: 460px;
+        left: 1230px;
+    }
 
-.math{
-    top: 460px;
-    left:900px;
-}
+    .metadata-heartbuttonmath {
+        top: 460px;
+        left: 1190px;
+    }
 
-.metadata-likesali{
-    top: 1160px;
-    left: 400px;
-}
+    .math {
+        top: 460px;
+        left: 900px;
+    }
 
-.metadata-heartbuttonali{
-    top:1160px;
-    left: 360px;
-}
+    .metadata-likesali {
+        top: 1160px;
+        left: 400px;
+    }
 
-.ali{
-    top:1160px;
-    left: 85px;
-}
+    .metadata-heartbuttonali {
+        top: 1160px;
+        left: 360px;
+    }
 
-.metadata-heartbuttonart{
-    top:1160px;
-    left: 800px;
-}
+    .ali {
+        top: 1160px;
+        left: 85px;
+    }
 
-
-.metadata-likesart{
-    top:1160px;
-    left: 850px;
-}
-
-.art{
-    left: 540px;
-    top:1160px;
-}
-
-.metadata-heartbuttonvlad{
-    top: 1160px;
-    left: 1270px;
-}
+    .metadata-heartbuttonart {
+        top: 1160px;
+        left: 800px;
+    }
 
 
-.metadata-likesvlad{
-    top: 1160px;
-    left: 1315px;
-}
+    .metadata-likesart {
+        top: 1160px;
+        left: 850px;
+    }
+
+    .art {
+        left: 540px;
+        top: 1160px;
+    }
+
+    .metadata-heartbuttonvlad {
+        top: 1160px;
+        left: 1270px;
+    }
 
 
-.vlad{
-    top: 1160px;
-    left: 990px;
-}
+    .metadata-likesvlad {
+        top: 1160px;
+        left: 1315px;
+    }
+
+
+    .vlad {
+        top: 1160px;
+        left: 990px;
+    }
 
 
 }
 
 /*row 1 (images 1-3)*/
-.row1{
+.row1 {
     display: block;
     position: absolute;
     box-sizing: content-box;
@@ -264,7 +401,7 @@
 
 
 /*duck image/ kate section*/
-.placementArea60797db9{
+.placementArea60797db9 {
     background-image: url("assets/DiscoverplacementArea60797db9.png");
 }
 
@@ -273,37 +410,27 @@
 /*picture of the rain/ ahmed section*/
 .placementArea445d40ab {
     background-image: url("assets/DiscoverplacementArea445d40ab.png");
-}    
-  
+}
+
 
 
 /*picture of plants/ mathilde section*/
 .placementArea3aadfbe6 {
-background-image: url("assets/DiscoverplacementArea3aadfbe6.png");
+    background-image: url("assets/DiscoverplacementArea3aadfbe6.png");
 }
 
 
 /*air ballons*/
 .placementArea71ab59bd {
     background-image: url("assets/DiscoverplacementArea71ab59bd.png");
-    }
-    
-
-
+}
 
 /*stuffed animals in a castle*/
 .placementArea {
-background-image: url("assets/DiscoverplacementArea.png");
+    background-image: url("assets/DiscoverplacementArea.png");
 }
-
-
-
-
 
 /*women in the snow*/
 .placementArea5fc55080 {
-background-image: url("assets/DiscoverplacementArea5fc55080.png");
+    background-image: url("assets/DiscoverplacementArea5fc55080.png");
 }
-
-
-
