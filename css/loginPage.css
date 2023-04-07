@@ -1,29 +1,29 @@
 @import "main.css";
 
-/*css for loginPage*/ 
+/*css for loginPage*/
 /*login page class*/
 .loginPage {
-      display: block;
-      position: absolute;
-      box-sizing: content-box;
-    transform-origin: center;
-      opacity: 1;
+  display: block;
+  position: absolute;
+  box-sizing: content-box;
+  transform-origin: center;
+  opacity: 1;
 }
 
 /*media query - tablet/small*/
 @media screen and (max-width: 567px) {
-  .response{
+  .response {
     width: 100%;
   }
 
-  .liButton{
+  .liButton {
     width: 150px;
     height: 57px;
     left: 50px;
     top: 190px;
   }
-  
-  .suButton{
+
+  .suButton {
     width: 150px;
     height: 57px;
     left: 250px;
@@ -31,112 +31,112 @@
   }
 
 
-.logIn{
-  left: 100px;
-  top: 200px;
-  font-size: 22px;
-}
+  .logIn {
+    left: 100px;
+    top: 200px;
+    font-size: 22px;
+  }
 
-.signup{
-  left: 290px;
-  top: 200px;
-  font-size: 22px;
-}
+  .signup {
+    left: 290px;
+    top: 200px;
+    font-size: 22px;
+  }
 
 
-/*label font size and positioning*/
-label {
-  font-size: 15px;
-}
+  /*label font size and positioning*/
+  label {
+    font-size: 15px;
+  }
 
-.username{
-  left: 75px;
-  top: 300px;
-}
+  .username {
+    left: 75px;
+    top: 300px;
+  }
 
-.password{
-  left: 75px;
-  top: 400px;
-}
+  .password {
+    left: 75px;
+    top: 400px;
+  }
 
-/*input box positions*/
-.input_un {
-  width: 270px;
-  left: 75px;
-  top: 325px;
-}
+  /*input box positions*/
+  .input_un {
+    width: 270px;
+    left: 75px;
+    top: 325px;
+  }
 
-.input_pw {
-  width: 270px;
-  left: 75px;
-  top: 425px;
-}
+  .input_pw {
+    width: 270px;
+    left: 75px;
+    top: 425px;
+  }
 
-.text{
-  font-size: 20px;
-}
+  .text {
+    font-size: 20px;
+  }
 
-.iconAwesomeFacebook{
-  left: 125px;
-  top: 580px;
-}
+  .iconAwesomeFacebook {
+    left: 125px;
+    top: 580px;
+  }
 
-.iconAwesomeGoogle{
-  left: 175px;
-  top: 580px;
-}
+  .iconAwesomeGoogle {
+    left: 175px;
+    top: 580px;
+  }
 
-.iconAwesomeTwitter{
-  left: 225px;
-  top: 580px;
-}
+  .iconAwesomeTwitter {
+    left: 225px;
+    top: 580px;
+  }
 
-.iconAwesomeLinkedin{
-  left: 275px;
-  top: 580px;
-}
+  .iconAwesomeLinkedin {
+    left: 275px;
+    top: 580px;
+  }
 
-input[type=submit] {
-  left: 150px;
-  top: 500px;
-}
+  input[type=submit] {
+    left: 150px;
+    top: 500px;
+  }
 
-.orLogInWith{
-  left: 150px;
-  top: 545px;
-}
+  .orLogInWith {
+    left: 150px;
+    top: 545px;
+  }
 
-.line2{
-  left: 200px;
-  top: 720px;
-  width: 180px;
-  height: 0px;
-}
+  .line2 {
+    left: 200px;
+    top: 720px;
+    width: 180px;
+    height: 0px;
+  }
 
-.line3{
-  left: 530px;
-  top: 720px;
-  width: 180px;
-  height: 0px;
-}
+  .line3 {
+    left: 530px;
+    top: 720px;
+    width: 180px;
+    height: 0px;
+  }
 
 }
 
 
 /*media query - laptop/medium*/
 @media screen and (min-width: 568px) {
-  .response{
+  .response {
     width: 50%;
   }
 
-  .liButton{
+  .liButton {
     width: 181px;
     height: 57px;
     left: 200px;
     top: 190px;
   }
-  
-  .suButton{
+
+  .suButton {
     width: 181px;
     height: 57px;
     left: 500px;
@@ -144,108 +144,108 @@ input[type=submit] {
   }
 
 
-.logIn{
-  left: 265px;
-  top: 200px;
-  font-size: 22px;
-}
+  .logIn {
+    left: 265px;
+    top: 200px;
+    font-size: 22px;
+  }
 
-.signup{
-  left: 565px;
-  top: 200px;
-  font-size: 22px;
-}
+  .signup {
+    left: 565px;
+    top: 200px;
+    font-size: 22px;
+  }
 
 
-/*label font size and positioning*/
-label {
-  font-size: 20px;
-}
+  /*label font size and positioning*/
+  label {
+    font-size: 20px;
+  }
 
-.username{
-  left: 100px;
-  top: 315px;
-}
+  .username {
+    left: 100px;
+    top: 315px;
+  }
 
-.password{
-  left: 100px;
-  top: 430px;
-}
+  .password {
+    left: 100px;
+    top: 430px;
+  }
 
-/*input box positions*/
-.input_un {
-  width: 743px;
-  left: 100px;
-  top: 355px;
-}
+  /*input box positions*/
+  .input_un {
+    width: 743px;
+    left: 100px;
+    top: 355px;
+  }
 
-.input_pw {
-  width: 743px;
-  left: 100px;
-  top: 465px;
-}
+  .input_pw {
+    width: 743px;
+    left: 100px;
+    top: 465px;
+  }
 
-.text{
-  font-size: 20px;
-}
+  .text {
+    font-size: 20px;
+  }
 
-.iconAwesomeFacebook{
-  left: 370px;
-  top: 650px;
-}
+  .iconAwesomeFacebook {
+    left: 370px;
+    top: 650px;
+  }
 
-.iconAwesomeGoogle{
-  left: 420px;
-  top: 650px;
-}
+  .iconAwesomeGoogle {
+    left: 420px;
+    top: 650px;
+  }
 
-.iconAwesomeTwitter{
-  left: 470px;
-  top: 650px;
-}
+  .iconAwesomeTwitter {
+    left: 470px;
+    top: 650px;
+  }
 
-.iconAwesomeLinkedin{
-  left: 520px;
-  top: 650px;
-}
+  .iconAwesomeLinkedin {
+    left: 520px;
+    top: 650px;
+  }
 
-input[type=submit] {
-  left: 400px;
-  top: 545px;
-}
+  input[type=submit] {
+    left: 400px;
+    top: 545px;
+  }
 
-.orLogInWith{
-  left: 390px;
-  top: 605px;
-}
+  .orLogInWith {
+    left: 390px;
+    top: 605px;
+  }
 
-.line2{
-  left: 200px;
-  top: 620px;
-  width: 180px;
-  height: 1px;
-}
+  .line2 {
+    left: 200px;
+    top: 620px;
+    width: 180px;
+    height: 1px;
+  }
 
-.line3{
-  left: 530px;
-  top: 620px;
-  width: 180px;
-  height: 1px;
-}
+  .line3 {
+    left: 530px;
+    top: 620px;
+    width: 180px;
+    height: 1px;
+  }
 
 }
 
 
 /*media query - desktop/large*/
 @media screen and (min-width: 1024px) {
-  .liButton{
+  .liButton {
     width: 181px;
     height: 57px;
     left: 500px;
     top: 190px;
   }
-  
-  .suButton{
+
+  .suButton {
     width: 181px;
     height: 57px;
     left: 800px;
@@ -253,98 +253,98 @@ input[type=submit] {
   }
 
 
-.logIn{
-  left: 565px;
-  top: 200px;
-  font-size: 22px;
+  .logIn {
+    left: 565px;
+    top: 200px;
+    font-size: 22px;
+  }
+
+  .signup {
+    left: 860px;
+    top: 200px;
+    font-size: 22px;
+  }
+
+
+  /*label font size and positioning*/
+  label {
+    font-size: 25px;
+  }
+
+  .username {
+    left: 400px;
+    top: 315px;
+  }
+
+  .password {
+    left: 400px;
+    top: 430px;
+  }
+
+  /*input box positions*/
+  .input_un {
+    width: 743px;
+    left: 400px;
+    top: 355px;
+  }
+
+  .input_pw {
+    width: 743px;
+    left: 400px;
+    top: 465px;
+  }
+
+  .text {
+    font-size: 20px;
+  }
+
+  .iconAwesomeFacebook {
+    left: 670px;
+    top: 625px;
+  }
+
+  .iconAwesomeGoogle {
+    left: 720px;
+    top: 625px;
+  }
+
+  .iconAwesomeTwitter {
+    left: 770px;
+    top: 625px;
+  }
+
+  .iconAwesomeLinkedin {
+    left: 820px;
+    top: 625px;
+  }
+
+  input[type=submit] {
+    left: 700px;
+    top: 540px;
+  }
+
+  .orLogInWith {
+    left: 690px;
+    top: 590px;
+  }
+
+  .line2 {
+    left: 500px;
+    top: 605px;
+    width: 180px;
+    height: 1px;
+  }
+
+  .line3 {
+    left: 830px;
+    top: 605px;
+    width: 180px;
+    height: 1px;
+  }
+
 }
 
-.signup{
-  left: 860px;
-  top: 200px;
-  font-size: 22px;
-}
-
-
-/*label font size and positioning*/
-label {
-  font-size: 25px;
-}
-
-.username{
-  left: 400px;
-  top: 315px;
-}
-
-.password{
-  left: 400px;
-  top: 430px;
-}
-
-/*input box positions*/
-.input_un {
-  width: 743px;
-  left: 400px;
-  top: 355px;
-}
-
-.input_pw {
-  width: 743px;
-  left: 400px;
-  top: 465px;
-}
-
-.text{
-  font-size: 20px;
-}
-
-.iconAwesomeFacebook{
-  left: 670px;
-  top: 625px;
-}
-
-.iconAwesomeGoogle{
-  left: 720px;
-  top: 625px;
-}
-
-.iconAwesomeTwitter{
-  left: 770px;
-  top: 625px;
-}
-
-.iconAwesomeLinkedin{
-  left: 820px;
-  top: 625px;
-}
-
-input[type=submit] {
-  left: 700px;
-  top: 540px;
-}
-
-.orLogInWith{
-  left: 690px;
-  top: 590px;
-}
-
-.line2{
-  left: 500px;
-  top: 605px;
-  width: 180px;
-  height: 1px;
-}
-
-.line3{
-  left: 830px;
-  top: 605px;
-  width: 180px;
-  height: 1px;
-}
-
-}
-
-.buttonBar .liButton{
+.buttonBar .liButton {
   position: absolute;
   box-sizing: border-box;
   transform-origin: center;
@@ -356,7 +356,7 @@ input[type=submit] {
   border-radius: 10px;
 }
 
-.buttonBar .logIn{
+.buttonBar .logIn {
   position: absolute;
   box-sizing: content-box;
   transform-origin: center;
@@ -371,7 +371,7 @@ input[type=submit] {
   white-space: pre;
 }
 
-.buttonBar .suButton{
+.buttonBar .suButton {
   position: absolute;
   box-sizing: border-box;
   transform-origin: center;
@@ -383,7 +383,7 @@ input[type=submit] {
   border-radius: 10px;
 }
 
-.buttonBar .signup{
+.buttonBar .signup {
   position: absolute;
   box-sizing: content-box;
   transform-origin: center;
