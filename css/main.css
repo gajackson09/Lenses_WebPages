@@ -26,6 +26,14 @@
         left: 250px;
     }
 
+    .discover2{
+        left: 300px;
+    }
+
+    .following{
+        left: 250px;
+    }
+
     .caption{
         font-size: 10px;
     }
@@ -34,8 +42,16 @@
         left: 310px;  
     }
 
+    .help{
+        left: 350px;  
+    }
+
     .about{
         left: 385px;  
+    }
+
+    .profile{
+        left: 385px;
     }
 
     .buttonShape{
@@ -88,6 +104,14 @@
     .discover{
         left: 620px;
     }
+    
+    .discover2{
+        left: 700px;
+    }
+
+    .following{
+        left: 620px;
+    }
 
     .caption{
         font-size: 15px;
@@ -97,7 +121,15 @@
         left: 710px;
     }
 
+    .help{   
+        left: 770px;
+    }
+
     .about{
+        left: 820px;
+    }
+
+    .profile{
         left: 820px;
     }
 
@@ -144,18 +176,34 @@
     }
 
     .discover{
-        left: 1067px;
+        left: 1067px;;
+    }
+
+    .discover2{
+        left: 1140px;
     }
 
     .caption{
         font-size: 20px;
     }
 
+    .following{
+        left: 1030px;
+    }
+
     .memberships{    
         left: 1158px;
     }
 
+    .help{    
+        left: 1230px;
+    }
+
     .about{
+        left: 1290px;
+    }
+
+    .profile{
         left: 1290px;
     }
 
@@ -579,4 +627,26 @@ input[type=submit] {
     font-family: Lato, Arial;
     text-decoration: none;
     white-space: pre;
+}
+
+.metadata-comments{
+    position: absolute;
+    box-sizing: content-box;
+    transform-origin: center;
+    opacity: 1;
+    fill: rgba(0, 0, 0, 1);
+    width: 28px;
+    height: 22.05px;
+}
+
+.fheader{
+    position: absolute;
+    text-align: left;
+    color: rgba(0, 53, 84, 1);
+    font-weight: 700;
+    font-style: normal;
+    font-family: Lato, Arial;
+    text-decoration: none;
+    white-space: pre;
+    top: -70px;
 }

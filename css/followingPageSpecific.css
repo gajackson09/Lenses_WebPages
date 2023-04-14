@@ -1,1371 +1,352 @@
-/*class for followingPageSpecific*/ 
-
-/*need to include css for the responsiveness - media queries*/
-/*reogranzie to make sense*/
-/*try to combine classes into one*/
-/*tidy up code*/
-/*when theres time remain everything to make sense*/
-
-/*body class*/ 
-body {
-  font-family: 'Open Sans', serif;
-  margin: 0;
-  padding: 0;
-  height: auto;
-  width: auto;
-  background-color: rgba(250, 247, 240, 1);
-  }
-
-      .followingPageSpecific {
-
-      display: block;
-      position: absolute;
-      box-sizing: content-box;
-    transform-origin: center;
-      opacity: 1;
-      background-color: rgba(250, 247, 240, 1);
-      width: 1920.00px;
-    height: 3108.00px;
-
-}
-
-.followingPageSpecific .rectangle15 {
-    position: absolute;
-      box-sizing: border-box;
-    transform-origin: center;
-      opacity: 0.8899999856948853;
-      background-color: transparent;
-      border-color: rgba(112, 112, 112, 1);
-      border-style: solid;
-      border-width: 1.00px;
-      border-radius: 10.00px;
-      width: 1446.00px;
-    height: 2898.00px;
-    left: 237.00px;
-    top: 210.00px;
-
-}
-
-.followingPageSpecific .line1 {
-    position: absolute;
-      box-sizing: content-box;
-    transform-origin: center;
-      opacity: 1;
-      stroke: rgba(112, 112, 112, 1);
-          stroke-width: 1.00px;
-          stroke-linecap: butt;
-      width: 1836.00px;
-    height: 2.00px;
-    left: 42.50px;
-    top: 106.00px;
-
-}
-
-.followingPageSpecific .profile {
-    position: absolute;
-      box-sizing: content-box;
-    transform-origin: center;
-      opacity: 1;
-      background-color: rgba(255, 255, 255, 0);
-      text-align: left;
-      color: rgba(0, 53, 84, 1);
-      font-size: 20.00px;
-      font-weight: 400;
-    font-style: normal;
-      font-family: Lato, Arial;
-      text-decoration: none;
-      white-space: pre;
-      width: 57.00px;
-    height: 24.00px;
-    left: 1675.00px;
-    top: 56.00px;
-
-}
-
-.followingPageSpecific .rectangle3 {
-    position: absolute;
-      box-sizing: border-box;
-    transform-origin: center;
-      opacity: 1;
-      background-color: rgba(5, 130, 202, 1);
-      border-color: rgba(112, 112, 112, 1);
-      border-style: solid;
-      border-width: 1.00px;
-      border-radius: 10.00px;
-      width: 121.00px;
-    height: 36.00px;
-    left: 1758.00px;
-    top: 48.00px;
-
-}
-
-.followingPageSpecific .post {
-    position: absolute;
-      box-sizing: content-box;
-    transform-origin: center;
-      opacity: 1;
-      background-color: rgba(255, 255, 255, 0);
-      text-align: left;
-      color: rgba(255, 255, 255, 1);
-      font-size: 15.00px;
-      font-weight: 700;
-    font-style: normal;
-      font-family: Lato, Arial;
-      text-decoration: none;
-      white-space: pre;
-      width: 30.00px;
-    height: 18.00px;
-    left: 1804.00px;
-    top: 57.00px;
-
-}
-
-.followingPageSpecific .help {
-    position: absolute;
-      box-sizing: content-box;
-    transform-origin: center;
-      opacity: 1;
-      background-color: rgba(255, 255, 255, 0);
-      text-align: left;
-      color: rgba(0, 53, 84, 1);
-      font-size: 20.00px;
-      font-weight: 400;
-    font-style: normal;
-      font-family: Lato, Arial;
-      text-decoration: none;
-      white-space: pre;
-      width: 41.00px;
-    height: 24.00px;
-    left: 1608.00px;
-    top: 56.00px;
-
-}
-
-.followingPageSpecific .discover {
-    position: absolute;
-      box-sizing: content-box;
-    transform-origin: center;
-      opacity: 1;
-      background-color: rgba(255, 255, 255, 0);
-      text-align: left;
-      color: rgba(0, 53, 84, 1);
-      font-size: 20.00px;
-      font-weight: 400;
-    font-style: normal;
-      font-family: Lato, Arial;
-      text-decoration: none;
-      white-space: pre;
-      width: 77.00px;
-    height: 24.00px;
-    left: 1505.00px;
-    top: 56.00px;
-
-}
-
-.followingPageSpecific .followingb2ac5a87 {
-    position: absolute;
-      box-sizing: content-box;
-    transform-origin: center;
-      opacity: 1;
-      background-color: rgba(255, 255, 255, 0);
-      text-align: left;
-      color: rgba(5, 130, 202, 1);
-      font-size: 20.00px;
-      font-weight: 400;
-    font-style: normal;
-      font-family: Lato, Arial;
-      text-decoration: none;
-      white-space: pre;
-      width: 84.00px;
-    height: 24.00px;
-    left: 1395.00px;
-    top: 56.00px;
-
-}
-
-.followingPageSpecific .image {
-
-      display: block;
-      position: absolute;
-      box-sizing: content-box;
-    transform-origin: center;
-      opacity: 1;
-      background-color: transparent;
-      width: 832.00px;
-    height: 1208.00px;
-    left: 544.00px;
-    top: 231.00px;
-
-}
-
-.followingPageSpecific .image .metadata {
-    position: absolute;
-      box-sizing: content-box;
-      display: none;
-    transform-origin: center;
-      opacity: 1;
-      background-color: rgba(255, 255, 255, 0);
-      text-align: left;
-      color: transparent;
-      font-size: 3.00px;
-      font-weight: 400;
-    font-style: normal;
-      font-family: Arial;
-      text-decoration: none;
-      width: 10.00px;
-    height: 10.00px;
-
-}
-
-.followingPageSpecific .image .placementArea {
-    position: absolute;
-      box-sizing: content-box;
-    transform-origin: center;
-      background-image: url("assets/placementArea32bf0548.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-      opacity: 1;
-      background-color: rgba(255, 255, 255, 0);
-      border-color: rgba(62, 62, 62, 1);
-      border-style: none;
-      border-width: 2.00px;
-      box-shadow: none;
-      width: 832.00px;
-    height: 1208.00px;
-
-}
-
-.followingPageSpecific .path2 {
-    position: absolute;
-      box-sizing: border-box;
-    transform-origin: center;
-      opacity: 1;
-      fill: rgba(5, 130, 202, 0.27058823529411763);
-      stroke: rgba(112, 112, 112, 1);
-          stroke-width: 1.00px;
-          stroke-linecap: butt;
-      width: 1386.66px;
-    height: 1636.48px;
-    left: 266.67px;
-    top: 1471.52px;
-
-}
-
-.followingPageSpecific .following {
-    position: absolute;
-      box-sizing: content-box;
-    transform-origin: center;
-      opacity: 1;
-      background-color: rgba(255, 255, 255, 0);
-      text-align: left;
-      color: rgba(0, 53, 84, 1);
-      font-size: 50.00px;
-      font-weight: 700;
-    font-style: normal;
-      font-family: Lato, Arial;
-      text-decoration: none;
-      white-space: pre;
-      width: 213.00px;
-    height: 60.00px;
-    left: 378.00px;
-    top: 132.00px;
-
-}
-
-.followingPageSpecific .polinaChistyakova {
-    position: absolute;
-      box-sizing: content-box;
-    transform-origin: center;
-      opacity: 1;
-      background-color: rgba(255, 255, 255, 0);
-      text-align: left;
-      color: rgba(34, 34, 34, 1);
-     font-size: 50.00px;
-      font-weight: 500;
-    font-style: normal;
-      font-family: Lato, Arial;
-      text-decoration: none;
-      white-space: pre;
-      width: 423.00px;
-    height: 60.00px;
-    left: 331.00px;
-    top: 1494.00px;
-
-}
-
-.followingPageSpecific .logo {
-
-      display: block;
-      position: absolute;
-      box-sizing: content-box;
-    transform-origin: center;
-      opacity: 1;
-      background-color: transparent;
-      width: 67.00px;
-    height: 67.00px;
-    left: 48.50px;
-    top: 21.50px;
-
-}
-
-.followingPageSpecific .logo .group26 {
-
-      display: block;
-      position: absolute;
-      box-sizing: content-box;
-    transform-origin: center;
-      background-image: url("assets/group26.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-      opacity: 1;
-      background-color: transparent;
-      width: 67.00px;
-    height: 67.00px;
-
-}
-
-.followingPageSpecific .logo .group26 .path6 {
-    position: absolute;
-      box-sizing: content-box;
-    transform-origin: center;
-      opacity: 1;
-      fill: rgba(0, 112, 186, 1);
-      stroke: rgba(0, 0, 0, 0);
-          stroke-width: 1.00px;
-          stroke-linecap: butt;
-      box-shadow: none;
-      width: 69.00px;
-    height: 69.00px;
-    left: -1.00px;
-    top: -1.00px;
-
-}
-
-.followingPageSpecific .logo .group26 .path7 {
-    position: absolute;
-      box-sizing: content-box;
-    transform-origin: center;
-      opacity: 1;
-      fill: rgba(0, 41, 66, 1);
-      stroke: rgba(0, 0, 0, 0);
-          stroke-width: 1.00px;
-          stroke-linecap: butt;
-      box-shadow: none;
-      width: 52.98px;
-    height: 51.07px;
-    left: 6.56px;
-    top: 7.97px;
-
-}
-
-.followingPageSpecific .logo .group26 .path8 {
-    position: absolute;
-      box-sizing: content-box;
-    transform-origin: center;
-      opacity: 1;
-      fill: rgba(255, 255, 255, 1);
-      stroke: rgba(0, 0, 0, 0);
-          stroke-width: 1.00px;
-          stroke-linecap: butt;
-      box-shadow: none;
-      width: 5.76px;
-    height: 28.08px;
-    left: 30.56px;
-    top: 19.46px;
-
-}
-
-.followingPageSpecific .logo .group26 .path9 {
-    position: absolute;
-      box-sizing: content-box;
-    transform-origin: center;
-      opacity: 1;
-      fill: rgba(255, 255, 255, 1);
-      stroke: rgba(0, 0, 0, 0);
-          stroke-width: 1.00px;
-          stroke-linecap: butt;
-      box-shadow: none;
-      width: 27.41px;
-    height: 5.63px;
-    left: 19.80px;
-    top: 30.68px;
-
-}
-
-.followingPageSpecific .logo .group26 .rectangle20 {
-    position: absolute;
-      box-sizing: content-box;
-    transform-origin: center;
-      opacity: 1;
-      background-color: rgba(255, 255, 255, 0);
-      border-color: rgba(0, 0, 0, 0);
-      border-style: solid;
-      border-width: 1.00px;
-      width: 66.00px;
-    height: 66.00px;
-    left: -0.50px;
-    top: -0.50px;
-
-}
-
-.followingPageSpecific .textLogo {
-
-      display: block;
-      position: absolute;
-      box-sizing: content-box;
-    transform-origin: center;
-      opacity: 1;
-      background-color: transparent;
-      width: 151.00px;
-    height: 60.00px;
-    left: 126.00px;
-    top: 24.00px;
-
-}
-
-.followingPageSpecific .textLogo .lenses {
-    position: absolute;
-      box-sizing: content-box;
-    transform-origin: center;
-      opacity: 1;
-      background-color: rgba(255, 255, 255, 0);
-      text-align: left;
-      color: rgba(5, 130, 202, 1);
-      font-size: 50.00px;
-      font-weight: 600;
-    font-style: normal;
-      font-family: Lato, Arial;
-      text-decoration: none;
-      white-space: pre;
-      width: 151.00px;
-    height: 60.00px;
-
-}
-
-.followingPageSpecific .searchbutton {
-
-      display: block;
-      position: absolute;
-      box-sizing: content-box;
-    transform-origin: center;
-      opacity: 1;
-      background-color: transparent;
-      width: 132.00px;
-    height: 48.00px;
-    left: 1237.00px;
-    top: 44.00px;
-
-}
-
-.followingPageSpecific .searchbutton .rectangle22 {
-    position: absolute;
-      box-sizing: content-box;
-    transform-origin: center;
-      opacity: 1;
-      background-color: transparent;
-      border-color: rgba(112, 112, 112, 1);
-      border-style: none;
-      border-width: 1.00px;
-      border-radius: 24.00px;
-      width: 132.00px;
-    height: 48.00px;
-
-}
-
-.followingPageSpecific .searchbutton .search {
-    position: absolute;
-      box-sizing: content-box;
-    transform-origin: center;
-      opacity: 0;
-      background-color: rgba(255, 255, 255, 0);
-      text-align: left;
-      color: rgba(0, 53, 84, 1);
-      font-size: 28.00px;
-      font-weight: 400;
-    font-style: normal;
-      font-family: Lato, Arial;
-      text-decoration: none;
-      white-space: pre;
-      width: 102.00px;
-    height: 34.00px;
-    left: 21.00px;
-    top: 7.00px;
-
-}
-
-.followingPageSpecific .searchbutton .iconAwesomeSearch {
-    position: absolute;
-      box-sizing: content-box;
-    transform-origin: center;
-      opacity: 1;
-      fill: rgba(0, 0, 0, 1);
-      width: 32.00px;
-    height: 32.00px;
-    left: 81.00px;
-    top: 8.00px;
-
-}
-
-.followingPageSpecific .repeatGrid4 {
-
-      display: block;
-      position: absolute;
-      box-sizing: content-box;
-    transform-origin: center;
-      opacity: 1;
-      background-color: transparent;
-      width: 805.00px;
-    height: 996.00px;
-    left: 331.00px;
-    top: 2112.00px;
-
-}
-
-.followingPageSpecific .repeatGrid4 .group4494508272 {
-
-      display: block;
-      position: absolute;
-      box-sizing: content-box;
-    transform-origin: center;
-      opacity: 1;
-      background-color: transparent;
-      width: 566.00px;
-    height: 105.00px;
-
-}
-
-.followingPageSpecific .repeatGrid4 .group4494508272 .group43fa56d98b {
-
-      display: block;
-      position: absolute;
-      box-sizing: content-box;
-    transform-origin: center;
-      opacity: 1;
-      background-color: transparent;
-      width: 102.00px;
-    height: 102.00px;
-    top: 3.00px;
-
-}
-
-.followingPageSpecific .repeatGrid4 .group4494508272 .group43fa56d98b .gianCescon00byexkcskaUnsplash282a21aa {
-    position: absolute;
-      box-sizing: border-box;
-    transform-origin: center;
-      opacity: 1;
-      fill: rgba(255, 255, 255, 0);
-      stroke: rgba(112, 112, 112, 1);
-          stroke-width: 1.00px;
-          stroke-linecap: butt;
-      box-shadow: none;
-      width: 102.00px;
-    height: 102.00px;
-
-}
-
-.followingPageSpecific .repeatGrid4 .group4494508272 .jaimeMatthews {
-    position: absolute;
-      box-sizing: content-box;
-    transform-origin: center;
-      opacity: 1;
-      background-color: rgba(255, 255, 255, 0);
-      text-align: left;
-      color: rgba(112, 112, 112, 1);
-      font-size: 25.00px;
-      font-weight: 700;
-    font-style: normal;
-      font-family: Lato, Arial;
-      text-decoration: none;
-      white-space: pre;
-      width: 180.00px;
-    height: 30.00px;
-    left: 114.00px;
-
-}
-
-.followingPageSpecific .repeatGrid4 .group4494508272 .theLinesLeadTheEyesToTheRightPlaces {
-    position: absolute;
-      box-sizing: content-box;
-      opacity: 1;
-      background-color: rgba(255, 255, 255, 0);
-      text-align: left;
-      color: rgba(112, 112, 112, 1);
-      font-size: 25.00px;
-      font-weight: 400;
-    font-style: normal;
-      font-family: Lato, Arial;
-      text-decoration: none;
-      white-space: pre;
-      width: 452.00px;
-    height: 30.00px;
-    left: 114.00px;
-    top: 38.50px;
-
-}
-
-.followingPageSpecific .repeatGrid4 .group4425fb0112 {
-
-      display: block;
-      position: absolute;
-      box-sizing: content-box;
-    transform-origin: center;
-      opacity: 1;
-      background-color: transparent;
-      width: 801.00px;
-    height: 105.00px;
-    top: 149.00px;
-
-}
-
-.followingPageSpecific .repeatGrid4 .group4425fb0112 .group4302b788f6 {
-
-      display: block;
-      position: absolute;
-      box-sizing: content-box;
-    transform-origin: center;
-      opacity: 1;
-      background-color: transparent;
-      width: 102.00px;
-    height: 102.00px;
-    top: 3.00px;
-
-}
-
-.followingPageSpecific .repeatGrid4 .group4425fb0112 .group4302b788f6 .gianCescon00byexkcskaUnsplash55d64b27 {
-    position: absolute;
-      box-sizing: border-box;
-    transform-origin: center;
-      opacity: 1;
-      fill: rgba(255, 255, 255, 0);
-      stroke: rgba(112, 112, 112, 1);
-          stroke-width: 1.00px;
-          stroke-linecap: butt;
-      box-shadow: none;
-      width: 102.00px;
-    height: 102.00px;
-
-}
-
-.followingPageSpecific .repeatGrid4 .group4425fb0112 .vickieNunez {
-    position: absolute;
-      box-sizing: content-box;
-    transform-origin: center;
-      opacity: 1;
-      background-color: rgba(255, 255, 255, 0);
-      text-align: left;
-      color: rgba(112, 112, 112, 1);
-      font-size: 25.00px;
-      font-weight: 700;
-    font-style: normal;
-      font-family: Lato, Arial;
-      text-decoration: none;
-      white-space: pre;
-      width: 146.00px;
-    height: 60.00px;
-    left: 114.00px;
-
-}
-
-.followingPageSpecific .repeatGrid4 .group4425fb0112 .allTheElementsCombinedInThePhotoEvokeStrongEmotions {
-    position: absolute;
-      box-sizing: content-box;
-    transform-origin: center;
-      opacity: 1;
-      background-color: rgba(255, 255, 255, 0);
-      text-align: left;
-      letter-spacing: 0.00px;
-      color: rgba(112, 112, 112, 1);
-      font-size: 25.00px;
-      font-weight: 400;
-    font-style: normal;
-      font-family: Lato, Arial;
-      text-decoration: none;
-      white-space: pre;
-      width: 687.00px;
-    height: 30.00px;
-    left: 114.00px;
-    top: 38.50px;
-
-}
-
-.followingPageSpecific .repeatGrid4 .group449fe330c2 {
-
-      display: block;
-      position: absolute;
-      box-sizing: content-box;
-    transform-origin: center;
-      opacity: 1;
-      background-color: transparent;
-      width: 680.00px;
-    height: 105.00px;
-    top: 298.00px;
-
-}
-
-.followingPageSpecific .repeatGrid4 .group449fe330c2 .group43ac4d80aa {
-
-      display: block;
-      position: absolute;
-      box-sizing: content-box;
-    transform-origin: center;
-      opacity: 1;
-      background-color: transparent;
-      width: 102.00px;
-    height: 102.00px;
-    top: 3.00px;
-
-}
-
-.followingPageSpecific .repeatGrid4 .group449fe330c2 .group43ac4d80aa .gianCescon00byexkcskaUnsplashed983e12 {
-    position: absolute;
-      box-sizing: border-box;
-    transform-origin: center;
-      opacity: 1;
-      fill: rgba(255, 255, 255, 0);
-      stroke: rgba(112, 112, 112, 1);
-          stroke-width: 1.00px;
-          stroke-linecap: butt;
-      box-shadow: none;
-      width: 102.00px;
-    height: 102.00px;
-
-}
-
-.followingPageSpecific .repeatGrid4 .group449fe330c2 .rachaelManning {
-    position: absolute;
-      box-sizing: content-box;
-    transform-origin: center;
-      opacity: 1;
-      background-color: rgba(255, 255, 255, 0);
-      text-align: left;
-      color: rgba(112, 112, 112, 1);
-      font-size: 25.00px;
-      font-weight: 700;
-    font-style: normal;
-      font-family: Lato, Arial;
-      text-decoration: none;
-      white-space: pre;
-      width: 189.00px;
-    height: 60.00px;
-    left: 114.00px;
-
-}
-
-.followingPageSpecific .repeatGrid4 .group449fe330c2 .thePatternsInThePhotoCreatedALovelyHarmony {
-    position: absolute;
-      box-sizing: content-box;
-    transform-origin: center;
-      opacity: 1;
-      background-color: rgba(255, 255, 255, 0);
-      text-align: left;
-      color: rgba(112, 112, 112, 1);
-      font-size: 25.00px;
-      font-weight: 400;
-    font-style: normal;
-      font-family: Lato, Arial;
-      text-decoration: none;
-      white-space: pre;
-      width: 566.00px;
-    height: 30.00px;
-    left: 114.00px;
-    top: 38.50px;
-
-}
-
-.followingPageSpecific .repeatGrid4 .group447e2fa7bf {
-
-      display: block;
-      position: absolute;
-      box-sizing: content-box;
-    transform-origin: center;
-      opacity: 1;
-      cursor: default;
-      background-color: transparent;
-      width: 736.00px;
-    height: 105.00px;
-    left: 0.00px;
-    top: 447.00px;
-
-}
-
-.followingPageSpecific .repeatGrid4 .group447e2fa7bf .group4397647ff2 {
-
-      display: block;
-      position: absolute;
-      box-sizing: content-box;
-    transform-origin: center;
-      opacity: 1;
-      background-color: transparent;
-      width: 102.00px;
-    height: 102.00px;
-    left: 0.00px;
-    top: 3.00px;
-
-}
-
-.followingPageSpecific .repeatGrid4 .group447e2fa7bf .group4397647ff2 .gianCescon00byexkcskaUnsplash48ecf625 {
-    position: absolute;
-      box-sizing: border-box;
-    transform-origin: center;
-      opacity: 1;
-      fill: rgba(255, 255, 255, 0);
-      stroke: rgba(112, 112, 112, 1);
-          stroke-width: 1.00px;
-          stroke-linecap: butt;
-      box-shadow: none;
-      width: 102.00px;
-    height: 102.00px;
-
-}
-
-.followingPageSpecific .repeatGrid4 .group447e2fa7bf .zacheryReese {
-    position: absolute;
-      box-sizing: content-box;
-    transform-origin: center;
-      opacity: 1;
-      background-color: rgba(255, 255, 255, 0);
-      text-align: left;
-      color: rgba(112, 112, 112, 1);
-      font-size: 25.00px;
-      font-weight: 700;
-    font-style: normal;
-      font-family: Lato, Arial;
-      text-decoration: none;
-      white-space: pre;
-      width: 161.00px;
-    height: 30.00px;
-    left: 114.00px;
-
-}
-
-.followingPageSpecific .repeatGrid4 .group447e2fa7bf .iLoveTheColorContrastThatYouWereAbleToAddToTheComposition {
-    position: absolute;
-      box-sizing: content-box;
-    transform-origin: center;
-      opacity: 1;
-      background-color: rgba(255, 255, 255, 0);
-      text-align: left;
-      color: rgba(112, 112, 112, 1);
-      font-size: 25.00px;
-      font-weight: 400;
-    font-style: normal;
-      font-family: Lato, Arial;
-      text-decoration: none;
-      white-space: pre;
-      width: 622.00px;
-    height: 60.00px;
-    left: 114.00px;
-    top: 38.50px;
-
-}
-
-.followingPageSpecific .repeatGrid4 .group449e7cda46 {
-
-      display: block;
-      position: absolute;
-      box-sizing: content-box;
-    transform-origin: center;
-      opacity: 1;
-      background-color: transparent;
-      width: 738.00px;
-    height: 105.00px;
-    top: 596.00px;
-
-}
-
-.followingPageSpecific .repeatGrid4 .group449e7cda46 .group437c6db4d3 {
-
-      display: block;
-      position: absolute;
-      box-sizing: content-box;
-    transform-origin: center;
-      opacity: 1;
-      background-color: transparent;
-      width: 102.00px;
-    height: 102.00px;
-    top: 3.00px;
-
-}
-
-.followingPageSpecific .repeatGrid4 .group449e7cda46 .group437c6db4d3 .gianCescon00byexkcskaUnsplashb6e5b73d {
-    position: absolute;
-      box-sizing: border-box;
-    transform-origin: center;
-      opacity: 1;
-      fill: rgba(255, 255, 255, 0);
-      stroke: rgba(112, 112, 112, 1);
-          stroke-width: 1.00px;
-          stroke-linecap: butt;
-      box-shadow: none;
-      width: 102.00px;
-    height: 102.00px;
-
-}
-
-.followingPageSpecific .repeatGrid4 .group449e7cda46 .christopherMorgan {
-    position: absolute;
-      box-sizing: content-box;
-    transform-origin: center;
-      opacity: 1;
-      background-color: rgba(255, 255, 255, 0);
-      text-align: left;
-      color: rgba(112, 112, 112, 1);
-      font-size: 25.00px;
-      font-weight: 700;
-    font-style: normal;
-      font-family: Lato, Arial;
-      text-decoration: none;
-      white-space: pre;
-      width: 223.00px;
-    height: 60.00px;
-    left: 114.00px;
-
-}
-
-.followingPageSpecific .repeatGrid4 .group449e7cda46 .beautifulArchitectureSilhouettePerfectlyTimedPhotoResultingToThePerfectColorsAndPerfectEffects {
-    position: absolute;
-      box-sizing: content-box;
-    transform-origin: center;
-      opacity: 1;
-      background-color: rgba(255, 255, 255, 0);
-      text-align: left;
-      color: rgba(112, 112, 112, 1);
-      font-size: 25.00px;
-      font-weight: 400;
-    font-style: normal;
-      font-family: Lato, Arial;
-      text-decoration: none;
-      white-space: pre;
-      width: 624.00px;
-    height: 60.00px;
-    left: 114.00px;
-    top: 38.50px;
-
-}
-
-.followingPageSpecific .repeatGrid4 .group44938eb3ef {
-
-      display: block;
-      position: absolute;
-      box-sizing: content-box;
-    transform-origin: center;
-      opacity: 1;
-      background-color: transparent;
-      width: 785.00px;
-    height: 128.50px;
-    top: 745.00px;
-
-}
-
-.followingPageSpecific .repeatGrid4 .group44938eb3ef .group43160e8e6c {
-
-      display: block;
-      position: absolute;
-      box-sizing: content-box;
-    transform-origin: center;
-      opacity: 1;
-      background-color: transparent;
-      width: 102.00px;
-    height: 102.00px;
-    top: 3.00px;
-
-}
-
-.followingPageSpecific .repeatGrid4 .group44938eb3ef .group43160e8e6c .gianCescon00byexkcskaUnsplash80e52683 {
-    position: absolute;
-      box-sizing: border-box;
-    transform-origin: center;
-      opacity: 1;
-      fill: rgba(255, 255, 255, 0);
-      stroke: rgba(112, 112, 112, 1);
-          stroke-width: 1.00px;
-          stroke-linecap: butt;
-      box-shadow: none;
-      width: 102.00px;
-    height: 102.00px;
-
-}
-
-.followingPageSpecific .repeatGrid4 .group44938eb3ef .richardHenderson {
+@import "main.css";
+
+/*css for followingPageSpecific*/ 
+/*following page specific css*/
+.followingPageSpecific {
+  display: block;
   position: absolute;
   box-sizing: content-box;
-transform-origin: center;
+  transform-origin: center;
+}
+
+/*media query - tablet/small*/
+@media screen and (max-width: 567px) {
+
+}
+
+/*media query - laptop/medium*/
+@media screen and (min-width: 568px) {
+
+}
+
+/*media query - desktop/large*/
+@media screen and (min-width: 1024px) {
+  
+}
+
+.border {
+  position: absolute;
+  box-sizing: border-box;
+  transform-origin: center;
+  opacity: 0.8899999856948853;
+  background-color: transparent;
+  border-color: rgba(112, 112, 112, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 10px;
+  width: 1446px;
+  height: 2898px;
+  left: 40px;
+  top: 210px;
+}
+
+.fimagesize{
+  width: 832px;
+  height: 1208px;
+  left: 350px;
+  top: 230px;
+}
+
+.title{
+  font-size: 50px;
+  left: 650px;
+  top:130px;
+}
+    
+.followingPageSpecific .image .placementArea {
+  background-image: url("assets/placementArea32bf0548.png");
+}
+
+.commentBox {
+  position: absolute;
+  box-sizing: border-box;
+  transform-origin: center;
   opacity: 1;
-  background-color: rgba(255, 255, 255, 0);
+  fill: rgba(5, 130, 202, 0.27058823529411763);
+  stroke: rgba(112, 112, 112, 1);
+  stroke-width: 1.00px;
+  stroke-linecap: butt;
+   
+  /*add this to media queries*/
+  width: 1386.66px;
+  height: 1636.48px;
+  left: 70px;
+  top: 1465px;
+}
+
+.imagetitle{
+  position: absolute;
+  box-sizing: content-box;
+  transform-origin: center;
+  opacity: 1;
   text-align: left;
-  color: rgba(112, 112, 112, 1);
-  font-size: 25.00px;
-  font-weight: 400;
-font-style: normal;
+  color: rgba(34, 34, 34, 1);
+  font-size: 50px;
+  font-weight: 500;
+  font-style: normal;
   font-family: Lato, Arial;
   text-decoration: none;
   white-space: pre;
-      width: 218.00px;
-    height: 30.00px;
-    left: 114.00px;
-
+  
+  /*add this to media queries*/
+  left: 100px;
+  top: 1494px;
 }
 
-.followingPageSpecific .repeatGrid4 .group44938eb3ef .imReallyDrawnToYourImageIThinkIfYouAddedAMainSubjectInTheMiddleOfTheFrameItCouldHelpCreateAStoryToTheFantasticBackground {
-    position: absolute;
-      box-sizing: content-box;
-    transform-origin: center;
-      opacity: 1;
-      background-color: rgba(255, 255, 255, 0);
-      text-align: left;
-      color: rgba(112, 112, 112, 1);
-      font-size: 25.00px;
-      font-weight: 400;
-    font-style: normal;
-      font-family: Lato, Arial;
-      text-decoration: none;
-      white-space: pre;
-      width: 671.00px;
-    height: 90.00px;
-    left: 114.00px;
-    top: 38.50px;
-
+.imagedetailsstyling{
+  box-sizing: content-box;
+  transform-origin: center;
+  opacity: 1;
+  background-color: rgba(255, 255, 255, 0);
+  text-align: left;
+  color: rgba(34, 34, 34, 1);
+  font-size: 30px;
+  font-weight: 500;
+  font-style: normal;
+  font-family: Lato, Arial;
+  text-decoration: none;
+  white-space: pre;
 }
 
-.followingPageSpecific .repeatGrid4 .group44 {
-
-      display: block;
-      position: absolute;
-      box-sizing: content-box;
-    transform-origin: center;
-      opacity: 1;
-      background-color: transparent;
-      width: 631.00px;
-    height: 105.00px;
-    top: 894.00px;
-
+/*add this to media queries*/
+.section1{
+  position: absolute;
+  top: 1570px;
 }
 
-.followingPageSpecific .repeatGrid4 .group44 .group43 {
-
-      display: block;
-      position: absolute;
-      box-sizing: content-box;
-    transform-origin: center;
-      opacity: 1;
-      background-color: transparent;
-      width: 102.00px;
-    height: 102.00px;
-    top: 3.00px;
-
+.section2{
+  position: absolute;
+  top: 1600px;
 }
 
-.followingPageSpecific .repeatGrid4 .group44 .group43 .gianCescon00byexkcskaUnsplash {
-    position: absolute;
-      box-sizing: border-box;
-    transform-origin: center;
-      opacity: 1;
-      fill: rgba(255, 255, 255, 0);
-      stroke: rgba(112, 112, 112, 1);
-          stroke-width: 1.00px;
-          stroke-linecap: butt;
-      box-shadow: none;
-      width: 102.00px;
-    height: 102.00px;
-
+.section3{
+  position: absolute;
+  top: 1630px;
 }
 
-.followingPageSpecific .repeatGrid4 .group44 .jenniferBennett {
-    position: absolute;
-      box-sizing: content-box;
-    transform-origin: center;
-      opacity: 1;
-      background-color: rgba(255, 255, 255, 0);
-      text-align: left;
-      color: rgba(112, 112, 112, 1);
-      font-size: 25.00px;
-      font-weight: 700;
-    font-style: normal;
-      font-family: Lato, Arial;
-      text-decoration: none;
-      white-space: pre;
-      width: 182.00px;
-    height: 60.00px;
-    left: 114.00px;
-
+.section4{
+  position: absolute;
+  top: 1660px;
 }
 
-.followingPageSpecific .repeatGrid4 .group44 .interestingMixOfTexturesTonesAndPatterns {
-    position: absolute;
-      box-sizing: content-box;
-    transform-origin: center;
-      opacity: 1;
-      background-color: rgba(255, 255, 255, 0);
-      text-align: left;
-      color: rgba(112, 112, 112, 1);
-      font-size: 25.00px;
-      font-weight: 400;
-    font-style: normal;
-      font-family: Lato, Arial;
-      text-decoration: none;
-      white-space: pre;
-      width: 517.00px;
-    height: 30.00px;
-    left: 114.00px;
-    top: 38.50px;
-
+.section5{
+  position: absolute;
+  top: 1690px;
 }
 
-.followingPageSpecific .comments {
-    position: absolute;
-      box-sizing: content-box;
-    transform-origin: center;
-      opacity: 1;
-      background-color: rgba(255, 255, 255, 0);
-      text-align: left;
-      color: rgba(34, 34, 34, 1);
-      font-size: 50.00px;
-      font-weight: 500;
-    font-style: normal;
-      font-family: Lato, Arial;
-      text-decoration: none;
-      white-space: pre;
-      width: 423.00px;
-    height: 60.00px;
-    left: 331.00px;
-    top: 1997.00px;
-
+.section6{
+  position: absolute;
+  top: 1720px;
 }
 
-.followingPageSpecific .ccBuildingsOnCityStreetlocationLondonEnglandUnitedKingdomdimensions2587X3806fileSize259MbcameraIphone11focal425mmaperture18iso32shutterSpeed00016835016835016834stakenAtAug282022uploaded10122022 {
-    position: absolute;
-      box-sizing: content-box;
-    transform-origin: center;
-      opacity: 1;
-      background-color: rgba(255, 255, 255, 0);
-      text-align: left;
-      color: rgba(34, 34, 34, 1);
-      font-size: 30.00px;
-      font-weight: 500;
-    font-style: normal;
-      font-family: Lato, Arial;
-      text-decoration: none;
-      white-space: pre;
-      width: 1259.00px;
-    height: 396.00px;
-    left: 331.00px;
-    top: 1572.00px;
-
+.section7{
+  position: absolute;
+  top: 1750px;
 }
 
-.followingPageSpecific .ccBuildingsOnCityStreetlocationLondonEnglandUnitedKingdomdimensions2587X3806fileSize259MbcameraIphone11focal425mmaperture18iso32shutterSpeed00016835016835016834stakenAtAug282022uploaded10122022 .ccBuildingsOnCityStreetlocationLondonEnglandUnitedKingdomdimensions2587X3806fileSize259MbcameraIphone11focal425mmaperture18iso32shutterSpeed00016835016835016834stakenAtAug282022uploaded10122022-0 {
-    color: rgba(34, 34, 34, 1);
-    font-weight: 700;
-    font-style: normal;
-    font-size: 30.00px;
-    font-family: Lato, Arial;
-    text-decoration: none;
+.section8{
+  position: absolute;
+  top: 1780px;
 }
 
-.followingPageSpecific .ccBuildingsOnCityStreetlocationLondonEnglandUnitedKingdomdimensions2587X3806fileSize259MbcameraIphone11focal425mmaperture18iso32shutterSpeed00016835016835016834stakenAtAug282022uploaded10122022 .ccBuildingsOnCityStreetlocationLondonEnglandUnitedKingdomdimensions2587X3806fileSize259MbcameraIphone11focal425mmaperture18iso32shutterSpeed00016835016835016834stakenAtAug282022uploaded10122022-2 {
-    color: rgba(34, 34, 34, 1);
-    font-weight: 500;
-    font-style: normal;
-    font-size: 30.00px;
-    font-family: Lato, Arial;
-    text-decoration: none;
+.section9{
+  position: absolute;
+  top: 1810px;
 }
 
-.followingPageSpecific .ccBuildingsOnCityStreetlocationLondonEnglandUnitedKingdomdimensions2587X3806fileSize259MbcameraIphone11focal425mmaperture18iso32shutterSpeed00016835016835016834stakenAtAug282022uploaded10122022 .ccBuildingsOnCityStreetlocationLondonEnglandUnitedKingdomdimensions2587X3806fileSize259MbcameraIphone11focal425mmaperture18iso32shutterSpeed00016835016835016834stakenAtAug282022uploaded10122022-29 {
-    color: rgba(34, 34, 34, 1);
-    font-weight: 700;
-    font-style: normal;
-    font-size: 30.00px;
-    font-family: Lato, Arial;
-    text-decoration: none;
+.section10{
+  position: absolute;
+  top: 1840px;
 }
 
-.followingPageSpecific .ccBuildingsOnCityStreetlocationLondonEnglandUnitedKingdomdimensions2587X3806fileSize259MbcameraIphone11focal425mmaperture18iso32shutterSpeed00016835016835016834stakenAtAug282022uploaded10122022 .ccBuildingsOnCityStreetlocationLondonEnglandUnitedKingdomdimensions2587X3806fileSize259MbcameraIphone11focal425mmaperture18iso32shutterSpeed00016835016835016834stakenAtAug282022uploaded10122022-37 {
-    color: rgba(34, 34, 34, 1);
-    font-weight: 500;
-    font-style: normal;
-    font-size: 30.00px;
-    font-family: Lato, Arial;
-    text-decoration: none;
+.section11{
+  position: absolute;
+  top: 1870px;
 }
 
-.followingPageSpecific .ccBuildingsOnCityStreetlocationLondonEnglandUnitedKingdomdimensions2587X3806fileSize259MbcameraIphone11focal425mmaperture18iso32shutterSpeed00016835016835016834stakenAtAug282022uploaded10122022 .ccBuildingsOnCityStreetlocationLondonEnglandUnitedKingdomdimensions2587X3806fileSize259MbcameraIphone11focal425mmaperture18iso32shutterSpeed00016835016835016834stakenAtAug282022uploaded10122022-71 {
-    color: rgba(34, 34, 34, 1);
-    font-weight: 700;
-    font-style: normal;
-    font-size: 30.00px;
-    font-family: Lato, Arial;
-    text-decoration: none;
+
+.commentTitle{
+  position: absolute;
+  box-sizing: content-box;
+  transform-origin: center;
+  opacity: 1;
+  text-align: left;
+  color: rgba(34, 34, 34, 1);
+  font-size: 50px;
+  font-weight: 500;
+  font-style: normal;
+  font-family: Lato, Arial;
+  text-decoration: none;
+  white-space: pre;
+  
+  /*add this to media queries*/
+  left: 100px;
+  top: 1994px;
 }
 
-.followingPageSpecific .ccBuildingsOnCityStreetlocationLondonEnglandUnitedKingdomdimensions2587X3806fileSize259MbcameraIphone11focal425mmaperture18iso32shutterSpeed00016835016835016834stakenAtAug282022uploaded10122022 .ccBuildingsOnCityStreetlocationLondonEnglandUnitedKingdomdimensions2587X3806fileSize259MbcameraIphone11focal425mmaperture18iso32shutterSpeed00016835016835016834stakenAtAug282022uploaded10122022-81 {
-    color: rgba(34, 34, 34, 1);
-    font-weight: 500;
-    font-style: normal;
-    font-size: 30.00px;
-    font-family: Lato, Arial;
-    text-decoration: none;
+.commentstitle{
+  position: absolute;
+  box-sizing: content-box;
+  transform-origin: center;
+  opacity: 1;
+  text-align: left;
+  color: rgba(112, 112, 112, 1);
+  font-size: 25px;
+  font-weight: 700;
+  font-style: normal;
+  font-family: Lato, Arial;
+  text-decoration: none;
+  white-space: pre;
 }
 
-.followingPageSpecific .ccBuildingsOnCityStreetlocationLondonEnglandUnitedKingdomdimensions2587X3806fileSize259MbcameraIphone11focal425mmaperture18iso32shutterSpeed00016835016835016834stakenAtAug282022uploaded10122022 .ccBuildingsOnCityStreetlocationLondonEnglandUnitedKingdomdimensions2587X3806fileSize259MbcameraIphone11focal425mmaperture18iso32shutterSpeed00016835016835016834stakenAtAug282022uploaded10122022-95 {
-    color: rgba(34, 34, 34, 1);
-    font-weight: 700;
-    font-style: normal;
-    font-size: 30.00px;
-    font-family: Lato, Arial;
-    text-decoration: none;
+.commentText{
+  position: absolute;
+  box-sizing: content-box;
+  opacity: 1;
+  text-align: left;
+  color: rgba(112, 112, 112, 1);
+  font-size: 25px;
+  font-weight: 400;
+  font-style: normal;
+  font-family: Lato, Arial;
+  text-decoration: none;
+  white-space: pre;
 }
 
-.followingPageSpecific .ccBuildingsOnCityStreetlocationLondonEnglandUnitedKingdomdimensions2587X3806fileSize259MbcameraIphone11focal425mmaperture18iso32shutterSpeed00016835016835016834stakenAtAug282022uploaded10122022 .ccBuildingsOnCityStreetlocationLondonEnglandUnitedKingdomdimensions2587X3806fileSize259MbcameraIphone11focal425mmaperture18iso32shutterSpeed00016835016835016834stakenAtAug282022uploaded10122022-104 {
-    color: rgba(34, 34, 34, 1);
-    font-weight: 500;
-    font-style: normal;
-    font-size: 30.00px;
-    font-family: Lato, Arial;
-    text-decoration: none;
+/*comment profile images and styling*/
+.profileStyling{
+  position: absolute;
+  box-sizing: border-box;
+  transform-origin: center; 
+  stroke: rgba(112, 112, 112, 1);
+  opacity: 1;
+  stroke-width: 3px;
+  stroke-linecap: butt;
+  box-shadow: none;
+  width: 102px;
+  height: 102px;
+
+  /*add this to media queries*/
+  left: 100px;
 }
 
-.followingPageSpecific .ccBuildingsOnCityStreetlocationLondonEnglandUnitedKingdomdimensions2587X3806fileSize259MbcameraIphone11focal425mmaperture18iso32shutterSpeed00016835016835016834stakenAtAug282022uploaded10122022 .ccBuildingsOnCityStreetlocationLondonEnglandUnitedKingdomdimensions2587X3806fileSize259MbcameraIphone11focal425mmaperture18iso32shutterSpeed00016835016835016834stakenAtAug282022uploaded10122022-114 {
-    color: rgba(34, 34, 34, 1);
-    font-weight: 700;
-    font-style: normal;
-    font-size: 30.00px;
-    font-family: Lato, Arial;
-   text-decoration: none;
+/*add this to media queries*/
+.jm{
+  left: 210px;
+  top: 2085px;
 }
 
-.followingPageSpecific .ccBuildingsOnCityStreetlocationLondonEnglandUnitedKingdomdimensions2587X3806fileSize259MbcameraIphone11focal425mmaperture18iso32shutterSpeed00016835016835016834stakenAtAug282022uploaded10122022 .ccBuildingsOnCityStreetlocationLondonEnglandUnitedKingdomdimensions2587X3806fileSize259MbcameraIphone11focal425mmaperture18iso32shutterSpeed00016835016835016834stakenAtAug282022uploaded10122022-120 {
-    color: rgba(34, 34, 34, 1);
-    font-weight: 500;
-    font-style: normal;
-    font-size: 30.00px;
-    font-family: Lato, Arial;
-    text-decoration: none;
+.jmcomment{
+  left: 210px;
+  top:2120px;
 }
 
-.followingPageSpecific .ccBuildingsOnCityStreetlocationLondonEnglandUnitedKingdomdimensions2587X3806fileSize259MbcameraIphone11focal425mmaperture18iso32shutterSpeed00016835016835016834stakenAtAug282022uploaded10122022 .ccBuildingsOnCityStreetlocationLondonEnglandUnitedKingdomdimensions2587X3806fileSize259MbcameraIphone11focal425mmaperture18iso32shutterSpeed00016835016835016834stakenAtAug282022uploaded10122022-132 {
-    color: rgba(34, 34, 34, 1);
-    font-weight: 700;
-    font-style: normal;
-    font-size: 30.00px;
-    font-family: Lato, Arial;
-    text-decoration: none;
+.jmimage{
+  background-image: url(assets/placementjm.png);
+  top: 2080px;   
 }
 
-.followingPageSpecific .ccBuildingsOnCityStreetlocationLondonEnglandUnitedKingdomdimensions2587X3806fileSize259MbcameraIphone11focal425mmaperture18iso32shutterSpeed00016835016835016834stakenAtAug282022uploaded10122022 .ccBuildingsOnCityStreetlocationLondonEnglandUnitedKingdomdimensions2587X3806fileSize259MbcameraIphone11focal425mmaperture18iso32shutterSpeed00016835016835016834stakenAtAug282022uploaded10122022-137 {
-    color: rgba(34, 34, 34, 1);
-    font-weight: 500;
-    font-style: normal;
-    font-size: 30.00px;
-    font-family: Lato, Arial;
-    text-decoration: none;
+.vn{
+  left: 210px;
+  top: 2200px;
 }
 
-.followingPageSpecific .ccBuildingsOnCityStreetlocationLondonEnglandUnitedKingdomdimensions2587X3806fileSize259MbcameraIphone11focal425mmaperture18iso32shutterSpeed00016835016835016834stakenAtAug282022uploaded10122022 .ccBuildingsOnCityStreetlocationLondonEnglandUnitedKingdomdimensions2587X3806fileSize259MbcameraIphone11focal425mmaperture18iso32shutterSpeed00016835016835016834stakenAtAug282022uploaded10122022-146 {
-    color: rgba(34, 34, 34, 1);
-    font-weight: 700;
-    font-style: normal;
-    font-size: 30.00px;
-    font-family: Lato, Arial;
-    text-decoration: none;
+.vncomment{
+  left: 210px;
+  top: 2230px;
 }
 
-.followingPageSpecific .ccBuildingsOnCityStreetlocationLondonEnglandUnitedKingdomdimensions2587X3806fileSize259MbcameraIphone11focal425mmaperture18iso32shutterSpeed00016835016835016834stakenAtAug282022uploaded10122022 .ccBuildingsOnCityStreetlocationLondonEnglandUnitedKingdomdimensions2587X3806fileSize259MbcameraIphone11focal425mmaperture18iso32shutterSpeed00016835016835016834stakenAtAug282022uploaded10122022-154 {
-    color: rgba(34, 34, 34, 1);
-    font-weight: 500;
-    font-style: normal;
-    font-size: 30.00px;
-    font-family: Lato, Arial;
-    text-decoration: none;
+.vnimage{
+  background-image: url(assets/placementvn.png);
+  top: 2200px;
 }
 
-.followingPageSpecific .ccBuildingsOnCityStreetlocationLondonEnglandUnitedKingdomdimensions2587X3806fileSize259MbcameraIphone11focal425mmaperture18iso32shutterSpeed00016835016835016834stakenAtAug282022uploaded10122022 .ccBuildingsOnCityStreetlocationLondonEnglandUnitedKingdomdimensions2587X3806fileSize259MbcameraIphone11focal425mmaperture18iso32shutterSpeed00016835016835016834stakenAtAug282022uploaded10122022-162 {
-    color: rgba(34, 34, 34, 1);
-    font-weight: 700;
-    font-style: normal;
-    font-size: 30.00px;
-    font-family: Lato, Arial;
-    text-decoration: none;
+.rm{
+  left: 210px;
+  top: 2330px;
 }
 
-.followingPageSpecific .ccBuildingsOnCityStreetlocationLondonEnglandUnitedKingdomdimensions2587X3806fileSize259MbcameraIphone11focal425mmaperture18iso32shutterSpeed00016835016835016834stakenAtAug282022uploaded10122022 .ccBuildingsOnCityStreetlocationLondonEnglandUnitedKingdomdimensions2587X3806fileSize259MbcameraIphone11focal425mmaperture18iso32shutterSpeed00016835016835016834stakenAtAug282022uploaded10122022-165 {
-    color: rgba(34, 34, 34, 1);
-    font-weight: 500;
-    font-style: normal;
-    font-size: 30.00px;
-    font-family: Lato, Arial;
-    text-decoration: none;
+.rmcomment{
+  left: 210px;
+  top: 2360px;
 }
 
-.followingPageSpecific .ccBuildingsOnCityStreetlocationLondonEnglandUnitedKingdomdimensions2587X3806fileSize259MbcameraIphone11focal425mmaperture18iso32shutterSpeed00016835016835016834stakenAtAug282022uploaded10122022 .ccBuildingsOnCityStreetlocationLondonEnglandUnitedKingdomdimensions2587X3806fileSize259MbcameraIphone11focal425mmaperture18iso32shutterSpeed00016835016835016834stakenAtAug282022uploaded10122022-170 {
-    color: rgba(34, 34, 34, 1);
-    font-weight: 700;
-    font-style: normal;
-    font-size: 30.00px;
-    font-family: Lato, Arial;
-    text-decoration: none;
+.rmimage{
+  background-image: url(assets/placementrm.png);
+  top: 2320px;
 }
 
-.followingPageSpecific .ccBuildingsOnCityStreetlocationLondonEnglandUnitedKingdomdimensions2587X3806fileSize259MbcameraIphone11focal425mmaperture18iso32shutterSpeed00016835016835016834stakenAtAug282022uploaded10122022 .ccBuildingsOnCityStreetlocationLondonEnglandUnitedKingdomdimensions2587X3806fileSize259MbcameraIphone11focal425mmaperture18iso32shutterSpeed00016835016835016834stakenAtAug282022uploaded10122022-183 {
-    color: rgba(34, 34, 34, 1);
-    font-weight: 500;
-    font-style: normal;
-    font-size: 30.00px;
-    font-family: Lato, Arial;
-    text-decoration: none;
+.zr{
+  left: 210px;
+  top:2450px;
 }
 
-.followingPageSpecific .ccBuildingsOnCityStreetlocationLondonEnglandUnitedKingdomdimensions2587X3806fileSize259MbcameraIphone11focal425mmaperture18iso32shutterSpeed00016835016835016834stakenAtAug282022uploaded10122022 .ccBuildingsOnCityStreetlocationLondonEnglandUnitedKingdomdimensions2587X3806fileSize259MbcameraIphone11focal425mmaperture18iso32shutterSpeed00016835016835016834stakenAtAug282022uploaded10122022-208 {
-    color: rgba(34, 34, 34, 1);
-    font-weight: 700;
-    font-style: normal;
-    font-size: 30.00px;
-    font-family: Lato, Arial;
-    text-decoration: none;
+.zrcomment{
+  left: 210px;
+  top: 2480px;
 }
 
-.followingPageSpecific .ccBuildingsOnCityStreetlocationLondonEnglandUnitedKingdomdimensions2587X3806fileSize259MbcameraIphone11focal425mmaperture18iso32shutterSpeed00016835016835016834stakenAtAug282022uploaded10122022 .ccBuildingsOnCityStreetlocationLondonEnglandUnitedKingdomdimensions2587X3806fileSize259MbcameraIphone11focal425mmaperture18iso32shutterSpeed00016835016835016834stakenAtAug282022uploaded10122022-216 {
-    color: rgba(34, 34, 34, 1);
-    font-weight: 500;
-    font-style: normal;
-    font-size: 30.00px;
-    font-family: Lato, Arial;
-    text-decoration: none;
+.zrimage{
+  background-image: url(assets/placementzr.png);
+  top: 2440px;
 }
 
-.followingPageSpecific .ccBuildingsOnCityStreetlocationLondonEnglandUnitedKingdomdimensions2587X3806fileSize259MbcameraIphone11focal425mmaperture18iso32shutterSpeed00016835016835016834stakenAtAug282022uploaded10122022 .ccBuildingsOnCityStreetlocationLondonEnglandUnitedKingdomdimensions2587X3806fileSize259MbcameraIphone11focal425mmaperture18iso32shutterSpeed00016835016835016834stakenAtAug282022uploaded10122022-231 {
-    color: rgba(34, 34, 34, 1);
-    font-weight: 700;
-    font-style: normal;
-    font-size: 30.00px;
-    font-family: Lato, Arial;
-    text-decoration: none;
+.cm{
+  left: 210px;
+  top: 2570px;
 }
 
-.followingPageSpecific .ccBuildingsOnCityStreetlocationLondonEnglandUnitedKingdomdimensions2587X3806fileSize259MbcameraIphone11focal425mmaperture18iso32shutterSpeed00016835016835016834stakenAtAug282022uploaded10122022 .ccBuildingsOnCityStreetlocationLondonEnglandUnitedKingdomdimensions2587X3806fileSize259MbcameraIphone11focal425mmaperture18iso32shutterSpeed00016835016835016834stakenAtAug282022uploaded10122022-239 {
-    color: rgba(34, 34, 34, 1);
-    font-weight: 500;
-    font-style: normal;
-    font-size: 30.00px;
-    font-family: Lato, Arial;
-    text-decoration: none;
+.cmcomment{
+  left: 210px;
+  top: 2600px;
+}
+
+.cmimage{
+  background-image: url(assets/placementcm.png);
+  top: 2560px;
+}
+
+.rh{
+  left: 210px;
+  top: 2700px;
+}
+
+.rhcomment{
+  top: 2730px;
+  left:210px;
+}
+
+.rhimage{
+  background-image: url(assets/placementrh.png);
+  top: 2690px;
+}
+
+.jb{
+  left: 210px;
+  top: 2840px;
+}
+
+.jbcomment{
+  left: 210px;
+  top: 2870px;
+}
+
+.jbimage{
+  background-image: url(assets/placementjb.png);
+  top: 2840px;
 }
 
 .followingPageSpecific .iconAwesomeArrowLeft {
-    position: absolute;
-      box-sizing: content-box;
-
-    transform-origin: center;
-      opacity: 1;
-
-      fill: rgba(0, 53, 84, 1);
-      box-shadow: none;
-      width: 41.50px;
-    height: 40.45px;
-    left: 76.25px;
-    top: 124.00px;
-
+  position: absolute;
+  box-sizing: content-box;
+  transform-origin: center;
+  opacity: 1;
+  fill: rgba(0, 53, 84, 1);
+  box-shadow: none;
+  width: 41.50px;
+  height: 40.45px;
+  
+  /*add this to media queries*/
+  left: 76.25px;
+  top: 124.00px;
 }
-

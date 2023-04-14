@@ -1,109 +1,101 @@
+@import url("main.css");
 
-/*class for helpPage*/ 
+/*css for helpPage*/ 
+/*help page css*/
 
-/*need to include css for the responsiveness - media queries*/
-/*reogranzie to make sense*/
-/*try to combine classes into one*/
-/*tidy up code*/
-/*when theres time remain everything to make sense*/
+.helpPage {
+  display: block;
+  position: absolute;
+  box-sizing: content-box;
+  transform-origin: center;
+  opacity: 1;
+}
 
-/*body class*/ 
-body {
-  font-family: 'Open Sans', serif;
-  margin: 0;
-  padding: 0;
-  height: auto;
-  width: auto;
-  background-color: rgba(250, 247, 240, 1);
+/*media query - tablet/small*/
+@media screen and (max-width: 567px){
+  .response{
+    width: 100%;
   }
-   
-/**/
-      .helpPage {
 
-      display: block;
-      position: absolute;
-      box-sizing: content-box;
-    transform-origin: center;
-      opacity: 1;
-      background-color: rgba(250, 247, 240, 1);
-      width: 1920.00px;
-    height: 1619.00px;
+  .helpimage{
+    width: 440px;
+    height: 120px;
+  }
 
-}
+  .caption{
+    top: 220px;
+    left: 68px;
+  }
 
-/**/
-.helpPage .image {
-
-      display: block;
-      position: absolute;
-      box-sizing: content-box;
-    transform-origin: center;
-      opacity: 1;
-      background-color: transparent;
-      width: 1836.00px;
-    height: 337.00px;
-    left: 43.00px;
-    top: 124.00px;
+  .header1{
+    font-size: 30px;
+  }
 
 }
 
-/**/
-.helpPage .image .metadata {
-    position: absolute;
-      box-sizing: content-box;
-      display: none;
-    transform-origin: center;
-      opacity: 1;
-      background-color: rgba(255, 255, 255, 0);
-      text-align: left;
-      color: transparent;
-      font-size: 3.00px;
-      font-weight: 400;
-    font-style: normal;
-      font-family: Arial;
-      text-decoration: none;
-      width: 10.00px;
-    height: 10.00px;
+/*media query - laptop/medium**/
+@media screen and (min-width: 568px){
+  .response{
+    width: 50%;
+  }
 
+  .helpimage{
+    width: 935px;
+    height: 237px;
+  }
+
+  .caption{
+    left: 75px;
+    top: 325px;
+  }
+}
+
+/*media query - desktop/large*/
+@media screen and (min-width: 1024px) {
+.helpimage{
+  width: 1430px;
+  height: 337px;
+}
+
+  .caption{
+  left: 75px;
+  top:425px;
+}  
+
+.header1{
+  font-size: 50px;
+}
+  
 }
 
 /**/
-.helpPage .image .placementArea {
-    position: absolute;
-      box-sizing: content-box;
-    transform-origin: center;
-      background-image: url("assets/placementArea.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-      opacity: 1;
-      background-color: rgba(255, 255, 255, 0);
-      border-color: rgba(62, 62, 62, 1);
-      border-style: none;
-      border-width: 2.00px;
-      width: 1836.00px;
-    height: 337.00px;
-
+.helpimage {
+  display: block;
+  position: absolute;
+  box-sizing: content-box;
+  transform-origin: center;
+  opacity: 1;
+  background-image: url("assets/placementArea.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 1;
+  background-color: rgba(255, 255, 255, 0);
+  border-color: rgba(62, 62, 62, 1);
+  border-style: none;
+  border-width: 2.00px;
+  left: 43px;
+  top: 124px;
 }
 
-/**/
-.helpPage .line1 {
-    position: absolute;
-      box-sizing: content-box;
-    transform-origin: center;
-      opacity: 1;
-      stroke: rgba(112, 112, 112, 1);
-          stroke-width: 1.00px;
-          stroke-linecap: butt;
-      width: 1836.00px;
-    height: 2.00px;
-    left: 42.50px;
-    top: 106.00px;
-
+.header1{
+  left: 70px;
+  top: 150px;
 }
 
+
 /**/
-.helpPage .helpbc01d737 {
+/* .helpPage .helpbc01d737 {
     position: absolute;
       box-sizing: content-box;
     transform-origin: center;
@@ -122,9 +114,9 @@ body {
     left: 99.00px;
     top: 169.00px;
 
-}
+} */
 
-/**/
+/*
 .helpPage .searchbutton {
   position: absolute;
   box-sizing: content-box;
@@ -145,9 +137,10 @@ left: 1675.00px;
 top: 56.00px;
 
 }
+*/
 
-/**/
-.helpPage .profile {
+
+/* .helpPage .profile {
     position: absolute;
       box-sizing: content-box;
     transform-origin: center;
@@ -166,10 +159,10 @@ top: 56.00px;
     left: 1675.00px;
     top: 56.00px;
 
-}
+} */
 
-/**/
-.helpPage .rectangle3 {
+
+/* .helpPage .rectangle3 {
     position: absolute;
       box-sizing: border-box;
     transform-origin: center;
@@ -186,7 +179,7 @@ top: 56.00px;
 
 }
 
-/**/
+
 .helpPage .post {
     position: absolute;
       box-sizing: content-box;
@@ -206,10 +199,10 @@ top: 56.00px;
     left: 1804.00px;
     top: 57.00px;
 
-}
+} */
 
 /**/
-.helpPage .help {
+/* .helpPage .help {
     position: absolute;
       box-sizing: content-box;
     transform-origin: center;
@@ -225,13 +218,12 @@ top: 56.00px;
       white-space: pre;
       width: 41.00px;
     height: 24.00px;
-    left: 1608.00px;
-    top: 56.00px;
+    
 
-}
+} */
 
 /**/
-.helpPage .discover {
+/* .helpPage .discover {
     position: absolute;
       box-sizing: content-box;
     transform-origin: center;
@@ -250,10 +242,10 @@ top: 56.00px;
     left: 1505.00px;
     top: 56.00px;
 
-}
+} */
 
 /**/
-.helpPage .following {
+/* .helpPage .following {
     position: absolute;
       box-sizing: content-box;
     transform-origin: center;
@@ -272,10 +264,10 @@ top: 56.00px;
     left: 1395.00px;
     top: 56.00px;
 
-}
+} */
 
 /**/
-.helpPage .logo {
+/* .helpPage .logo {
 
       display: block;
       position: absolute;
@@ -288,10 +280,10 @@ top: 56.00px;
     left: 48.50px;
     top: 21.50px;
 
-}
+} */
 
 /**/
-.helpPage .logo .group26 {
+/* .helpPage .logo .group26 {
 
       display: block;
       position: absolute;
@@ -306,10 +298,10 @@ top: 56.00px;
       width: 67.00px;
     height: 67.00px;
 
-}
+} */
 
 /**/
-.helpPage .logo .group26 .path6 {
+/* .helpPage .logo .group26 .path6 {
     position: absolute;
       box-sizing: content-box;
     transform-origin: center;
@@ -323,10 +315,10 @@ top: 56.00px;
     left: -1.00px;
     top: -1.00px;
 
-}
+} */
 
-/**/
-.helpPage .logo .group26 .path7 {
+
+/* .helpPage .logo .group26 .path7 {
     position: absolute;
       box-sizing: content-box;
     transform-origin: center;
@@ -342,7 +334,6 @@ top: 56.00px;
 
 }
 
-/**/
 .helpPage .logo .group26 .path8 {
     position: absolute;
       box-sizing: content-box;
@@ -359,7 +350,7 @@ top: 56.00px;
 
 }
 
-/**/
+
 .helpPage .logo .group26 .path9 {
     position: absolute;
       box-sizing: content-box;
@@ -376,7 +367,7 @@ top: 56.00px;
 
 }
 
-/**/
+
 .helpPage .logo .group26 .rectangle20 {
     position: absolute;
       box-sizing: content-box;
@@ -393,7 +384,7 @@ top: 56.00px;
 
 }
 
-/**/
+
 .helpPage .textLogo {
 
       display: block;
@@ -409,7 +400,7 @@ top: 56.00px;
 
 }
 
-/**/
+
 .helpPage .textLogo .lenses {
     position: absolute;
       box-sizing: content-box;
@@ -427,10 +418,10 @@ top: 56.00px;
       width: 151.00px;
     height: 60.00px;
 
-}
+} */
 
-/**/
-.helpPage .yaseminmsl {
+
+/* .helpPage .yaseminmsl {
     position: absolute;
       box-sizing: content-box;
     transform-origin: center;
@@ -448,75 +439,9 @@ top: 56.00px;
     left: 49.00px;
     top: 425.00px;
 
-}
+} */
 
-/**/
-.helpPage .searchbutton {
 
-      display: block;
-      position: absolute;
-      box-sizing: content-box;
-    transform-origin: center;
-      opacity: 1;
-      background-color: transparent;
-      width: 132.00px;
-    height: 48.00px;
-    left: 1237.00px;
-    top: 44.00px;
-
-}
-
-/**/
-.helpPage .searchbutton .rectangle22 {
-    position: absolute;
-      box-sizing: content-box;
-    transform-origin: center;
-      opacity: 1;
-      background-color: transparent;
-      border-color: rgba(112, 112, 112, 1);
-      border-style: none;
-      border-width: 1.00px;
-      border-radius: 24.00px;
-      width: 132.00px;
-    height: 48.00px;
-
-}
-
-/**/
-.helpPage .searchbutton .search {
-    position: absolute;
-      box-sizing: content-box;
-    transform-origin: center;
-      opacity: 0;
-      background-color: rgba(255, 255, 255, 0);
-      text-align: left;
-      color: rgba(0, 53, 84, 1);
-      font-size: 28.00px;
-      font-weight: 400;
-    font-style: normal;
-      font-family: Lato, Arial;
-      text-decoration: none;
-      white-space: pre;
-      width: 102.00px;
-    height: 34.00px;
-    left: 21.00px;
-    top: 7.00px;
-
-}
-
-/**/
-.helpPage .searchbutton .iconAwesomeSearch {
-    position: absolute;
-      box-sizing: content-box;
-    transform-origin: center;
-      opacity: 1;
-      fill: rgba(0, 0, 0, 1);
-      width: 32.00px;
-    height: 32.00px;
-    left: 81.00px;
-    top: 8.00px;
-
-}
 
 /**/
 .helpPage .repeatGrid3 {
@@ -535,7 +460,7 @@ top: 56.00px;
 }
 
 /**/
-.helpPage .repeatGrid3 .group427e44278c {
+/* .helpPage .repeatGrid3 .group427e44278c {
 
       display: block;
       position: absolute;
@@ -546,10 +471,162 @@ top: 56.00px;
       width: 528.00px;
     height: 433.80px;
 
+} */
+
+.helpBox {
+  position: absolute;
+  box-sizing: border-box;
+  transform-origin: center;
+  opacity: 1;
+  fill: rgba(5, 130, 202, 0.27058823529411763);
+  stroke: rgba(112, 112, 112, 1);
+  stroke-width: 1px;
+  stroke-linecap: butt;
+  width: 422.4px;
+  height: 347.04px;
 }
 
+.profileStyling{
+  position: absolute;
+  box-sizing: border-box;
+  transform-origin: center; 
+  stroke: rgba(112, 112, 112, 1);
+  opacity: 1;
+  stroke-width: 3px;
+  stroke-linecap: butt;
+  box-shadow: none;
+  width: 102px;
+  height: 102px;
+
+  /*add this to media queries*/
+  left: 100px;
+}
+
+.commentstitle{
+  position: absolute;
+  box-sizing: content-box;
+  transform-origin: center;
+  opacity: 1;
+  text-align: left;
+  color: rgba(0, 100, 148, 1);
+  font-size: 30px;
+  font-weight: 700;
+  font-style: normal;
+  font-family: Lato, Arial;
+  text-decoration: none;
+  white-space: pre;
+}
+
+.commentText{
+  position: absolute;
+  box-sizing: content-box;
+  opacity: 1;
+  text-align: left;
+  color: rgba(0, 53, 84, 1);
+  font-size: 35px;
+  font-weight: 400;
+  font-style: normal;
+  font-family: Lato, Arial;
+  text-decoration: none;
+  white-space: pre;
+}
+
+.photoTitle{
+  position: absolute;
+  box-sizing: content-box;
+  opacity: 1;
+  text-align: left;
+  color: rgba(0, 100, 148, 1);
+  font-size: 25px;
+  font-weight: 400;
+  font-style: normal;
+  font-family: Lato, Arial;
+  text-decoration: none;
+  white-space: pre;
+}
+
+.jm{
+  left: 150px;
+  top: 40px;
+}
+
+.jmimage{
+  background-image: url(assets/placementjm.png);
+  left: 22.50px;
+  top: 18.00px;
+}
+
+.jmcomment{
+  left: 6px;
+  top: 150px;
+}
+
+.jmphoto{
+  left: 140px;
+  top: 90px;
+}
+
+.ar{
+  left: 282.50px;
+  top: 84.00px;
+}
+
+.arBox{
+  left: 624.00px;
+}
+
+.arimage{
+  background-image: url(assets/placementar.png);
+  left: 22.50px;
+  top: 18.00px;
+}
+
+.arcomment{
+  left: 56.00px;
+  top: 273.59px;
+}
+
+.arphoto{
+  left: 264.00px;
+  top: 136.50px;
+}
+
+.zr{
+
+}
+
+.zrBox{
+  left: 1248.00px;
+}
+
+.zrimage{
+
+}
+
+.zrcomment{
+
+}
+
+.zrphoto{
+
+}
+
+/* .helpPage .repeatGrid3 .group427c5b504c {
+
+      display: block;
+      position: absolute;
+      box-sizing: content-box;
+    transform-origin: center;
+      opacity: 1;
+      background-color: transparent;
+      width: 528.00px;
+    height: 433.80px;
+    
+
+} */
+
 /**/
-.helpPage .repeatGrid3 .group427e44278c .path26360143a {
+/* .helpPage .repeatGrid3 .group427c5b504c .path25f3ecd73 {
     position: absolute;
       box-sizing: border-box;
     transform-origin: center;
@@ -561,10 +638,10 @@ top: 56.00px;
       width: 528.00px;
     height: 433.80px;
 
-}
+} */
 
 /**/
-.helpPage .repeatGrid3 .group427e44278c .group4103673e87 {
+/* .helpPage .repeatGrid3 .group427c5b504c .group41ba749e81 {
 
       display: block;
       position: absolute;
@@ -574,13 +651,12 @@ top: 56.00px;
       background-color: transparent;
       width: 232.00px;
     height: 232.00px;
-    left: 22.50px;
-    top: 18.00px;
+    
 
-}
+} */
 
 /**/
-.helpPage .repeatGrid3 .group427e44278c .group4103673e87 .rayulM6gy9ohgiiUnsplash304bbcdd {
+/* .helpPage .repeatGrid3 .group427c5b504c .group41ba749e81 .rayulM6gy9ohgiiUnsplash7eef7266 {
     position: absolute;
       box-sizing: border-box;
     transform-origin: center;
@@ -592,137 +668,10 @@ top: 56.00px;
       width: 232.00px;
     height: 232.00px;
 
-}
+} */
 
 /**/
-.helpPage .repeatGrid3 .group427e44278c .jaimeMatthewsf0d93dda {
-    position: absolute;
-      box-sizing: content-box;
-    transform-origin: center;
-      opacity: 1;
-      background-color: rgba(255, 255, 255, 0);
-      text-align: left;
-      color: rgba(0, 100, 148, 1);
-      font-size: 30.00px;
-      font-weight: 400;
-    font-style: normal;
-      font-family: Lato, Arial;
-      text-decoration: none;
-      white-space: pre;
-      width: 214.00px;
-    height: 36.00px;
-    left: 282.50px;
-    top: 84.00px;
-
-}
-
-/**/
-.helpPage .repeatGrid3 .group427e44278c .iWantMySubjectsEyeToPopAndSparkleHowCanIgetThis1e3d4b38 {
-    position: absolute;
-      box-sizing: content-box;
-    transform-origin: center;
-      opacity: 1;
-      background-color: rgba(255, 255, 255, 0);
-      text-align: left;
-      color: rgba(0, 53, 84, 1);
-      font-size: 35.00px;
-      font-weight: 400;
-    font-style: normal;
-      font-family: Lato, Arial;
-      text-decoration: none;
-      white-space: pre;
-      width: 416.00px;
-    height: 126.00px;
-    left: 56.00px;
-    top: 273.59px;
-
-}
-
-/**/
-.helpPage .repeatGrid3 .group427e44278c .amateurPhotographer8da775c2 {
-    position: absolute;
-      box-sizing: content-box;
-    transform-origin: center;
-      opacity: 1;
-      background-color: rgba(255, 255, 255, 0);
-      text-align: left;
-      color: rgba(0, 100, 148, 1);
-      font-size: 25.00px;
-      font-weight: 400;
-    font-style: normal;
-      font-family: Lato, Arial;
-      text-decoration: none;
-      white-space: pre;
-      width: 251.00px;
-    height: 30.00px;
-    left: 264.00px;
-    top: 136.50px;
-
-}
-
-/**/
-.helpPage .repeatGrid3 .group427c5b504c {
-
-      display: block;
-      position: absolute;
-      box-sizing: content-box;
-    transform-origin: center;
-      opacity: 1;
-      background-color: transparent;
-      width: 528.00px;
-    height: 433.80px;
-    left: 624.00px;
-
-}
-
-/**/
-.helpPage .repeatGrid3 .group427c5b504c .path25f3ecd73 {
-    position: absolute;
-      box-sizing: border-box;
-    transform-origin: center;
-      opacity: 1;
-      fill: rgba(5, 130, 202, 0.27058823529411763);
-      stroke: rgba(112, 112, 112, 1);
-          stroke-width: 1.00px;
-          stroke-linecap: butt;
-      width: 528.00px;
-    height: 433.80px;
-
-}
-
-/**/
-.helpPage .repeatGrid3 .group427c5b504c .group41ba749e81 {
-
-      display: block;
-      position: absolute;
-      box-sizing: content-box;
-    transform-origin: center;
-      opacity: 1;
-      background-color: transparent;
-      width: 232.00px;
-    height: 232.00px;
-    left: 22.50px;
-    top: 18.00px;
-
-}
-
-/**/
-.helpPage .repeatGrid3 .group427c5b504c .group41ba749e81 .rayulM6gy9ohgiiUnsplash7eef7266 {
-    position: absolute;
-      box-sizing: border-box;
-    transform-origin: center;
-      opacity: 1;
-      fill: rgba(255, 255, 255, 0);
-      stroke: rgba(112, 112, 112, 1);
-          stroke-width: 1.00px;
-          stroke-linecap: butt;
-      width: 232.00px;
-    height: 232.00px;
-
-}
-
-/**/
-.helpPage .repeatGrid3 .group427c5b504c .andresRamirez {
+/* .helpPage .repeatGrid3 .group427c5b504c .andresRamirez {
     position: absolute;
       box-sizing: content-box;
     transform-origin: center;
@@ -738,13 +687,12 @@ top: 56.00px;
       white-space: pre;
       width: 206.00px;
     height: 36.00px;
-    left: 282.50px;
-    top: 84.00px;
 
-}
+
+} */
 
 /**/
-.helpPage .repeatGrid3 .group427c5b504c .iNeedSomeAdvanceAboutPricingWhenItComesToMyphotographyBusiness {
+/* .helpPage .repeatGrid3 .group427c5b504c .iNeedSomeAdvanceAboutPricingWhenItComesToMyphotographyBusiness {
     position: absolute;
       box-sizing: content-box;
     transform-origin: center;
@@ -760,13 +708,12 @@ top: 56.00px;
       white-space: pre;
       width: 441.00px;
     height: 126.00px;
-    left: 56.00px;
-    top: 273.59px;
 
-}
+
+} */
 
 /**/
-.helpPage .repeatGrid3 .group427c5b504c .weddingPhotographer {
+/* .helpPage .repeatGrid3 .group427c5b504c .weddingPhotographer {
     position: absolute;
       box-sizing: content-box;
     transform-origin: center;
@@ -782,13 +729,12 @@ top: 56.00px;
       white-space: pre;
       width: 255.00px;
     height: 30.00px;
-    left: 264.00px;
-    top: 136.50px;
+    
 
-}
+} */
 
 /**/
-.helpPage .repeatGrid3 .group42a6e656ed {
+/* .helpPage .repeatGrid3 .group42a6e656ed {
 
       display: block;
       position: absolute;
@@ -800,10 +746,10 @@ top: 56.00px;
     height: 433.80px;
     left: 1248.00px;
 
-}
+} */
 
 /**/
-.helpPage .repeatGrid3 .group42a6e656ed .path23ce4cb9d {
+/* .helpPage .repeatGrid3 .group42a6e656ed .path23ce4cb9d {
     position: absolute;
       box-sizing: border-box;
     transform-origin: center;
@@ -815,7 +761,7 @@ top: 56.00px;
       width: 528.00px;
     height: 433.80px;
 
-}
+} */
 
 /**/
 .helpPage .repeatGrid3 .group42a6e656ed .group412c97b3fb {
@@ -1680,3 +1626,67 @@ top: 56.00px;
 
 }
 
+/*search bar css*/
+/* .helpPage .searchbutton {
+
+  display: block;
+  position: absolute;
+  box-sizing: content-box;
+transform-origin: center;
+  opacity: 1;
+  background-color: transparent;
+  width: 132.00px;
+height: 48.00px;
+left: 1237.00px;
+top: 44.00px;
+
+}
+
+.helpPage .searchbutton .rectangle22 {
+position: absolute;
+  box-sizing: content-box;
+transform-origin: center;
+  opacity: 1;
+  background-color: transparent;
+  border-color: rgba(112, 112, 112, 1);
+  border-style: none;
+  border-width: 1.00px;
+  border-radius: 24.00px;
+  width: 132.00px;
+height: 48.00px;
+
+}
+
+.helpPage .searchbutton .search {
+position: absolute;
+  box-sizing: content-box;
+transform-origin: center;
+  opacity: 0;
+  background-color: rgba(255, 255, 255, 0);
+  text-align: left;
+  color: rgba(0, 53, 84, 1);
+  font-size: 28.00px;
+  font-weight: 400;
+font-style: normal;
+  font-family: Lato, Arial;
+  text-decoration: none;
+  white-space: pre;
+  width: 102.00px;
+height: 34.00px;
+left: 21.00px;
+top: 7.00px;
+
+}
+
+.helpPage .searchbutton .iconAwesomeSearch {
+position: absolute;
+  box-sizing: content-box;
+transform-origin: center;
+  opacity: 1;
+  fill: rgba(0, 0, 0, 1);
+  width: 32.00px;
+height: 32.00px;
+left: 81.00px;
+top: 8.00px;
+
+} */
