@@ -1,360 +1,324 @@
-/*class for settings*/ 
+@import "main.css";
 
-/*need to include css for the responsiveness - media queries*/
-/*reogranzie to make sense*/
-/*try to combine classes into one*/
-/*tidy up code*/
-/*when theres time remain everything to make sense*/
+/*css for settings*/ 
+/*settings class*/
+.settings {
+  display: block;
+  position: absolute;
+  box-sizing: content-box;
+  transform-origin: center;
+}
 
-/*body class*/
-  body {
-    font-family: 'Open Sans', serif;
-    margin: 0;
-    padding: 0;
-    height: auto;
-    width: auto;
-    background-color: rgba(250, 247, 240, 1);
+/*media query - tablet/small*/
+@media screen and (max-width: 567px) {
+  .header{
+    font-size: 50px;
+    left: 175px;
+  }
+  
+  .border{
+    top: 50px;
+    left: 50px;
+    width: 437px;
+    height: 800px;
+  }
+  
+  .header2{
+    font-size: 25px;
+  }
+  
+  .textstyle{
+    font-size: 20px;
+    top: 349px;
+  }
+  
+  .pageformat1{
+    position: absolute;
+    left: 0px;
+    top: 70px;
+    width: 251px;
+  }
+  
+  .pageformat2{
+    position: absolute;
+    left: 0px;
+    top: 270px;
+    width: 251px;
+  }
+  
+  .pageformat3{
+    position: absolute;
+    left: 0px;
+    top: 470px;
+    width: 201px;
+  }
+
+    /*account image*/
+    .iconMaterialAccountBox {
+      top: 200px;
+      left: 90px;
+      width: 100px;
+      height: 100px;
     }
+    
+    /*notification bell*/
+    .iconMaterialNotifications {
+      top: 400px;
+      left: 90px;
+      width: 100px;
+      height: 100px;
+    }
+    
+    /*trash can*/
+    .iconMaterialDelete {    
+      top: 578px;
+      left: 90px;
+      width: 100px;
+      height: 100px;
+    }
+  
+  .rectangle3{
+    left: 150px;
+    top: 750px;
+  } 
+  
+  .signOut{
+    left: 190px;
+    top: 758px;
+  }
 
-      
-/*settings main class*/
-      .settings {
-
-      display: block;
-      position: absolute;
-      box-sizing: content-box;
-    transform-origin: center;
-      opacity: 1;
-      background-color: rgba(250, 247, 240, 1);
-      width: 1920.00px;
-    height: 1080.00px;
 }
 
-/**/
-.settings .settings28ae6254 {
+/*media query - laptop/medium*/
+@media screen and (min-width: 568px) {
+  .header{
+    font-size: 65px;
+    left: 350px;
+  }
+  
+  .border{
+    top: 50px;
+    left: 50px;
+    width: 837px;
+    height: 862px;
+  }
+  
+  .header2{
+    font-size: 30px; 
+  }
+  
+  .textstyle{
+    font-size: 24px;
+    top: 349px;
+  }
+  
+  .pageformat1{
     position: absolute;
-      box-sizing: content-box;
-    transform-origin: center;
-      opacity: 1;
-
-      background-color: rgba(255, 255, 255, 0);
-      text-align: left;
-      color: rgba(0, 100, 148, 1);
-      font-size: 75.00px;
-      font-weight: 700;
-    font-style: normal;
-      font-family: Lato, Arial;
-      text-decoration: none;
-      width: 493.00px;
-    height: 116.00px;
-    left: 665.00px;
-    top: 148.00px;
-
-}
-
-/**/
-.settings .group16 {
-
-      display: block;
-      position: absolute;
-      box-sizing: content-box;
-    transform-origin: center;
-      opacity: 1;
-      background-color: transparent;
-      width: 1437.00px;
-    height: 862.00px;
-    left: 214.00px;
-    top: 109.00px;
-
-}
-
-/**/
-.settings .group16 .rectangle9 {
+    left: 70px;
+    top: 105px;
+    width: 900px;
+  }
+  
+  .pageformat2{
     position: absolute;
-      box-sizing: border-box;
-    transform-origin: center;
-      opacity: 0.6899999976158142;
-      background-color: transparent;
-      border-color: rgba(112, 112, 112, 1);
-      border-style: solid;
-      border-width: 1.00px;
-      border-radius: 10.00px;
-      box-shadow: none;
-      width: 1437.00px;
-    height: 862.00px;
-
-}
-
-/**/
-.settings .group16 .path13 {
+    left: 70px;
+    top: 345px;
+    width: 951px;
+  }
+  
+  .pageformat3{
     position: absolute;
-      box-sizing: content-box;
-    transform-origin: center;
-      opacity: 0;
-      fill: transparent;
-      box-shadow: none;
-      width: 1437.00px;
-    height: 862.00px;
-}
-
-/**/
-.settings .group16 .accountInformationupdateProfileInformationblockMatureContenteditMembershipupdatePrivacyInformationblockedUsers {
-    position: absolute;
-      box-sizing: content-box;
-    transform-origin: center;
-      opacity: 1;
-      background-color: rgba(255, 255, 255, 0);
-      text-align: left;
-      color: rgba(0, 0, 0, 1);
-      font-size: 30.00px;
-      font-weight: 400;
-    font-style: normal;
-      font-family: Lato, Arial;
-      text-decoration: none;
-      width: 951.00px;
-    height: 226.00px;
-    left: 302.00px;
-    top: 149.00px;
-
-}
-
-/**/
-.settings .group16 .accountInformationupdateProfileInformationblockMatureContenteditMembershipupdatePrivacyInformationblockedUsers .accountInformationupdateProfileInformationblockMatureContenteditMembershipupdatePrivacyInformationblockedUsers-0 {
-    color: rgba(0, 0, 0, 1);
-    font-weight: 400;
-    font-style: normal;
-    font-size: 36.00px;
-    font-family: Lato, Arial;
-    text-decoration: none;
-}
-
-/**/
-.settings .group16 .accountInformationupdateProfileInformationblockMatureContenteditMembershipupdatePrivacyInformationblockedUsers .accountInformationupdateProfileInformationblockMatureContenteditMembershipupdatePrivacyInformationblockedUsers-20 {
-    color: rgba(0, 0, 0, 1);
-    font-weight: 400;
-    font-style: normal;
-    font-size: 30.00px;
-    font-family: Lato, Arial;
-    text-decoration: none;
-}
-
-/**/
-.settings .group16 .notificationsnotificationSummarydiscoverActivitynewsletteremailNotificationsbrowserNotifications {
-    position: absolute;
-      box-sizing: content-box;
-    transform-origin: center;
-      opacity: 1;
-      background-color: rgba(255, 255, 255, 0);
-      text-align: left;
-      color: rgba(0, 0, 0, 1);
-      font-size: 30.00px;
-      font-weight: 400;
-    font-style: normal;
-      font-family: Lato, Arial;
-      text-decoration: none;
-      width: 951.00px;
-    height: 244.00px;
-    left: 302.00px;
-    top: 405.00px;
+    left: 70px;
+    top: 605px;
+    width: 901px;
+  }
+  
+  /*account image*/
+  .iconMaterialAccountBox {
+    top: 225px;
+    left: 100px;
+    width: 160px;
+    height: 160px;
+  }
+  
+  /*notification bell*/
+  .iconMaterialNotifications {
+    top: 480px;
+    left: 100px;
+    width: 160px;
+    height: 160px;
+  }
+  
+  /*trash can*/
+  .iconMaterialDelete {    
+    top: 700px;
+    left: 100px;
+    width: 160px;
+    height: 160px;
+  }
+  
+  .rectangle3{
+    left: 600px;
+    top: 800px;
+  } 
+  
+  .signOut{
+    left: 642px;
+    top: 817px;
+  }
 
 }
 
-/**/
-.settings .group16 .notificationsnotificationSummarydiscoverActivitynewsletteremailNotificationsbrowserNotifications .notificationsnotificationSummarydiscoverActivitynewsletteremailNotificationsbrowserNotifications-0 {
-    color: rgba(0, 0, 0, 1);
-    font-weight: 400;
-    font-style: normal;
-    font-size: 36.00px;
-    font-family: Lato, Arial;
-    text-decoration: none;
+/*media query - desktop/large*/
+@media screen and (min-width: 1024px) {
+.header{
+  font-size: 75px;
+  left: 600px;
 }
 
-/**/
-.settings .group16 .notificationsnotificationSummarydiscoverActivitynewsletteremailNotificationsbrowserNotifications .notificationsnotificationSummarydiscoverActivitynewsletteremailNotificationsbrowserNotifications-14 {
-    color: rgba(0, 0, 0, 1);
-    font-weight: 400;
-    font-style: normal;
-    font-size: 30.00px;
-    font-family: Lato, Arial;
-    text-decoration: none;
+.border{
+  top: 50px;
+  left: 50px;
+  width: 1437px;
+  height: 862px;
 }
 
-/**/
-.settings .group16 .deleteAccountwouldYouLikeToDeleteYouAccountiWantToDeleteMyAccount {
-    position: absolute;
-      box-sizing: content-box;
-    transform-origin: center;
-      opacity: 1;
-      background-color: rgba(255, 255, 255, 0);
-      text-align: left;
-      color: rgba(0, 0, 0, 1);
-      font-size: 30.00px;
-      font-weight: 400;
-    font-style: normal;
-      font-family: Lato, Arial;
-      text-decoration: none;
-      width: 951.00px;
-    height: 121.00px;
-    left: 302.00px;
-    top: 671.00px;
-
+.header2{
+  font-size: 36px;
 }
 
-/**/
-.settings .group16 .deleteAccountwouldYouLikeToDeleteYouAccountiWantToDeleteMyAccount .deleteAccountwouldYouLikeToDeleteYouAccountiWantToDeleteMyAccount-0 {
-    color: rgba(0, 0, 0, 1);
-    font-weight: 400;
-    font-style: normal;
-    font-size: 36.00px;
-    font-family: Lato, Arial;
-    text-decoration: none;
+.textstyle{
+  font-size: 30px;
+  left: 270px;
+  top: 349px;
 }
 
-/**/
-.settings .group16 .deleteAccountwouldYouLikeToDeleteYouAccountiWantToDeleteMyAccount .deleteAccountwouldYouLikeToDeleteYouAccountiWantToDeleteMyAccount-14 {
-    color: rgba(0, 0, 0, 1);
-    font-weight: 400;
-    font-style: normal;
-    font-size: 25.00px;
-    font-family: Lato, Arial;
-    text-decoration: none;
+.pageformat1{
+  position: absolute;
+  left: 270px;
+  top: 100px;
+  width: 900px;
 }
 
-/**/
-.settings .group16 .deleteAccountwouldYouLikeToDeleteYouAccountiWantToDeleteMyAccount .deleteAccountwouldYouLikeToDeleteYouAccountiWantToDeleteMyAccount-15 {
-    color: rgba(0, 0, 0, 1);
-    font-weight: 400;
-    font-style: normal;
-    font-size: 30.00px;
-    font-family: Lato, Arial;
-    text-decoration: none;
+.pageformat2{
+  position: absolute;
+  left: 270px;
+  top: 340px;
+  width: 951px;
 }
 
-/**/
-.settings .group16 .deleteAccountwouldYouLikeToDeleteYouAccountiWantToDeleteMyAccount .deleteAccountwouldYouLikeToDeleteYouAccountiWantToDeleteMyAccount-53 {
-    color: rgba(0, 0, 0, 1);
-    font-weight: 400;
-    font-style: normal;
-    font-size: 30.00px;
-    font-family: Lato, Arial;
-    text-decoration: none;
+.pageformat3{
+  position: absolute;
+  left: 270px;
+  top: 600px;
+  width: 901px;
 }
 
-/**/
-.settings .iconAwesomeArrowLeft {
-    position: absolute;
-      box-sizing: content-box;
-    transform-origin: center;
-      opacity: 1;
-      fill: rgba(0, 53, 84, 1);
-      box-shadow: none;
-      width: 41.50px;
-    height: 40.45px;
-    left: 76.25px;
-    top: 124.00px;
-
+/*account image*/
+.iconMaterialAccountBox {
+  top: 250px;
+  left: 250px;
+  width: 160px;
+  height: 160px;
 }
 
-/**/
-.settings .iconMaterialAccountBox {
-    position: absolute;
-      box-sizing: content-box;
-    transform-origin: center;
-      opacity: 1;
-      fill: rgba(0, 53, 84, 1);
-      box-shadow: none;
-      width: 160.00px;
-    height: 160.00px;
-    left: 300.88px;
-    top: 292.94px;
-
+/*notification bell*/
+.iconMaterialNotifications {
+  top: 480px;
+  left: 250px;
+  width: 160px;
+  height: 160px;
 }
 
-/**/
-.settings .iconMaterialNotifications {
-    position: absolute;
-      box-sizing: content-box;
-    transform-origin: center;
-      opacity: 1;
-      fill: rgba(0, 53, 84, 1);
-      box-shadow: none;
-      width: 160.00px;
-    height: 160.00px;
-    left: 302.00px;
-    top: 540.00px;
-
+/*trash can*/
+.iconMaterialDelete {    
+  top: 700px;
+  left: 250px;
+  width: 160px;
+  height: 160px;
 }
 
-/**/
-.settings .iconMaterialDelete {
-    position: absolute;
-      box-sizing: content-box;
-    transform-origin: center;
-      opacity: 1;
-      fill: rgba(0, 53, 84, 1);
-      box-shadow: none;
-      width: 160.00px;
-    height: 160.00px;
-    left: 302.00px;
-    top: 770.00px;
+.rectangle3{
+  left: 1200px;
+  top: 800px;
+} 
 
+.signOut{
+  left: 1242px;
+  top: 817px;
+}
 }
 
-/**/
-.settings .group54 {
+/*main header*/
+.header {
+  position: absolute;
+  opacity: 1;
+  text-align: center;
+  color: rgba(0, 100, 148, 1);
+  font-weight: 700;
+  font-family: Lato, Arial;
+  top: 70px;
+}
 
-      display: block;
-      position: absolute;
-      box-sizing: content-box;
-    transform-origin: center;
-      opacity: 1;
-      background-color: transparent;
-      width: 265.00px;
+/*page prepositioning*/
+.pageposition {
+  display: block;
+  position: absolute;
+  left: 214px;
+  top: 109px;
+}
+
+/*border styling*/
+.border {
+  position: absolute;
+  box-sizing: border-box;
+  transform-origin: center;
+  opacity: 0.6899999976158142;
+  background-color: transparent;
+  border-color: rgba(112, 112, 112, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 10px;
+  box-shadow: none;
+}
+
+/*secondary header*/
+.header2{
+  color: rgba(0, 0, 0, 1);
+  font-weight: 400;
+  font-style: normal;
+  font-family: Lato, Arial;
+  text-decoration: underline;
+}
+
+/*text styling*/
+.textstyle{
+  color: rgba(0, 0, 0, 1);
+  font-weight: 400;
+  font-style: normal;
+  font-family: Lato, Arial;
+  text-decoration: none;
+}
+
+.iconstyle{
+  position: absolute;
+  box-sizing: content-box;
+  transform-origin: center;
+  opacity: 1;
+  fill: rgba(0, 53, 84, 1);
+  box-shadow: none;
+}
+
+/*buttonshape*/
+.rectangle3 {
+    width: 265.00px;
     height: 94.00px;
-    left: 1376.00px;
-    top: 863.00px;
-
 }
 
-/**/
-.settings .group54 .rectangle3 {
-    position: absolute;
-      box-sizing: border-box;
-    transform-origin: center;
-      opacity: 1;
-      background-color: rgba(5, 130, 202, 1);
-      border-color: rgba(112, 112, 112, 1);
-      border-style: solid;
-      border-width: 1.00px;
-     
-      border-radius: 10.00px;
-
-      box-shadow: none;
-      width: 265.00px;
-    height: 94.00px;
-
-
+/*buttonlink*/
+.signOut {
+  font-size: 50px;
+  font-weight: 700;
+  width: 181px;
+  height: 60px;
 }
-
-/**/
-.settings .group54 .signOut {
-    position: absolute;
-      box-sizing: content-box;
-    transform-origin: center;
-      opacity: 1;
-      background-color: rgba(255, 255, 255, 0);
-      text-align: left;
-      color: rgba(250, 247, 240, 1);
-      font-size: 50.00px;
-      font-weight: 700;
-    font-style: normal;
-      font-family: Lato, Arial;
-      text-decoration: none;
-      white-space: pre;
-      width: 181.00px;
-    height: 60.00px;
-    left: 42.00px;
-    top: 17.00px;
-
-}
-

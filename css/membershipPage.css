@@ -325,6 +325,8 @@
 
 .header1{
   font-size: 50px;
+  left: 70px;
+  top: 150px;
 }
 
 .header2{
@@ -433,7 +435,7 @@
   display: block;
   position: absolute;
   box-sizing: content-box;
-  background-image: url("assets/danielsarmiento.png");
+  background-image: url("assets/placementArea10.png");
   transform-origin: center;
   opacity: 1;
   background-color: transparent;
