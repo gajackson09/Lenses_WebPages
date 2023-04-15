@@ -13,8 +13,8 @@ if(loggedin()){
         global $connection;
         //add files from photo upload
         if($connection != null){
-                $query = "SELECT * from photos"
-                $result = mysqli_query($connection, $query)
+                $query = "SELECT * from photos";
+                $result = mysqli_query($connection, $query);
         }
 ?>
 
