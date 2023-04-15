@@ -119,7 +119,7 @@ if(loggedin()){
                 $result= mysqli_query($database, "SELECT firstname FROM users WHERE username = '{$username};");
                 //$name = mysqli_fetch_assoc($result);
                 if($name != null){
-                echo ($result;); 
+                echo ($result); 
                 }else{
                         echo ("uhoh");
                 }
