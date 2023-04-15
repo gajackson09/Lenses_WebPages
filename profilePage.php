@@ -3,7 +3,7 @@
 <!--post button needs to be added-->
 <!--profile image not working its broken-->
 <?php
-include("security.php");
+include("php/security.php");
 if(loggedin()){
         header("Location:profilePage.php");
 }else{
