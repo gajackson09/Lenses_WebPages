@@ -11,17 +11,692 @@
 
 /*media query - tablet/small*/
 @media screen and (max-width: 567px) {
+  .border{
+    height: 1800px;
+    width: 570px;
+  }
 
+  .fimagesize{
+    width: 332px;
+    height: 708px;
+    left: 150px;
+  }
+
+  .title{
+    font-size: 40px;
+    left: 240px;
+    top:130px;
+  }
+
+  .commentBox{
+  width: 520px;
+  height: 1000px;
+  left: 70px;
+  top: 965px;
+  }
+
+  .imagetitle{
+  left: 80px;
+  top: 980px;
+  font-size: 30px;
+  }
+
+  .commentTitle{
+  font-size: 30px;
+  left: 80px;
+  top: 1374px;
+  }
+
+  .commentstitle{
+    font-size: 20px;
+  }
+  
+  .imagedetailsstyling{
+    font-size: 20px;
+  }
+
+  .commentText{
+    font-size: 15px;
+  }
+  
+  .section1{
+    position: absolute;
+    top: 1030px;
+  }
+
+  .section2{
+    position: absolute;
+    top: 1060px;
+  }
+  
+  .section3{
+    position: absolute;
+    top: 1090px;
+  }
+  
+  .section4{
+    position: absolute;
+    top: 1120px;
+  }
+  
+  .section5{
+    position: absolute;
+    top: 1150px;
+  }
+  
+  .section6{
+    position: absolute;
+    top: 1180px;
+  }
+  
+  .section7{
+    position: absolute;
+    top: 1210px;
+  }
+  
+  .section8{
+    position: absolute;
+    top: 1240px;
+  }
+  
+  .section9{
+    position: absolute;
+    top: 1270px;
+  }
+  
+  .section10{
+    position: absolute;
+    top: 1300px;
+  }
+  
+  .section11{
+    position: absolute;
+    top: 1330px;
+  }
+
+  .profileStyling{
+    width: 51px;
+    height: 51px;
+    left: 100px;
+  }
+
+  .jm{
+    left: 170px;
+    top: 1425px;
+  }
+  
+  .jmcomment{
+    left: 170px;
+    top:1460px;
+  }
+  
+  .jmimage{
+    background-image: url(assets/placementjm.png);
+    top: 1430px;   
+  }
+  
+  .vn{
+    left: 170px;
+    top: 1500px;
+  }
+  
+  .vncomment{
+    left: 170px;
+    top: 1530px;
+  }
+  
+  .vnimage{
+    background-image: url(assets/placementvn.png);
+    top: 1500px;
+  }
+  
+  .rm{
+    left: 170px;
+    top: 1570px;
+  }
+  
+  .rmcomment{
+    left: 170px;
+    top: 1600px;
+  }
+  
+  .rmimage{
+    background-image: url(assets/placementrm.png);
+    top: 1570px;
+  }
+  
+  .zr{
+    left: 170px;
+    top:1640px;
+  }
+  
+  .zrcomment{
+    left: 170px;
+    top: 1670px;
+  }
+  
+  .zrimage{
+    background-image: url(assets/placementzr.png);
+    top: 1640px;
+  }
+  
+  .cm{
+    left: 170px;
+    top: 1725px;
+  }
+  
+  .cmcomment{
+    left: 170px;
+    top: 1755px;
+  }
+  
+  .cmimage{
+    background-image: url(assets/placementcm.png);
+    top: 1730px;
+  }
+  
+  .rh{
+    left: 170px;
+    top: 1810px;
+  }
+  
+  .rhcomment{
+    top: 1840px;
+    left:170px;
+  }
+  
+  .rhimage{
+    background-image: url(assets/placementrh.png);
+    top: 1810px;
+  }
+  
+  .jb{
+    left: 170px;
+    top: 1910px;
+  }
+  
+  .jbcomment{
+    left: 170px;
+    top: 1940px;
+  }
+  
+  .jbimage{
+    background-image: url(assets/placementjb.png);
+    top: 1910px;
+  }
+
+  .iconAwesomeArrowLeft {
+    position: absolute;
+    box-sizing: content-box;
+    transform-origin: center;
+    opacity: 1;
+    fill: rgba(0, 53, 84, 1);
+    box-shadow: none;
+    width: 31.50px;
+    height: 30.45px;
+    left: 50px;
+    top: 124.00px;
+  }
 }
 
 /*media query - laptop/medium*/
 @media screen and (min-width: 568px) {
+  .border{
+    height: 2498px;
+    width: 950px;
+  }
 
+  .fimagesize{
+    width: 532px;
+    height: 908px;
+    left: 250px;
+  }
+
+  .title{
+    font-size: 50px;
+    left: 400px;
+    top:130px;
+  }
+
+  .commentBox{
+  width: 890px;
+  height: 1500px;
+  left: 70px;
+  top: 1165px;
+  }
+
+  .imagetitle{
+  left: 100px;
+  top: 1194px;
+  font-size: 40px;
+  }
+
+  .commentTitle{
+  font-size: 40px;
+  left: 100px;
+  top: 1674px;
+  }
+
+  .commentstitle{
+    font-size: 25px;
+  }
+  
+  .imagedetailsstyling{
+    font-size: 25px;
+  }
+
+  .commentText{
+    font-size: 25px;
+  }
+  
+  .section1{
+    position: absolute;
+    top: 1250px;
+  }
+
+  .section2{
+    position: absolute;
+    top: 1280px;
+  }
+  
+  .section3{
+    position: absolute;
+    top: 1310px;
+  }
+  
+  .section4{
+    position: absolute;
+    top: 1340px;
+  }
+  
+  .section5{
+    position: absolute;
+    top: 1370px;
+  }
+  
+  .section6{
+    position: absolute;
+    top: 1400px;
+  }
+  
+  .section7{
+    position: absolute;
+    top: 1430px;
+  }
+  
+  .section8{
+    position: absolute;
+    top: 1460px;
+  }
+  
+  .section9{
+    position: absolute;
+    top: 1490px;
+  }
+  
+  .section10{
+    position: absolute;
+    top: 1520px;
+  }
+  
+  .section11{
+    position: absolute;
+    top: 1550px;
+  }
+
+  .profileStyling{
+    width: 102px;
+    height: 102px;
+    left: 100px;
+  }
+
+  .jm{
+    left: 210px;
+    top: 1765px;
+  }
+  
+  .jmcomment{
+    left: 210px;
+    top:1800px;
+  }
+  
+  .jmimage{
+    background-image: url(assets/placementjm.png);
+    top: 1760px;   
+  }
+  
+  .vn{
+    left: 210px;
+    top: 1880px;
+  }
+  
+  .vncomment{
+    left: 210px;
+    top: 1910px;
+  }
+  
+  .vnimage{
+    background-image: url(assets/placementvn.png);
+    top: 1880px;
+  }
+  
+  .rm{
+    left: 210px;
+    top: 2010px;
+  }
+  
+  .rmcomment{
+    left: 210px;
+    top: 2040px;
+  }
+  
+  .rmimage{
+    background-image: url(assets/placementrm.png);
+    top: 2000px;
+  }
+  
+  .zr{
+    left: 210px;
+    top:2130px;
+  }
+  
+  .zrcomment{
+    left: 210px;
+    top: 2160px;
+  }
+  
+  .zrimage{
+    background-image: url(assets/placementzr.png);
+    top: 2120px;
+  }
+  
+  .cm{
+    left: 210px;
+    top: 2250px;
+  }
+  
+  .cmcomment{
+    left: 210px;
+    top: 2280px;
+  }
+  
+  .cmimage{
+    background-image: url(assets/placementcm.png);
+    top: 2240px;
+  }
+  
+  .rh{
+    left: 210px;
+    top: 2380px;
+  }
+  
+  .rhcomment{
+    top: 2410px;
+    left:210px;
+  }
+  
+  .rhimage{
+    background-image: url(assets/placementrh.png);
+    top: 2370px;
+  }
+  
+  .jb{
+    left: 210px;
+    top: 2520px;
+  }
+  
+  .jbcomment{
+    left: 210px;
+    top: 2550px;
+  }
+  
+  .jbimage{
+    background-image: url(assets/placementjb.png);
+    top: 2520px;
+  }
+
+  .iconAwesomeArrowLeft {
+    position: absolute;
+    box-sizing: content-box;
+    transform-origin: center;
+    opacity: 1;
+    fill: rgba(0, 53, 84, 1);
+    box-shadow: none;
+    width: 41.50px;
+    height: 40.45px;
+    left: 76.25px;
+    top: 124.00px;
+  }
 }
 
 /*media query - desktop/large*/
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1024px){
+  .border{
+    height: 2898px;
+    width: 1446px;
+  }
+
+  .fimagesize{
+    width: 832px;
+    height: 1208px;
+    left: 350px;
+  }
+
+  .title{
+    font-size: 50px;
+    left: 650px;
+    top:130px;
+  }
+
+  .commentBox{
+  width: 1386.66px;
+  height: 1636.48px;
+  left: 70px;
+  top: 1465px;
+  }
+
+  .imagetitle{
+  left: 100px;
+  top: 1494px;
+  font-size: 50px;
+  }
+
+  .commentTitle{
+  font-size: 50px;
+  left: 100px;
+  top: 1994px;
+  }
+
+  .commentstitle{
+    font-size: 25px;
+  }
+
+  .commentText{
+    font-size: 25px;
+  }
+
+  .imagedetailsstyling{
+    font-size: 30px;
+  }
+
+  .profileStyling{
+    width: 102px;
+    height: 102px;
+    left: 100px;
+  }
+
+  .jm{
+    left: 210px;
+    top: 2085px;
+  }
   
+  .jmcomment{
+    left: 210px;
+    top:2120px;
+  }
+  
+  .jmimage{
+    background-image: url(assets/placementjm.png);
+    top: 2080px;   
+  }
+  
+  .vn{
+    left: 210px;
+    top: 2200px;
+  }
+  
+  .vncomment{
+    left: 210px;
+    top: 2230px;
+  }
+  
+  .vnimage{
+    background-image: url(assets/placementvn.png);
+    top: 2200px;
+  }
+  
+  .rm{
+    left: 210px;
+    top: 2330px;
+  }
+  
+  .rmcomment{
+    left: 210px;
+    top: 2360px;
+  }
+  
+  .rmimage{
+    background-image: url(assets/placementrm.png);
+    top: 2320px;
+  }
+  
+  .zr{
+    left: 210px;
+    top:2450px;
+  }
+  
+  .zrcomment{
+    left: 210px;
+    top: 2480px;
+  }
+  
+  .zrimage{
+    background-image: url(assets/placementzr.png);
+    top: 2440px;
+  }
+  
+  .cm{
+    left: 210px;
+    top: 2570px;
+  }
+  
+  .cmcomment{
+    left: 210px;
+    top: 2600px;
+  }
+  
+  .cmimage{
+    background-image: url(assets/placementcm.png);
+    top: 2560px;
+  }
+  
+  .rh{
+    left: 210px;
+    top: 2700px;
+  }
+  
+  .rhcomment{
+    top: 2730px;
+    left:210px;
+  }
+  
+  .rhimage{
+    background-image: url(assets/placementrh.png);
+    top: 2690px;
+  }
+  
+  .jb{
+    left: 210px;
+    top: 2840px;
+  }
+  
+  .jbcomment{
+    left: 210px;
+    top: 2870px;
+  }
+  
+  .jbimage{
+    background-image: url(assets/placementjb.png);
+    top: 2840px;
+  }
+
+  .section1{
+    position: absolute;
+    top: 1570px;
+  }
+
+  .section2{
+    position: absolute;
+    top: 1600px;
+  }
+  
+  .section3{
+    position: absolute;
+    top: 1630px;
+  }
+  
+  .section4{
+    position: absolute;
+    top: 1660px;
+  }
+  
+  .section5{
+    position: absolute;
+    top: 1690px;
+  }
+  
+  .section6{
+    position: absolute;
+    top: 1720px;
+  }
+  
+  .section7{
+    position: absolute;
+    top: 1750px;
+  }
+  
+  .section8{
+    position: absolute;
+    top: 1780px;
+  }
+  
+  .section9{
+    position: absolute;
+    top: 1810px;
+  }
+  
+  .section10{
+    position: absolute;
+    top: 1840px;
+  }
+  
+  .section11{
+    position: absolute;
+    top: 1870px;
+  }
+
+  .iconAwesomeArrowLeft {
+    position: absolute;
+    box-sizing: content-box;
+    transform-origin: center;
+    opacity: 1;
+    fill: rgba(0, 53, 84, 1);
+    box-shadow: none;
+    width: 41.50px;
+    height: 40.45px;
+    left: 76.25px;
+    top: 124.00px;
+  }
 }
 
 .border {
@@ -34,23 +709,12 @@
   border-style: solid;
   border-width: 1px;
   border-radius: 10px;
-  width: 1446px;
-  height: 2898px;
   left: 40px;
   top: 210px;
 }
 
 .fimagesize{
-  width: 832px;
-  height: 1208px;
-  left: 350px;
   top: 230px;
-}
-
-.title{
-  font-size: 50px;
-  left: 650px;
-  top:130px;
 }
     
 .followingPageSpecific .image .placementArea {
@@ -66,12 +730,6 @@
   stroke: rgba(112, 112, 112, 1);
   stroke-width: 1.00px;
   stroke-linecap: butt;
-   
-  /*add this to media queries*/
-  width: 1386.66px;
-  height: 1636.48px;
-  left: 70px;
-  top: 1465px;
 }
 
 .imagetitle{
@@ -81,16 +739,11 @@
   opacity: 1;
   text-align: left;
   color: rgba(34, 34, 34, 1);
-  font-size: 50px;
   font-weight: 500;
   font-style: normal;
   font-family: Lato, Arial;
   text-decoration: none;
   white-space: pre;
-  
-  /*add this to media queries*/
-  left: 100px;
-  top: 1494px;
 }
 
 .imagedetailsstyling{
@@ -100,70 +753,12 @@
   background-color: rgba(255, 255, 255, 0);
   text-align: left;
   color: rgba(34, 34, 34, 1);
-  font-size: 30px;
   font-weight: 500;
   font-style: normal;
   font-family: Lato, Arial;
   text-decoration: none;
   white-space: pre;
 }
-
-/*add this to media queries*/
-.section1{
-  position: absolute;
-  top: 1570px;
-}
-
-.section2{
-  position: absolute;
-  top: 1600px;
-}
-
-.section3{
-  position: absolute;
-  top: 1630px;
-}
-
-.section4{
-  position: absolute;
-  top: 1660px;
-}
-
-.section5{
-  position: absolute;
-  top: 1690px;
-}
-
-.section6{
-  position: absolute;
-  top: 1720px;
-}
-
-.section7{
-  position: absolute;
-  top: 1750px;
-}
-
-.section8{
-  position: absolute;
-  top: 1780px;
-}
-
-.section9{
-  position: absolute;
-  top: 1810px;
-}
-
-.section10{
-  position: absolute;
-  top: 1840px;
-}
-
-.section11{
-  position: absolute;
-  top: 1870px;
-}
-
 
 .commentTitle{
   position: absolute;
@@ -172,16 +767,11 @@
   opacity: 1;
   text-align: left;
   color: rgba(34, 34, 34, 1);
-  font-size: 50px;
   font-weight: 500;
   font-style: normal;
   font-family: Lato, Arial;
   text-decoration: none;
   white-space: pre;
-  
-  /*add this to media queries*/
-  left: 100px;
-  top: 1994px;
 }
 
 .commentstitle{
@@ -191,7 +781,6 @@
   opacity: 1;
   text-align: left;
   color: rgba(112, 112, 112, 1);
-  font-size: 25px;
   font-weight: 700;
   font-style: normal;
   font-family: Lato, Arial;
@@ -205,7 +794,6 @@
   opacity: 1;
   text-align: left;
   color: rgba(112, 112, 112, 1);
-  font-size: 25px;
   font-weight: 400;
   font-style: normal;
   font-family: Lato, Arial;
@@ -223,130 +811,5 @@
   stroke-width: 3px;
   stroke-linecap: butt;
   box-shadow: none;
-  width: 102px;
-  height: 102px;
-
-  /*add this to media queries*/
-  left: 100px;
 }
 
-/*add this to media queries*/
-.jm{
-  left: 210px;
-  top: 2085px;
-}
-
-.jmcomment{
-  left: 210px;
-  top:2120px;
-}
-
-.jmimage{
-  background-image: url(assets/placementjm.png);
-  top: 2080px;   
-}
-
-.vn{
-  left: 210px;
-  top: 2200px;
-}
-
-.vncomment{
-  left: 210px;
-  top: 2230px;
-}
-
-.vnimage{
-  background-image: url(assets/placementvn.png);
-  top: 2200px;
-}
-
-.rm{
-  left: 210px;
-  top: 2330px;
-}
-
-.rmcomment{
-  left: 210px;
-  top: 2360px;
-}
-
-.rmimage{
-  background-image: url(assets/placementrm.png);
-  top: 2320px;
-}
-
-.zr{
-  left: 210px;
-  top:2450px;
-}
-
-.zrcomment{
-  left: 210px;
-  top: 2480px;
-}
-
-.zrimage{
-  background-image: url(assets/placementzr.png);
-  top: 2440px;
-}
-
-.cm{
-  left: 210px;
-  top: 2570px;
-}
-
-.cmcomment{
-  left: 210px;
-  top: 2600px;
-}
-
-.cmimage{
-  background-image: url(assets/placementcm.png);
-  top: 2560px;
-}
-
-.rh{
-  left: 210px;
-  top: 2700px;
-}
-
-.rhcomment{
-  top: 2730px;
-  left:210px;
-}
-
-.rhimage{
-  background-image: url(assets/placementrh.png);
-  top: 2690px;
-}
-
-.jb{
-  left: 210px;
-  top: 2840px;
-}
-
-.jbcomment{
-  left: 210px;
-  top: 2870px;
-}
-
-.jbimage{
-  background-image: url(assets/placementjb.png);
-  top: 2840px;
-}
-
-.followingPageSpecific .iconAwesomeArrowLeft {
-  position: absolute;
-  box-sizing: content-box;
-  transform-origin: center;
-  opacity: 1;
-  fill: rgba(0, 53, 84, 1);
-  box-shadow: none;
-  width: 41.50px;
-  height: 40.45px;
-  
-  /*add this to media queries*/
-  left: 76.25px;
-  top: 124.00px;
-}
