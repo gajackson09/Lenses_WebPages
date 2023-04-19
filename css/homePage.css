@@ -80,7 +80,7 @@
 }
 
 /*media query - desktop/large*/
-@media screen and (min-width: 960px) {
+@media screen and (min-width: 900px) {
 
   .homeImg{
   width: 1435px;
