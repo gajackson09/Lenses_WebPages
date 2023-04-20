@@ -567,8 +567,8 @@ top: 56.00px;
 }
 
 .ar{
-  left: 282.50px;
-  top: 84.00px;
+  left: 750px;
+  top: 40px;
 }
 
 .arBox{
@@ -577,13 +577,13 @@ top: 56.00px;
 
 .arimage{
   background-image: url(assets/placementar.png);
-  left: 22.50px;
+  left: 642.50px;
   top: 18.00px;
 }
 
 .arcomment{
-  left: 56.00px;
-  top: 273.59px;
+  left: 636.00px;
+  top: 150px;
 }
 
 .arphoto{
