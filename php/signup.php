@@ -4,14 +4,14 @@
     if(login()){
         echo("user already exists?");
     }else{
-    if(validate()){
-        addUser();
+        if(validate()){
+            addUser();
         // echo()
-        header("Location: ../profilePage.php");
+            header("Location: ../profilePage.php");
         
-    }else{
+        }else{
         //header("Location: ../profilePage.php");
-        echo("you done fuckt up");
+            echo("you done fuckt up");
     }
     else{header("Location: ../profilePage.php");
     }
