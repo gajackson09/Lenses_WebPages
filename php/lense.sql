@@ -1,6 +1,6 @@
 CREATE DATABASE `lense`;
 USE `lense`;
-CREATE TABLE IF NOT EXISTS `users`(
+CREATE TABLE `users`(
     `userID` int(11) AUTO_INCREMENT,
     `email` varchar(225),
     `username` varchar(225),
@@ -18,5 +18,5 @@ CREATE TABLE IF NOT EXISTS `photos`(
     PRIMARY KEY (`photoID`)
 )
 
-INSERT INTO `users` (`userID`, `email`, `username`, `password`, `firstName`, `lastName`) 
-    VALUES (1, 'example@email.com', 'usnm', 'pswd');
+INSERT INTO `users` (`userID`, `email`, `username`, `password`, `firstName`, `lastName`)
+    VALUES (1, 'example@email.com', 'usnm', 'pswd', `nome`, `cognome`);
