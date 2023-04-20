@@ -12,7 +12,7 @@
         header("Location: ../profilePage.php");
         
     }else{
-        header("Location: ../profilePage.php");
+        //header("Location: ../profilePage.php");
         echo("you done fuckt up");
     }
 
