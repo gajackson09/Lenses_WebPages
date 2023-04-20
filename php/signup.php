@@ -8,13 +8,13 @@
             addUser();
         // echo()
             header("Location: ../profilePage.php");
-        
-        }else{
+        }
+        //}else{
         //header("Location: ../profilePage.php");
-            echo("you done fuckt up");
-    }
-    else{header("Location: ../profilePage.php");
-    }
+            //echo("you done fuckt up");
+    //}
+    //else{header("Location: ../profilePage.php");
+    //}
 }
 
 ?>
