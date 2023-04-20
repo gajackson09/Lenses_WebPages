@@ -28,7 +28,167 @@
   }
 
   .header1{
-    font-size: 30px;
+    font-size: 20px;
+  }
+
+  .profileStyling{
+    left: 100px;
+  }
+
+  .jm{
+    left: 150px;
+    top: -190px;
+  }
+
+  .jmBox{
+    top: -230px;
+    left: -10px;
+  }
+
+  .jmimage{
+    background-image: url(assets/placementjm.png);
+    left: 22.5px;
+    top: -200px;
+  }
+  
+  .jmcomment{
+    left: 6px;
+    top: -80px;
+  }
+  
+  .jmphoto{
+    left: 140px;
+    top: -150px;
+  }
+  
+  .ar{
+    left: 150px;
+    top: 590px;
+  }
+  
+  .arBox{
+    left: -10px;
+    top: 540px;
+  }
+  
+  .arimage{
+    background-image: url(assets/placementar.png);
+    left: 22.5px;
+    top: 570px;
+  }
+  
+  .arcomment{
+    left: 6px;
+    top: 700px;
+  }
+  
+  .arphoto{
+    left: 140px;
+    top: 630px;
+  }
+  
+  .zr{
+    top: 960px;
+    left: 150px;
+  }
+  
+  .zrBox{
+    top: 930px;
+    left: -10px;
+  }
+  
+  .zrimage{
+    background-image: url(assets/placementzr.png);
+    left: 22.5px;
+    top: 950px;
+  }
+  
+  .zrcomment{
+    top: 1080px;
+    left: 6px;
+  }
+  
+  .zrphoto{
+  top: 1000px;
+  left: 140px;
+  }
+  
+  .vn{
+    left: 160px;
+    top: 200px;
+  }
+  
+  .vnBox{
+    top: 150px;
+    left: -10px;
+  }
+  
+  .vnimage{
+    background-image: url(assets/placementvn.png);
+    top: 180px;
+    left: 20px;
+  }
+  
+  .vncomment{
+    left: 10px;
+    top: 300px;
+  }
+  
+  .vnphoto{
+    left: 140px;
+    top: 250px;
+  }
+  
+  .er{
+    top: 1360px;
+    left: 150px;
+  }
+  
+  .erBox{
+    left: -10px;
+    top: 1320px;
+  }
+  
+  .erimage{
+    background-image: url(assets/placementer.png);
+    left: 22.5px;
+    top: 1350px;
+  }
+  
+  .ercomment{
+    left: 6px;
+    top: 1480px;
+  }
+  
+  .erphoto{
+    left: 140px;
+    top: 1400px;
+  }
+  
+  .dt{
+    top: 1740px;
+    left: 150px;
+  }
+  
+  .dtBox{
+    left: -10px;
+    top: 1710px;
+  }
+  
+  .dtimage{
+    background-image: url(assets/placementdt.png);
+    left: 22.5px;
+    top: 1735px;
+  }
+  
+  .dtcomment{
+    left: 6px;
+    top: 1860px;
+  }
+  
+  .dtphoto{
+    left: 140px;
+    top: 1780px;
   }
 
 }
@@ -48,6 +208,164 @@
     left: 75px;
     top: 325px;
   }
+
+  .profileStyling{
+    left: 100px;
+  }
+
+  .jm{
+    left: 150px;
+    top: -60px;
+  }
+  
+  .jmimage{
+    background-image: url(assets/placementjm.png);
+    left: 18px;
+    top: -80px;
+  }
+  
+  .jmcomment{
+    left: 6px;
+    top: 50px;
+  }
+
+  .jmBox{
+    top: -100px;
+  }
+  
+  .jmphoto{
+    left: 140px;
+    top: -10px;
+  }
+  
+  .ar{
+    left: 640px;
+    top: -60px;
+  }
+  
+  .arBox{
+    left: 475px;
+    top:-100px;
+  }
+  
+  .arimage{
+    background-image: url(assets/placementar.png);
+    left: 500px;
+    top: -80px;
+  }
+  
+  .arcomment{
+    left: 490px;
+    top: 50px;
+  }
+  
+  .arphoto{
+    left: 620px;
+    top: -10px;
+  }
+  
+  .zr{
+    top: 750px;
+    left: 150px;
+  }
+  
+  .zrBox{
+    /* left: 950px; */
+    top: 700px;
+  }
+  
+  .zrimage{
+    background-image: url(assets/placementzr.png);
+    left: 18px;
+    top: 720px;
+  }
+  
+  .zrcomment{
+    top: 860px;
+    left: 6px;
+  }
+  
+  .zrphoto{
+  top: 790px;
+  left: 140px;
+  }
+  
+  .vn{
+    left: 160px;
+    top: 350px;
+  }
+  
+  .vnBox{
+    top: 300px;
+  }
+  
+  .vnimage{
+    background-image: url(assets/placementvn.png);
+    top: 320px;
+    left: 20px;
+  }
+  
+  .vncomment{
+    left: 10px;
+    top: 460px;
+  }
+  
+  .vnphoto{
+    left: 140px;
+    top: 400px;
+  }
+  
+  .er{
+    top: 350px;
+    left: 630px;
+  }
+  
+  .erBox{
+    left: 475px;
+    top: 300px;
+  }
+  
+  .erimage{
+    background-image: url(assets/placementer.png);
+    left: 500px;
+    top: 320px;
+  }
+  
+  .ercomment{
+    left: 490px;
+    top: 460px;
+  }
+  
+  .erphoto{
+    left: 620px;
+    top: 400px;
+  }
+  
+  .dt{
+    top: 750px;
+    left: 630px;
+  }
+  
+  .dtBox{
+    left: 475px;
+    top: 700px;
+  }
+  
+  .dtimage{
+    background-image: url(assets/placementdt.png);
+    left: 500px;
+    top: 720px;
+  }
+  
+  .dtcomment{
+    left: 490px;
+    top: 860px;
+  }
+  
+  .dtphoto{
+    left: 620px;
+    top: 790px;
+  }
 }
 
 /*media query - desktop/large*/
@@ -65,7 +383,165 @@
 .header1{
   font-size: 50px;
 }
-  
+
+.profileStyling{
+  left: 100px;
+}
+
+.jm{
+  left: 150px;
+  top: 40px;
+}
+
+.jmBox{
+  top: 0px;
+}
+
+.jmimage{
+  background-image: url(assets/placementjm.png);
+  left: 22.5px;
+  top: 18px;
+}
+
+.jmcomment{
+  left: 6px;
+  top: 150px;
+}
+
+.jmphoto{
+  left: 140px;
+  top: 90px;
+}
+
+.ar{
+  left: 640px;
+  top: 40px;
+}
+
+.arBox{
+  left: 475px;
+  top: 0px;
+}
+
+.arimage{
+  background-image: url(assets/placementar.png);
+  left: 500px;
+  top: 18px;
+}
+
+.arcomment{
+  left: 490px;
+  top: 150px;
+}
+
+.arphoto{
+  left: 620px;
+  top: 90px;
+}
+
+.zr{
+  top: 40px;
+  left: 1110px;
+}
+
+.zrBox{
+  left: 950px;
+  top: 0px;
+}
+
+.zrimage{
+  background-image: url(assets/placementzr.png);
+  left: 970px;
+  top: 18px;
+}
+
+.zrcomment{
+  top: 150px;
+  left: 970px;
+}
+
+.zrphoto{
+top: 90px;
+left: 1100px;
+}
+
+.vn{
+  left: 160px;
+  top: 450px;
+}
+
+.vnBox{
+  top: 400px;
+}
+
+.vnimage{
+  background-image: url(assets/placementvn.png);
+  top: 420px;
+  left: 20px;
+}
+
+.vncomment{
+  left: 10px;
+  top: 560px;
+}
+
+.vnphoto{
+  left: 140px;
+  top: 500px;
+}
+
+.er{
+  top: 450px;
+  left: 630px;
+}
+
+.erBox{
+  left: 475px;
+  top: 400px;
+}
+
+.erimage{
+  background-image: url(assets/placementer.png);
+  left: 500px;
+  top: 420px;
+}
+
+.ercomment{
+  left: 490px;
+  top: 560px;
+}
+
+.erphoto{
+  left: 620px;
+  top: 500px;
+}
+
+.dt{
+  top: 450px;
+  left: 1110px;
+}
+
+.dtBox{
+  left: 950px;
+  top: 400px;
+}
+
+.dtimage{
+  background-image: url(assets/placementdt.png);
+  left: 970px;
+  top: 420px;
+}
+
+.dtcomment{
+  left: 960px;
+  top: 550px;
+}
+
+.dtphoto{
+  left: 1100px;
+  top: 500px;
+}
+
 }
 
 /**/
@@ -93,385 +569,17 @@
   top: 150px;
 }
 
-
-/**/
-/* .helpPage .helpbc01d737 {
-    position: absolute;
-      box-sizing: content-box;
-    transform-origin: center;
-      opacity: 1;
-      background-color: rgba(255, 255, 255, 0);
-      text-align: left;
-      color: rgba(250, 247, 240, 1);
-      font-size: 50.00px;
-      font-weight: 500;
-    font-style: normal;
-      font-family: Lato, Arial;
-      text-decoration: none;
-      white-space: pre;
-      width: 104.00px;
-    height: 60.00px;
-    left: 99.00px;
-    top: 169.00px;
-
-} */
-
-/*
-.helpPage .searchbutton {
-  position: absolute;
-  box-sizing: content-box;
-transform-origin: center;
-  opacity: 1;
-  background-color: rgba(255, 255, 255, 0);
-  text-align: left;
-  color: rgba(0, 53, 84, 1);
-  font-size: 20.00px;
-  font-weight: 400;
-font-style: normal;
-  font-family: Lato, Arial;
-  text-decoration: none;
-  white-space: pre;
-  width: 57.00px;
-height: 24.00px;
-left: 1675.00px;
-top: 56.00px;
-
-}
-*/
-
-
-/* .helpPage .profile {
-    position: absolute;
-      box-sizing: content-box;
-    transform-origin: center;
-      opacity: 1;
-      background-color: rgba(255, 255, 255, 0);
-      text-align: left;
-      color: rgba(0, 53, 84, 1);
-      font-size: 20.00px;
-      font-weight: 400;
-    font-style: normal;
-      font-family: Lato, Arial;
-      text-decoration: none;
-      white-space: pre;
-      width: 57.00px;
-    height: 24.00px;
-    left: 1675.00px;
-    top: 56.00px;
-
-} */
-
-
-/* .helpPage .rectangle3 {
-    position: absolute;
-      box-sizing: border-box;
-    transform-origin: center;
-      opacity: 1;
-      background-color: rgba(5, 130, 202, 1);
-      border-color: rgba(112, 112, 112, 1);
-      border-style: solid;
-      border-width: 1.00px;
-     border-radius: 10.00px;
-      width: 121.00px;
-    height: 36.00px;
-    left: 1758.00px;
-    top: 48.00px;
-
-}
-
-
-.helpPage .post {
-    position: absolute;
-      box-sizing: content-box;
-    transform-origin: center;
-      opacity: 1;
-      background-color: rgba(255, 255, 255, 0);
-      text-align: left;
-      color: rgba(255, 255, 255, 1);
-      font-size: 15.00px;
-      font-weight: 700;
-    font-style: normal;
-      font-family: Lato, Arial;
-      text-decoration: none;
-      white-space: pre;
-      width: 30.00px;
-    height: 18.00px;
-    left: 1804.00px;
-    top: 57.00px;
-
-} */
-
-/**/
-/* .helpPage .help {
-    position: absolute;
-      box-sizing: content-box;
-    transform-origin: center;
-      opacity: 1;
-      background-color: rgba(255, 255, 255, 0);
-      text-align: left;
-      color: rgba(5, 130, 202, 1);
-      font-size: 20.00px;
-      font-weight: 400;
-    font-style: normal;
-      font-family: Lato, Arial;
-      text-decoration: none;
-      white-space: pre;
-      width: 41.00px;
-    height: 24.00px;
-    
-
-} */
-
-/**/
-/* .helpPage .discover {
-    position: absolute;
-      box-sizing: content-box;
-    transform-origin: center;
-      opacity: 1;
-      background-color: rgba(255, 255, 255, 0);
-      text-align: left;
-      color: rgba(0, 53, 84, 1);
-      font-size: 20.00px;
-      font-weight: 400;
-    font-style: normal;
-      font-family: Lato, Arial;
-      text-decoration: none;
-      white-space: pre;
-      width: 77.00px;
-    height: 24.00px;
-    left: 1505.00px;
-    top: 56.00px;
-
-} */
-
-/**/
-/* .helpPage .following {
-    position: absolute;
-      box-sizing: content-box;
-    transform-origin: center;
-      opacity: 1;
-      background-color: rgba(255, 255, 255, 0);
-      text-align: left;
-      color: rgba(0, 53, 84, 1);
-      font-size: 20.00px;
-      font-weight: 400;
-    font-style: normal;
-      font-family: Lato, Arial;
-      text-decoration: none;
-      white-space: pre;
-      width: 84.00px;
-    height: 24.00px;
-    left: 1395.00px;
-    top: 56.00px;
-
-} */
-
-/**/
-/* .helpPage .logo {
-
-      display: block;
-      position: absolute;
-      box-sizing: content-box;
-    transform-origin: center;
-      opacity: 1;
-      background-color: transparent;
-      width: 67.00px;
-    height: 67.00px;
-    left: 48.50px;
-    top: 21.50px;
-
-} */
-
-/**/
-/* .helpPage .logo .group26 {
-
-      display: block;
-      position: absolute;
-      box-sizing: content-box;
-    transform-origin: center;
-      background-image: url("assets/group26.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-      opacity: 1;
-      background-color: transparent;
-      width: 67.00px;
-    height: 67.00px;
-
-} */
-
-/**/
-/* .helpPage .logo .group26 .path6 {
-    position: absolute;
-      box-sizing: content-box;
-    transform-origin: center;
-      opacity: 1;
-      fill: rgba(0, 112, 186, 1);
-      stroke: rgba(0, 0, 0, 0);
-          stroke-width: 1.00px;
-          stroke-linecap: butt;
-      width: 69.00px;
-    height: 69.00px;
-    left: -1.00px;
-    top: -1.00px;
-
-} */
-
-
-/* .helpPage .logo .group26 .path7 {
-    position: absolute;
-      box-sizing: content-box;
-    transform-origin: center;
-      opacity: 1;
-      fill: rgba(0, 41, 66, 1);
-      stroke: rgba(0, 0, 0, 0);
-          stroke-width: 1.00px;
-          stroke-linecap: butt;
-      width: 52.98px;
-    height: 51.07px;
-    left: 6.56px;
-    top: 7.97px;
-
-}
-
-.helpPage .logo .group26 .path8 {
-    position: absolute;
-      box-sizing: content-box;
-    transform-origin: center;
-      opacity: 1;
-      fill: rgba(255, 255, 255, 1);
-      stroke: rgba(0, 0, 0, 0);
-          stroke-width: 1.00px;
-          stroke-linecap: butt;
-      width: 5.76px;
-    height: 28.08px;
-    left: 30.56px;
-    top: 19.46px;
-
-}
-
-
-.helpPage .logo .group26 .path9 {
-    position: absolute;
-      box-sizing: content-box;
-    transform-origin: center;
-      opacity: 1;
-      fill: rgba(255, 255, 255, 1);
-      stroke: rgba(0, 0, 0, 0);
-          stroke-width: 1.00px;
-          stroke-linecap: butt;
-      width: 27.41px;
-    height: 5.63px;
-    left: 19.80px;
-    top: 30.68px;
-
-}
-
-
-.helpPage .logo .group26 .rectangle20 {
-    position: absolute;
-      box-sizing: content-box;
-    transform-origin: center;
-      opacity: 1;
-      background-color: rgba(255, 255, 255, 0);
-      border-color: rgba(0, 0, 0, 0);
-      border-style: solid;
-      border-width: 1.00px;
-      width: 66.00px;
-    height: 66.00px;
-    left: -0.50px;
-    top: -0.50px;
-
-}
-
-
-.helpPage .textLogo {
-
-      display: block;
-      position: absolute;
-      box-sizing: content-box;
-    transform-origin: center;
-      opacity: 1;
-      background-color: transparent;
-      width: 151.00px;
-    height: 60.00px;
-    left: 126.00px;
-    top: 24.00px;
-
-}
-
-
-.helpPage .textLogo .lenses {
-    position: absolute;
-      box-sizing: content-box;
-    transform-origin: center;
-      opacity: 1;
-      background-color: rgba(255, 255, 255, 0);
-      text-align: left;
-      color: rgba(5, 130, 202, 1);
-      font-size: 50.00px;
-      font-weight: 600;
-    font-style: normal;
-      font-family: Lato, Arial;
-      text-decoration: none;
-      white-space: pre;
-      width: 151.00px;
-    height: 60.00px;
-
-} */
-
-
-/* .helpPage .yaseminmsl {
-    position: absolute;
-      box-sizing: content-box;
-    transform-origin: center;
-      opacity: 1;
-      background-color: rgba(255, 255, 255, 0);
-      text-align: left;
-      color: rgba(167, 167, 167, 1);
-      font-size: 20.00px;
-      font-weight: 400;
-    font-style: normal;
-      font-family: 'Segoe UI', Arial;
-      text-decoration: none;
-      width: 300.00px;
-    height: 31.00px;
-    left: 49.00px;
-    top: 425.00px;
-
-} */
-
-
-
 /**/
 .helpPage .repeatGrid3 {
-
-      display: block;
-      position: absolute;
-      box-sizing: content-box;
-    transform-origin: center;
-      opacity: 1;
-      background-color: transparent;
-      width: 1791.00px;
-    height: 1097.00px;
-    left: 65.00px;
-    top: 522.00px;
-
+  display: block;
+  position: absolute;
+  box-sizing: content-box;
+  transform-origin: center;
+  opacity: 1;
+  background-color: transparent;
+  left: 65.00px;
+  top: 522.00px;
 }
-
-/**/
-/* .helpPage .repeatGrid3 .group427e44278c {
-
-      display: block;
-      position: absolute;
-      box-sizing: content-box;
-    transform-origin: center;
-      opacity: 1;
-      background-color: transparent;
-      width: 528.00px;
-    height: 433.80px;
-
-} */
 
 .helpBox {
   position: absolute;
@@ -497,9 +605,6 @@ top: 56.00px;
   box-shadow: none;
   width: 102px;
   height: 102px;
-
-  /*add this to media queries*/
-  left: 100px;
 }
 
 .commentstitle{
@@ -523,7 +628,7 @@ top: 56.00px;
   opacity: 1;
   text-align: left;
   color: rgba(0, 53, 84, 1);
-  font-size: 35px;
+  font-size: 30px;
   font-weight: 400;
   font-style: normal;
   font-family: Lato, Arial;
@@ -543,1087 +648,6 @@ top: 56.00px;
   font-family: Lato, Arial;
   text-decoration: none;
   white-space: pre;
-}
-
-.jm{
-  left: 150px;
-  top: 40px;
-}
-
-.jmimage{
-  background-image: url(assets/placementjm.png);
-  left: 22.50px;
-  top: 18.00px;
-}
-
-.jmcomment{
-  left: 6px;
-  top: 150px;
-}
-
-.jmphoto{
-  left: 140px;
-  top: 90px;
-}
-
-.ar{
-  left: 770px;
-  top: 40px;
-}
-
-.arBox{
-  left: 624.00px;
-}
-
-.arimage{
-  background-image: url(assets/placementar.png);
-  left: 642.50px;
-  top: 18.00px;
-}
-
-.arcomment{
-  left: 636.00px;
-  top: 150px;
-}
-
-.arphoto{
-  left: 760px;
-  top: 90px;
-}
-
-.zr{
-  left: 1000px;
-}
-
-.zrBox{
-  left: 1248.00px;
-}
-
-.zrimage{
-
-}
-
-.zrcomment{
-
-}
-
-.zrphoto{
-
-}
-
-/* .helpPage .repeatGrid3 .group427c5b504c {
-
-      display: block;
-      position: absolute;
-      box-sizing: content-box;
-    transform-origin: center;
-      opacity: 1;
-      background-color: transparent;
-      width: 528.00px;
-    height: 433.80px;
-    
-
-} */
-
-/**/
-/* .helpPage .repeatGrid3 .group427c5b504c .path25f3ecd73 {
-    position: absolute;
-      box-sizing: border-box;
-    transform-origin: center;
-      opacity: 1;
-      fill: rgba(5, 130, 202, 0.27058823529411763);
-      stroke: rgba(112, 112, 112, 1);
-          stroke-width: 1.00px;
-          stroke-linecap: butt;
-      width: 528.00px;
-    height: 433.80px;
-
-} */
-
-/**/
-/* .helpPage .repeatGrid3 .group427c5b504c .group41ba749e81 {
-
-      display: block;
-      position: absolute;
-      box-sizing: content-box;
-    transform-origin: center;
-      opacity: 1;
-      background-color: transparent;
-      width: 232.00px;
-    height: 232.00px;
-    
-
-} */
-
-/**/
-/* .helpPage .repeatGrid3 .group427c5b504c .group41ba749e81 .rayulM6gy9ohgiiUnsplash7eef7266 {
-    position: absolute;
-      box-sizing: border-box;
-    transform-origin: center;
-      opacity: 1;
-      fill: rgba(255, 255, 255, 0);
-      stroke: rgba(112, 112, 112, 1);
-          stroke-width: 1.00px;
-          stroke-linecap: butt;
-      width: 232.00px;
-    height: 232.00px;
-
-} */
-
-/**/
-/* .helpPage .repeatGrid3 .group427c5b504c .andresRamirez {
-    position: absolute;
-      box-sizing: content-box;
-    transform-origin: center;
-      opacity: 1;
-      background-color: rgba(255, 255, 255, 0);
-      text-align: left;
-      color: rgba(0, 100, 148, 1);
-      font-size: 30.00px;
-      font-weight: 400;
-    font-style: normal;
-      font-family: Lato, Arial;
-      text-decoration: none;
-      white-space: pre;
-      width: 206.00px;
-    height: 36.00px;
-
-
-} */
-
-/**/
-/* .helpPage .repeatGrid3 .group427c5b504c .iNeedSomeAdvanceAboutPricingWhenItComesToMyphotographyBusiness {
-    position: absolute;
-      box-sizing: content-box;
-    transform-origin: center;
-      opacity: 1;
-      background-color: rgba(255, 255, 255, 0);
-      text-align: left;
-      color: rgba(0, 53, 84, 1);
-      font-size: 35.00px;
-      font-weight: 400;
-    font-style: normal;
-      font-family: Lato, Arial;
-      text-decoration: none;
-      white-space: pre;
-      width: 441.00px;
-    height: 126.00px;
-
-
-} */
-
-/**/
-/* .helpPage .repeatGrid3 .group427c5b504c .weddingPhotographer {
-    position: absolute;
-      box-sizing: content-box;
-    transform-origin: center;
-      opacity: 1;
-      background-color: rgba(255, 255, 255, 0);
-      text-align: left;
-      color: rgba(0, 100, 148, 1);
-      font-size: 25.00px;
-      font-weight: 400;
-    font-style: normal;
-      font-family: Lato, Arial;
-      text-decoration: none;
-      white-space: pre;
-      width: 255.00px;
-    height: 30.00px;
-    
-
-} */
-
-/**/
-/* .helpPage .repeatGrid3 .group42a6e656ed {
-
-      display: block;
-      position: absolute;
-      box-sizing: content-box;
-    transform-origin: center;
-      opacity: 1;
-      background-color: transparent;
-      width: 528.00px;
-    height: 433.80px;
-    left: 1248.00px;
-
-} */
-
-/**/
-/* .helpPage .repeatGrid3 .group42a6e656ed .path23ce4cb9d {
-    position: absolute;
-      box-sizing: border-box;
-    transform-origin: center;
-      opacity: 1;
-      fill: rgba(5, 130, 202, 0.27058823529411763);
-      stroke: rgba(112, 112, 112, 1);
-          stroke-width: 1.00px;
-          stroke-linecap: butt;
-      width: 528.00px;
-    height: 433.80px;
-
-} */
-
-/**/
-.helpPage .repeatGrid3 .group42a6e656ed .group412c97b3fb {
-
-      display: block;
-      position: absolute;
-      box-sizing: content-box;
-    transform-origin: center;
-      opacity: 1;
-      background-color: transparent;
-      width: 232.00px;
-    height: 232.00px;
-    left: 22.50px;
-    top: 18.00px;
-
-}
-
-/**/
-.helpPage .repeatGrid3 .group42a6e656ed .group412c97b3fb .rayulM6gy9ohgiiUnsplashb250fec6 {
-    position: absolute;
-      box-sizing: border-box;
-    transform-origin: center;
-      opacity: 1;
-      fill: rgba(255, 255, 255, 0);
-      stroke: rgba(112, 112, 112, 1);
-          stroke-width: 1.00px;
-          stroke-linecap: butt;
-      width: 232.00px;
-    height: 232.00px;
-
-}
-
-/**/
-.helpPage .repeatGrid3 .group42a6e656ed .zacharyReese {
-    position: absolute;
-      box-sizing: content-box;
-    transform-origin: center;
-      opacity: 1;
-      background-color: rgba(255, 255, 255, 0);
-      text-align: left;
-      color: rgba(0, 100, 148, 1);
-      font-size: 30.00px;
-      font-weight: 400;
-    font-style: normal;
-      font-family: Lato, Arial;
-      text-decoration: none;
-      white-space: pre;
-      width: 190.00px;
-    height: 36.00px;
-    left: 282.50px;
-    top: 84.00px;
-
-}
-
-/**/
-.helpPage .repeatGrid3 .group42a6e656ed .doIReallyNeedToEditAllOfMyPhotos {
-    position: absolute;
-      box-sizing: content-box;
-    transform-origin: center;
-      opacity: 1;
-      background-color: rgba(255, 255, 255, 0);
-      text-align: left;
-      color: rgba(0, 53, 84, 1);
-      font-size: 35.00px;
-      font-weight: 400;
-    font-style: normal;
-      font-family: Lato, Arial;
-      text-decoration: none;
-      white-space: pre;
-      width: 455.00px;
-    height: 84.00px;
-    left: 56.00px;
-    top: 273.59px;
-
-}
-
-/**/
-.helpPage .repeatGrid3 .group42a6e656ed .casualPhotographer0dab9f4b {
-    position: absolute;
-      box-sizing: content-box;
-    transform-origin: center;
-      opacity: 1;
-      background-color: rgba(255, 255, 255, 0);
-      text-align: left;
-      color: rgba(0, 100, 148, 1);
-      font-size: 25.00px;
-      font-weight: 400;
-    font-style: normal;
-      font-family: Lato, Arial;
-      text-decoration: none;
-      white-space: pre;
-      width: 235.00px;
-    height: 30.00px;
-    left: 264.00px;
-    top: 136.50px;
-
-}
-
-/**/
-.helpPage .repeatGrid3 .group42df656ef6 {
-
-      display: block;
-      position: absolute;
-      box-sizing: content-box;
-    transform-origin: center;
-      opacity: 1;
-      background-color: transparent;
-      width: 528.00px;
-    height: 433.80px;
-    left: 0.00px;
-    top: 502.00px;
-
-}
-
-/**/
-.helpPage .repeatGrid3 .group42df656ef6 .path25b49a3c2 {
-    position: absolute;
-      box-sizing: border-box;
-    transform-origin: center;
-      opacity: 1;
-      fill: rgba(5, 130, 202, 0.27058823529411763);
-      stroke: rgba(112, 112, 112, 1);
-          stroke-width: 1.00px;
-          stroke-linecap: butt;
-      width: 528.00px;
-    height: 433.80px;
-
-}
-
-/**/
-.helpPage .repeatGrid3 .group42df656ef6 .group4170a1eff5 {
-
-      display: block;
-      position: absolute;
-      box-sizing: content-box;
-    transform-origin: center;
-      opacity: 1;
-      background-color: transparent;
-      width: 232.00px;
-    height: 232.00px;
-    left: 22.50px;
-    top: 18.00px;
-
-}
-
-/**/
-.helpPage .repeatGrid3 .group42df656ef6 .group4170a1eff5 .rayulM6gy9ohgiiUnsplash5d66f5cc {
-    position: absolute;
-      box-sizing: border-box;
-    transform-origin: center;
-      opacity: 1;
-      fill: rgba(255, 255, 255, 0);
-      stroke: rgba(112, 112, 112, 1);
-          stroke-width: 1.00px;
-          stroke-linecap: butt;
-      width: 232.00px;
-    height: 232.00px;
-
-}
-
-/**/
-.helpPage .repeatGrid3 .group42df656ef6 .vickieNunez {
-    position: absolute;
-      box-sizing: content-box;
-    transform-origin: center;
-      opacity: 1;
-      background-color: rgba(255, 255, 255, 0);
-      text-align: left;
-      color: rgba(0, 100, 148, 1);
-      font-size: 30.00px;
-      font-weight: 400;
-    font-style: normal;
-      font-family: Lato, Arial;
-      text-decoration: none;
-      white-space: pre;
-      width: 181.00px;
-    height: 36.00px;
-    left: 282.50px;
-    top: 84.00px;
-
-}
-
-/**/
-.helpPage .repeatGrid3 .group42df656ef6 .whatAreSomeSoftwareOptionsToRenderTheAerialImagesToBeTheClearest {
-    position: absolute;
-      box-sizing: content-box;
-    transform-origin: center;
-      opacity: 1;
-      background-color: rgba(255, 255, 255, 0);
-      text-align: left;
-      color: rgba(0, 53, 84, 1);
-      font-size: 35.00px;
-      font-weight: 400;
-    font-style: normal;
-      font-family: Lato, Arial;
-      text-decoration: none;
-      white-space: pre;
-      width: 426.00px;
-    height: 126.00px;
-    left: 56.00px;
-    top: 273.59px;
-
-}
-
-/**/
-.helpPage .repeatGrid3 .group42df656ef6 .aerialPhotographer {
-    position: absolute;
-      box-sizing: content-box;
-    transform-origin: center;
-      opacity: 1;
-      background-color: rgba(255, 255, 255, 0);
-      text-align: left;
-      color: rgba(0, 100, 148, 1);
-      font-size: 25.00px;
-      font-weight: 400;
-    font-style: normal;
-      font-family: Lato, Arial;
-      text-decoration: none;
-      white-space: pre;
-      width: 220.00px;
-    height: 30.00px;
-    left: 264.00px;
-    top: 136.50px;
-
-}
-
-/**/
-.helpPage .repeatGrid3 .group4282e18277 {
-
-      display: block;
-      position: absolute;
-      box-sizing: content-box;
-    transform-origin: center;
-      opacity: 1;
-      background-color: transparent;
-      width: 528.00px;
-    height: 433.80px;
-    left: 624.00px;
-    top: 502.00px;
-
-}
-
-/**/
-.helpPage .repeatGrid3 .group4282e18277 .path2fb7305b3 {
-    position: absolute;
-      box-sizing: border-box;
-    transform-origin: center;
-      opacity: 1;
-      fill: rgba(5, 130, 202, 0.27058823529411763);
-      stroke: rgba(112, 112, 112, 1);
-          stroke-width: 1.00px;
-          stroke-linecap: butt;
-      width: 528.00px;
-    height: 433.80px;
-
-}
-
-/**/
-.helpPage .repeatGrid3 .group4282e18277 .group41bd82fc29 {
-
-      display: block;
-      position: absolute;
-      box-sizing: content-box;
-    transform-origin: center;
-      opacity: 1;
-      background-color: transparent;
-      width: 232.00px;
-    height: 232.00px;
-    left: 22.50px;
-    top: 18.00px;
-
-}
-
-/**/
-.helpPage .repeatGrid3 .group4282e18277 .group41bd82fc29 .rayulM6gy9ohgiiUnsplash8b202cc5 {
-    position: absolute;
-      box-sizing: border-box;
-    transform-origin: center;
-      opacity: 1;
-      fill: rgba(255, 255, 255, 0);
-      stroke: rgba(112, 112, 112, 1);
-          stroke-width: 1.00px;
-          stroke-linecap: butt;
-      width: 232.00px;
-    height: 232.00px;
-
-}
-
-/**/
-.helpPage .repeatGrid3 .group4282e18277 .evelynRodriguez {
-    position: absolute;
-      box-sizing: content-box;
-    transform-origin: center;
-      opacity: 1;
-      background-color: rgba(255, 255, 255, 0);
-      text-align: left;
-      color: rgba(0, 100, 148, 1);
-      font-size: 30.00px;
-      font-weight: 400;
-    font-style: normal;
-      font-family: Lato, Arial;
-      text-decoration: none;
-      white-space: pre;
-      width: 226.00px;
-    height: 36.00px;
-    left: 282.50px;
-    top: 84.00px;
-
-}
-
-/**/
-.helpPage .repeatGrid3 .group4282e18277 .whatIsTheBestWayToLearnManualMode {
-    position: absolute;
-      box-sizing: content-box;
-    transform-origin: center;
-      opacity: 1;
-      background-color: rgba(255, 255, 255, 0);
-      text-align: left;
-      color: rgba(0, 53, 84, 1);
-      font-size: 35.00px;
-      font-weight: 400;
-    font-style: normal;
-      font-family: Lato, Arial;
-      text-decoration: none;
-      white-space: pre;
-      width: 385.00px;
-    height: 84.00px;
-    left: 56.00px;
-    top: 273.59px;
-
-}
-
-/**/
-.helpPage .repeatGrid3 .group4282e18277 .amateurPhotographerc299fb55 {
-    position: absolute;
-      box-sizing: content-box;
-    transform-origin: center;
-      opacity: 1;
-      background-color: rgba(255, 255, 255, 0);
-      text-align: left;
-      color: rgba(0, 100, 148, 1);
-      font-size: 25.00px;
-      font-weight: 400;
-    font-style: normal;
-      font-family: Lato, Arial;
-      text-decoration: none;
-      white-space: pre;
-      width: 251.00px;
-    height: 30.00px;
-    left: 264.00px;
-    top: 136.50px;
-
-}
-
-/**/
-.helpPage .repeatGrid3 .group429eede85f {
-
-      display: block;
-      position: absolute;
-      box-sizing: content-box;
-    transform-origin: center;
-      opacity: 1;
-      background-color: transparent;
-      width: 528.00px;
-    height: 433.80px;
-    left: 1248.00px;
-    top: 502.00px;
-
-}
-
-/**/
-.helpPage .repeatGrid3 .group429eede85f .path2c10c676b {
-    position: absolute;
-      box-sizing: border-box;
-    transform-origin: center;
-      opacity: 1;
-      fill: rgba(5, 130, 202, 0.27058823529411763);
-      stroke: rgba(112, 112, 112, 1);
-          stroke-width: 1.00px;
-          stroke-linecap: butt;
-      width: 528.00px;
-    height: 433.80px;
-
-
-}
-
-/**/
-.helpPage .repeatGrid3 .group429eede85f .group41cc141243 {
-
-      display: block;
-      position: absolute;
-      box-sizing: content-box;
-    transform-origin: center;
-      opacity: 1;
-      background-color: transparent;
-      width: 232.00px;
-    height: 232.00px;
-    left: 22.50px;
-    top: 18.00px;
-
-}
-
-/**/
-.helpPage .repeatGrid3 .group429eede85f .group41cc141243 .rayulM6gy9ohgiiUnsplash0b3bdda7 {
-    position: absolute;
-      box-sizing: border-box;
-    transform-origin: center;
-      opacity: 1;
-      fill: rgba(255, 255, 255, 0);
-      stroke: rgba(112, 112, 112, 1);
-          stroke-width: 1.00px;
-          stroke-linecap: butt;
-      width: 232.00px;
-    height: 232.00px;
-
-}
-
-/**/
-.helpPage .repeatGrid3 .group429eede85f .dennisThompson {
-    position: absolute;
-      box-sizing: content-box;
-    transform-origin: center;
-      opacity: 1;
-      background-color: rgba(255, 255, 255, 0);
-      text-align: left;
-      color: rgba(0, 100, 148, 1);
-      font-size: 30.00px;
-      font-weight: 400;
-    font-style: normal;
-      font-family: Lato, Arial;
-      text-decoration: none;
-      white-space: pre;
-      width: 238.00px;
-    height: 36.00px;
-    left: 282.50px;
-    top: 84.00px;
-
-}
-
-/**/
-.helpPage .repeatGrid3 .group429eede85f .shouldIBeShootingInRawOrJpegAndWhatIsThedifference {
-    position: absolute;
-      box-sizing: content-box;
-    transform-origin: center;
-      opacity: 1;
-      background-color: rgba(255, 255, 255, 0);
-      text-align: left;
-      color: rgba(0, 53, 84, 1);
-      font-size: 35.00px;
-      font-weight: 400;
-    font-style: normal;
-      font-family: Lato, Arial;
-      text-decoration: none;
-      white-space: pre;
-      width: 461.00px;
-    height: 126.00px;
-    left: 56.00px;
-    top: 273.59px;
-
-}
-
-/**/
-.helpPage .repeatGrid3 .group429eede85f .casualPhotographer {
-    position: absolute;
-      box-sizing: content-box;
-    transform-origin: center;
-      opacity: 1;
-      background-color: rgba(255, 255, 255, 0);
-      text-align: left;
-      color: rgba(0, 100, 148, 1);
-      font-size: 25.00px;
-      font-weight: 400;
-    font-style: normal;
-      font-family: Lato, Arial;
-      text-decoration: none;
-      white-space: pre;
-      width: 242.00px;
-    height: 30.00px;
-    left: 264.00px;
-    top: 136.50px;
-
-}
-
-/**/
-.helpPage .repeatGrid3 .group420498f022 {
-
-      display: block;
-      position: absolute;
-      box-sizing: content-box;
-    transform-origin: center;
-      opacity: 1;
-      background-color: transparent;
-      width: 528.00px;
-    height: 433.80px;
-    top: 1004.00px;
-
-}
-
-/**/
-.helpPage .repeatGrid3 .group420498f022 .path20f8f21bc {
-    position: absolute;
-      box-sizing: border-box;
-    transform-origin: center;
-      opacity: 1;
-      fill: rgba(5, 130, 202, 0.27058823529411763);
-      stroke: rgba(112, 112, 112, 1);
-          stroke-width: 1.00px;
-          stroke-linecap: butt;
-      width: 528.00px;
-    height: 433.80px;
-
-}
-
-/**/
-.helpPage .repeatGrid3 .group420498f022 .group41049a43be {
-
-      display: block;
-      position: absolute;
-      box-sizing: content-box;
-    transform-origin: center;
-      opacity: 1;
-      background-color: transparent;
-      width: 232.00px;
-    height: 232.00px;
-    left: 22.50px;
-    top: 18.00px;
-
-}
-
-/**/
-.helpPage .repeatGrid3 .group420498f022 .group41049a43be .rayulM6gy9ohgiiUnsplash66721b78 {
-    position: absolute;
-      box-sizing: border-box;
-    transform-origin: center;
-      opacity: 1;
-      fill: rgba(255, 255, 255, 0);
-      stroke: rgba(112, 112, 112, 1);
-          stroke-width: 1.00px;
-          stroke-linecap: butt;
-      width: 232.00px;
-    height: 232.00px;
-}
-
-/**/
-.helpPage .repeatGrid3 .group420498f022 .jaimeMatthews61b4df55 {
-    position: absolute;
-      box-sizing: content-box;
-    transform-origin: center;
-      opacity: 1;
-      background-color: rgba(255, 255, 255, 0);
-      text-align: left;
-      color: rgba(0, 100, 148, 1);
-      font-size: 30.00px;
-      font-weight: 400;
-    font-style: normal;
-      font-family: Lato, Arial;
-      text-decoration: none;
-      white-space: pre;
-      width: 214.00px;
-    height: 36.00px;
-    left: 282.50px;
-    top: 84.00px;
-
-}
-
-/**/
-.helpPage .repeatGrid3 .group420498f022 .iWantMySubjectsEyeToPopAndSparkleHowCanIgetThisc3a12127 {
-    position: absolute;
-      box-sizing: content-box;
-    transform-origin: center;
-      opacity: 1;
-      background-color: rgba(255, 255, 255, 0);
-      text-align: left;
-      color: rgba(0, 53, 84, 1);
-      font-size: 35.00px;
-      font-weight: 400;
-    font-style: normal;
-      font-family: Lato, Arial;
-      text-decoration: none;
-      white-space: pre;
-      width: 416.00px;
-    height: 126.00px;
-    left: 56.00px;
-    top: 273.59px;
-
-}
-
-/**/
-.helpPage .repeatGrid3 .group420498f022 .amateurPhotographer68f336ff {
-    position: absolute;
-      box-sizing: content-box;
-    transform-origin: center;
-      opacity: 1;
-      background-color: rgba(255, 255, 255, 0);
-      text-align: left;
-      color: rgba(0, 100, 148, 1);
-      font-size: 25.00px;
-      font-weight: 400;
-    font-style: normal;
-      font-family: Lato, Arial;
-      text-decoration: none;
-      white-space: pre;
-      width: 251.00px;
-    height: 30.00px;
-    left: 264.00px;
-    top: 136.50px;
-
-}
-
-/**/
-.helpPage .repeatGrid3 .group4236e0613a {
-
-      display: block;
-      position: absolute;
-      box-sizing: content-box;
-    transform-origin: center;
-      opacity: 1;
-      background-color: transparent;
-      width: 528.00px;
-    height: 433.80px;
-    left: 624.00px;
-    top: 1004.00px;
-
-}
-
-/**/
-.helpPage .repeatGrid3 .group4236e0613a .path23daadaf7 {
-    position: absolute;
-      box-sizing: border-box;
-    transform-origin: center;
-      opacity: 1;
-      fill: rgba(5, 130, 202, 0.27058823529411763);
-      stroke: rgba(112, 112, 112, 1);
-          stroke-width: 1.00px;
-          stroke-linecap: butt;
-      width: 528.00px;
-    height: 433.80px;
-}
-
-/**/
-.helpPage .repeatGrid3 .group4236e0613a .group416492a052 {
-
-      display: block;
-      position: absolute;
-      box-sizing: content-box;
-    transform-origin: center;
-      opacity: 1;
-      background-color: transparent;
-      width: 232.00px;
-    height: 232.00px;
-    left: 22.50px;
-    top: 18.00px;
-
-}
-
-/**/
-.helpPage .repeatGrid3 .group4236e0613a .group416492a052 .rayulM6gy9ohgiiUnsplash0e5e6af5 {
-    position: absolute;
-      box-sizing: border-box;
-    transform-origin: center;
-      opacity: 1;
-      fill: rgba(255, 255, 255, 0);
-      stroke: rgba(112, 112, 112, 1);
-          stroke-width: 1.00px;
-          stroke-linecap: butt;
-      width: 232.00px;
-    height: 232.00px;
-
-}
-
-/**/
-.helpPage .repeatGrid3 .group4236e0613a .jaimeMatthewsab07a59b {
-    position: absolute;
-      box-sizing: content-box;
-    transform-origin: center;
-      opacity: 1;
-      background-color: rgba(255, 255, 255, 0);
-      text-align: left;
-      color: rgba(0, 100, 148, 1);
-      font-size: 30.00px;
-      font-weight: 400;
-    font-style: normal;
-      font-family: Lato, Arial;
-      text-decoration: none;
-      white-space: pre;
-      width: 214.00px;
-    height: 36.00px;
-    left: 282.50px;
-    top: 84.00px;
-
-}
-
-/**/
-.helpPage .repeatGrid3 .group4236e0613a .iWantMySubjectsEyeToPopAndSparkleHowCanIgetThisc5e22a9a {
-    position: absolute;
-      box-sizing: content-box;
-    transform-origin: center;
-      opacity: 1;
-      background-color: rgba(255, 255, 255, 0);
-      text-align: left;
-      color: rgba(0, 53, 84, 1);
-      font-size: 35.00px;
-      font-weight: 400;
-    font-style: normal;
-      font-family: Lato, Arial;
-      text-decoration: none;
-      white-space: pre;
-      width: 416.00px;
-    height: 126.00px;
-    left: 56.00px;
-    top: 273.59px;
-
-}
-
-/**/
-.helpPage .repeatGrid3 .group4236e0613a .amateurPhotographer0f302fe8 {
-    position: absolute;
-      box-sizing: content-box;
-    transform-origin: center;
-      opacity: 1;
-      background-color: rgba(255, 255, 255, 0);
-      text-align: left;
-      color: rgba(0, 100, 148, 1);
-      font-size: 25.00px;
-      font-weight: 400;
-    font-style: normal;
-      font-family: Lato, Arial;
-      text-decoration: none;
-      white-space: pre;
-      width: 251.00px;
-    height: 30.00px;
-    left: 264.00px;
-    top: 136.50px;
-
-}
-
-/**/
-.helpPage .repeatGrid3 .group42 {
-
-      display: block;
-      position: absolute;
-      box-sizing: content-box;
-    transform-origin: center;
-      opacity: 1;
-      background-color: transparent;
-      width: 528.00px;
-    height: 433.80px;
-    left: 1248.00px;
-    top: 1004.00px;
-
-}
-
-/**/
-.helpPage .repeatGrid3 .group42 .path2 {
-    position: absolute;
-      box-sizing: border-box;
-    transform-origin: center;
-      opacity: 1;
-      fill: rgba(5, 130, 202, 0.27058823529411763);
-      stroke: rgba(112, 112, 112, 1);
-          stroke-width: 1.00px;
-          stroke-linecap: butt;
-      width: 528.00px;
-    height: 433.80px;
-
-}
-
-/**/
-.helpPage .repeatGrid3 .group42 .group41 {
-
-      display: block;
-      position: absolute;
-      box-sizing: content-box;
-    transform-origin: center;
-      opacity: 1;
-      background-color: transparent;
-      width: 232.00px;
-    height: 232.00px;
-    left: 22.50px;
-    top: 18.00px;
-
-}
-
-/**/
-.helpPage .repeatGrid3 .group42 .group41 .rayulM6gy9ohgiiUnsplash {
-    position: absolute;
-      box-sizing: border-box;
-    transform-origin: center;
-      opacity: 1;
-      fill: rgba(255, 255, 255, 0);
-      stroke: rgba(112, 112, 112, 1);
-          stroke-width: 1.00px;
-          stroke-linecap: butt;
-      width: 232.00px;
-    height: 232.00px;
-
-}
-
-/**/
-.helpPage .repeatGrid3 .group42 .jaimeMatthews {
-    position: absolute;
-      box-sizing: content-box;
-    transform-origin: center;
-      opacity: 1;
-      background-color: rgba(255, 255, 255, 0);
-      text-align: left;
-      color: rgba(0, 100, 148, 1);
-      font-size: 30.00px;
-      font-weight: 400;
-    font-style: normal;
-      font-family: Lato, Arial;
-      text-decoration: none;
-      white-space: pre;
-      width: 214.00px;
-    height: 36.00px;
-    left: 282.50px;
-    top: 84.00px;
-
-}
-
-/**/
-.helpPage .repeatGrid3 .group42 .iWantMySubjectsEyeToPopAndSparkleHowCanIgetThis {
-    position: absolute;
-      box-sizing: content-box;
-    transform-origin: center;
-      opacity: 1;
-      background-color: rgba(255, 255, 255, 0);
-      text-align: left;
-      color: rgba(0, 53, 84, 1);
-      font-size: 35.00px;
-      font-weight: 400;
-    font-style: normal;
-      font-family: Lato, Arial;
-      text-decoration: none;
-      white-space: pre;
-      width: 416.00px;
-    height: 126.00px;
-    left: 56.00px;
-    top: 273.59px;
-
-}
-
-/**/
-.helpPage .repeatGrid3 .group42 .amateurPhotographer {
-    position: absolute;
-      box-sizing: content-box;
-    transform-origin: center;
-      opacity: 1;
-      background-color: rgba(255, 255, 255, 0);
-      text-align: left;
-      color: rgba(0, 100, 148, 1);
-      font-size: 25.00px;
-      font-weight: 400;
-    font-style: normal;
-      font-family: Lato, Arial;
-      text-decoration: none;
-      white-space: pre;
-      width: 251.00px;
-    height: 30.00px;
-    left: 264.00px;
-    top: 136.50px;
-
 }
 
 /*search bar css*/
