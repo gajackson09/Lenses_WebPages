@@ -13,6 +13,7 @@
         //header("Location: ../profilePage.php");
         echo("you done fuckt up");
     }
+    else{}
 }
 
 ?>
