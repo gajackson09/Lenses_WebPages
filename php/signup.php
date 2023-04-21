@@ -6,7 +6,8 @@
     }else{
         if(validate()){
             addUser();
-        // echo()
+            //log in user using info sent to database (?not connected to database??)
+            login();
             header("Location: ../profilePage.php");
         }
         //}else{
